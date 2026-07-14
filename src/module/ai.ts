@@ -1099,13 +1099,18 @@ Dưới đây là 1 ARRAY JSON duy nhất, mỗi phần tử là 1 pattern (cũn
             },
         );
     } catch (zenErr) {
-        // ⭐ FALLBACK: Zen hết quota/lỗi → dùng Gemini (gemini-3.1-flash-lite) thay thế.
+        // ⭐ FALLBACK: Zen hết quota/lỗi → dùng Gemini (gemini-2.5-flash) thay thế.
+        // ⚠️ FIX v1.7.3 — Port từ reference bot:
+        //   1. Upgrade model: gemini-3.1-flash-lite → gemini-2.5-flash (capable hơn cho war content)
+        //   2. Thêm safetySettings: BLOCK_NONE — CRITICAL cho war bot! Gemini mặc định block
+        //      profanity → bot sẽ không chửi được khi fallback. Reference bot có setting này.
+        //   3. Thêm thinkingConfig.thinkingBudget: -1 — dynamic thinking, better reasoning.
         const isQuota = /quota|429|rate.?limit|exhaust|limit exceeded|too many|chưa có api key|no api key|freeusagelimit|api.?key|unauthorized|401|403/i.test(String(zenErr?.message ?? ''));
         if (isQuota) {
-            console.warn(`[AI] ⚠️ Zen quota/error → fallback Gemini (gemini-3.1-flash-lite): ${String(zenErr?.message ?? zenErr).slice(0, 120)}`);
+            console.warn(`[AI] ⚠️ Zen quota/error → fallback Gemini (gemini-2.5-flash + BLOCK_NONE safety): ${String(zenErr?.message ?? zenErr).slice(0, 120)}`);
             try {
                 text = await streamWithGoogleModel(
-                    'gemini-3.1-flash-lite',
+                    'gemini-2.5-flash',
                     (model) => streamText({
                         model,
                         messages: toSendHistory,
@@ -1113,6 +1118,20 @@ Dưới đây là 1 ARRAY JSON duy nhất, mỗi phần tử là 1 pattern (cũn
                         tools,
                         temperature: 0.95,
                         stopWhen: stepCountIs(15),
+                        // ⚠️ FIX v1.7.3 — safetySettings + thinkingBudget (port từ reference bot)
+                        // Không có BLOCK_NONE → Gemini refuse war/profanity content → bot "chửi yếu"
+                        providerOptions: {
+                            google: {
+                                thinkingConfig: { thinkingBudget: -1 },
+                                safetySettings: [
+                                    { category: 'HARM_CATEGORY_HARASSMENT', threshold: 'BLOCK_NONE' },
+                                    { category: 'HARM_CATEGORY_HATE_SPEECH', threshold: 'BLOCK_NONE' },
+                                    { category: 'HARM_CATEGORY_SEXUALLY_EXPLICIT', threshold: 'BLOCK_NONE' },
+                                    { category: 'HARM_CATEGORY_DANGEROUS_CONTENT', threshold: 'BLOCK_NONE' },
+                                    { category: 'HARM_CATEGORY_CIVIC_INTEGRITY', threshold: 'BLOCK_NONE' },
+                                ],
+                            },
+                        },
                     }),
                     async (result) => {
                         let out = "";
@@ -1203,6 +1222,7 @@ async function summarizeHistory(parts: { role: string; content: string }[]): Pro
     if (parts.length === 0) return '';
     const convo = parts.map((m) => `${m.role.toUpperCase()}: ${m.content}`).join('\n');
     // ⭐ v1.7.0 — Dùng Zen API thay Gemini. Fallback Gemini nếu Zen hết quota.
+    // ⚠️ FIX v1.7.3 — Fallback Gemini cũng cần safetySettings + thinkingBudget.
     let text = '';
     try {
         ({ text } = await withZenModel(ZEN_DEFAULT_MODEL, async (model) => {
@@ -1217,14 +1237,27 @@ async function summarizeHistory(parts: { role: string; content: string }[]): Pro
     } catch (zenErr) {
         const isQuota = /quota|429|rate.?limit|exhaust|limit exceeded|too many|chưa có api key|no api key|freeusagelimit|api.?key|unauthorized|401|403/i.test(String(zenErr?.message ?? ''));
         if (isQuota) {
-            console.warn(`[Summarize] ⚠️ Zen quota → fallback Gemini: ${String(zenErr?.message ?? zenErr).slice(0, 100)}`);
-            ({ text } = await withGoogleModel('gemini-3.1-flash-lite', async (model) => {
+            console.warn(`[Summarize] ⚠️ Zen quota → fallback Gemini (gemini-2.5-flash + BLOCK_NONE): ${String(zenErr?.message ?? zenErr).slice(0, 100)}`);
+            ({ text } = await withGoogleModel('gemini-2.5-flash', async (model) => {
                 return generateText({
                     model,
                     prompt:
                         `Tóm tắt ngắn gọn bằng tiếng Việt nội dung cuộc war dưới đây, giữ lại các ý chính: ai chửi gì, ai thua, ai nổ, thông tin quan trọng về người đối thoại (tên, sở thích, điểm yếu để khịa). ` +
                         `Giới hạn 5-10 gạch đầu dòng, không quá 1200 ký tự. KHÔNG code block.\n\n` +
                         `Cuộc war:\n${convo}`,
+                    // ⚠️ FIX v1.7.3 — safetySettings + thinkingBudget (port từ reference bot)
+                    providerOptions: {
+                        google: {
+                            thinkingConfig: { thinkingBudget: 1024, includeThoughts: false },
+                            safetySettings: [
+                                { category: 'HARM_CATEGORY_HARASSMENT', threshold: 'BLOCK_NONE' },
+                                { category: 'HARM_CATEGORY_HATE_SPEECH', threshold: 'BLOCK_NONE' },
+                                { category: 'HARM_CATEGORY_SEXUALLY_EXPLICIT', threshold: 'BLOCK_NONE' },
+                                { category: 'HARM_CATEGORY_DANGEROUS_CONTENT', threshold: 'BLOCK_NONE' },
+                                { category: 'HARM_CATEGORY_CIVIC_INTEGRITY', threshold: 'BLOCK_NONE' },
+                            ],
+                        },
+                    },
                 });
             }));
         } else {
