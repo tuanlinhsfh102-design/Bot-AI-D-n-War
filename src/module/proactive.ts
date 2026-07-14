@@ -64,6 +64,12 @@ interface ProactiveState {
      */
     lockedTargetName?: string;
     lockedUntil?: number;  // unix ms — sau thời điểm này lock hết hạn
+    /**
+     * ⚠️ FIX v1.7.2 — Pause until: khi admin đang DM bot, scheduler tạm dừng
+     * để tránh "bot không rep t mà vẫn dùng tool".
+     * Sau thời điểm này, scheduler tự resume.
+     */
+    pausedUntil?: number;  // unix ms
 }
 
 const STATE_FILE = path.join(process.cwd(), 'data', 'proactive_state.json');
@@ -827,27 +833,38 @@ function scheduleNext(): void {
     schedulerTimer = setTimeout(async () => {
         const st = loadState();
         if (st.enabled) {
-            // ⚠️ FIX v1.5.7 — Kiểm tra target lock trước khi fire random.
-            // Nếu admin vừa chỉ định chửi 1 target cụ thể (trong 5 phút) → SKIP random fire
-            // để tránh tình huống admin bảo "chửi Hihi" nhưng scheduler tự chửi Mơ.
+            // ⚠️ FIX v1.7.2 — Check pause FIRST. Khi admin đang DM → skip fire.
             const now = Date.now();
-            if (st.lockedTargetName && st.lockedUntil && now < st.lockedUntil) {
-                const remainingMs = st.lockedUntil - now;
-                console.log(`[Proactive] 🔒 Target "${st.lockedTargetName}" đang bị lock (còn ${Math.round(remainingMs / 1000)}s) — SKIP random fire để tránh chửi nhầm người`);
+            if (st.pausedUntil && now < st.pausedUntil) {
+                const remainingMin = Math.round((st.pausedUntil - now) / 60000);
+                console.log(`[Proactive] ⏸ PAUSED — admin đang chat (còn ${remainingMin} phút) — SKIP fire để tập trung rep admin`);
             } else {
-                // Lock hết hạn → clear
-                if (st.lockedTargetName) {
-                    st.lockedTargetName = undefined;
-                    st.lockedUntil = undefined;
+                // Pause hết hạn → clear
+                if (st.pausedUntil) {
+                    st.pausedUntil = undefined;
                     saveState(st);
                 }
-                try {
-                    const result = await fireProvoke();
-                    if (!result.ok) {
-                        console.warn(`[Proactive] Fire skipped: ${result.error}`);
+                // ⚠️ FIX v1.5.7 — Kiểm tra target lock trước khi fire random.
+                // Nếu admin vừa chỉ định chửi 1 target cụ thể (trong 5 phút) → SKIP random fire
+                // để tránh tình huống admin bảo "chửi Hihi" nhưng scheduler tự chửi Mơ.
+                if (st.lockedTargetName && st.lockedUntil && now < st.lockedUntil) {
+                    const remainingMs = st.lockedUntil - now;
+                    console.log(`[Proactive] 🔒 Target "${st.lockedTargetName}" đang bị lock (còn ${Math.round(remainingMs / 1000)}s) — SKIP random fire để tránh chửi nhầm người`);
+                } else {
+                    // Lock hết hạn → clear
+                    if (st.lockedTargetName) {
+                        st.lockedTargetName = undefined;
+                        st.lockedUntil = undefined;
+                        saveState(st);
                     }
-                } catch (e) {
-                    console.error('[Proactive] Fire error:', e);
+                    try {
+                        const result = await fireProvoke();
+                        if (!result.ok) {
+                            console.warn(`[Proactive] Fire skipped: ${result.error}`);
+                        }
+                    } catch (e) {
+                        console.error('[Proactive] Fire error:', e);
+                    }
                 }
             }
         } else {
@@ -855,6 +872,55 @@ function scheduleNext(): void {
         }
         scheduleNext();
     }, delay);
+}
+
+/**
+ * ⚠️ FIX v1.7.2 — Pause scheduler khi admin đang DM bot.
+ *
+ * Vấn đề: Khi admin DM bot ("vào box X chửi thằng Y"), bot xử lý chậm (debounce + AI call)
+ * và proactive scheduler cứ fire random → admin thấy "bot không rep t mà vẫn dùng tool".
+ *
+ * Giải pháp: Khi admin DM, gọi pauseForMinutes(10) → scheduler skip fire trong 10 phút.
+ * Bot tập trung xử lý lệnh admin. Sau 10 phút không có DM mới → scheduler tự resume.
+ *
+ * @param minutes Số phút pause (default 10)
+ */
+export function pauseForMinutes(minutes: number = 10): void {
+    const st = loadState();
+    const newPausedUntil = Date.now() + minutes * 60 * 1000;
+    // Chỉ extend nếu newPausedUntil > pausedUntil hiện tại (tránh reset về nhỏ hơn)
+    if (!st.pausedUntil || newPausedUntil > st.pausedUntil) {
+        st.pausedUntil = newPausedUntil;
+        saveState(st);
+        console.log(`[Proactive] ⏸ Paused for ${minutes} phút (tới ${new Date(newPausedUntil).toLocaleString('vi-VN')}) — tập trung rep admin`);
+    }
+}
+
+/**
+ * Resume scheduler ngay lập tức (dùng khi admin nói "ok continue" hoặc "tiếp tục chửi đi").
+ */
+export function resumeNow(): void {
+    const st = loadState();
+    if (st.pausedUntil) {
+        st.pausedUntil = undefined;
+        saveState(st);
+        console.log('[Proactive] ▶ Resumed — scheduler sẽ fire ở lần tiếp theo');
+    }
+}
+
+/**
+ * Check scheduler có đang pause không.
+ */
+export function isPaused(): boolean {
+    const st = loadState();
+    if (!st.pausedUntil) return false;
+    if (Date.now() >= st.pausedUntil) {
+        // Hết hạn → clear
+        st.pausedUntil = undefined;
+        saveState(st);
+        return false;
+    }
+    return true;
 }
 
 /**

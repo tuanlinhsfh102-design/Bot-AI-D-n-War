@@ -21,7 +21,7 @@ import { validateEnv, ensureEnvFile } from "./module/env";
 import { sendSeenForMessage } from "./module/seen";
 import { addKnownThread, removeMembersFromThread, syncAllGroupsFromZalo } from "./module/threads";
 import { updateTargetLastSeen, clearTargetLastSeen, matchUserToTarget, loadTargets, findTargetByUid, getTargetDisplayNames } from "./module/targets";
-import { startProactiveScheduler } from "./module/proactive";
+import { startProactiveScheduler as _startProactiveScheduler } from "./module/proactive";
 import { startKeystoreServer, stopKeystoreServer } from "./module/keystore_server";
 import { initApiKeySystem } from "./module/apikey";
 
@@ -428,7 +428,8 @@ startReminderScheduler(async (reminder: Reminder) => {
 // HUMAN-LIKE: KHÔNG dùng fixed DEBOUNCE_MS — dùng calcDebounce() per-thread.
 // Real humans có lúc reply trong 2s, có lúc 15s — bot phải mimic được điều đó.
 // Xem human.ts/calcDebounce để biết logic (adaptive pace + time-of-day + random).
-import { calcDebounce, recordUserMessage, getCurrentSlotName, startTypingIndicator as startTypingIndicatorHuman, recordBotMessage, sleep } from "./module/human";
+import { calcDebounce, calcDebounceDM, calcDebounceAdmin, recordUserMessage, getCurrentSlotName, startTypingIndicator as startTypingIndicatorHuman, recordBotMessage, sleep } from "./module/human";
+import { startProactiveScheduler, pauseForMinutes, resumeNow, isPaused as isProactivePaused } from "./module/proactive";
 type PendingEntry = {
     timer?: NodeJS.Timeout;
     buffer: string[];
@@ -606,8 +607,13 @@ async function processIncomingMessage(message: Message, threadType: ThreadKind) 
     // Trước đây: mỗi tin mới reset timer → nếu user spam mỗi 2s, timer 4-8s
     // không bao giờ fire → bot KHÔNG BAO GIỜ rep.
     // Giờ: nếu buffer >= 5 tin HOẶC đã đợi > 15s → FORCE process ngay.
-    const MAX_BUFFER_BEFORE_FORCE = 5;     // 5 tin → force
-    const MAX_WAIT_BEFORE_FORCE_MS = 15_000; // 15s → force
+    //
+    // ⚠️ FIX v1.7.2 — DM dùng threshold riêng (NHỎ HƠN).
+    // Trước đây DM phải đợi 5 tin hoặc 15s mới force → bot "chậm hiểu".
+    // Giờ DM chỉ cần 2 tin hoặc 3s. Admin DM → force NGAY (1 tin hoặc 0.3s).
+    const isAdminThread = entry.isAdmin === true;
+    const MAX_BUFFER_BEFORE_FORCE = isAdminThread ? 1 : (threadType === 'User' ? 2 : 5);
+    const MAX_WAIT_BEFORE_FORCE_MS = isAdminThread ? 300 : (threadType === 'User' ? 3000 : 15_000);
 
     if (entry.timer) clearTimeout(entry.timer);
 
@@ -617,7 +623,7 @@ async function processIncomingMessage(message: Message, threadType: ThreadKind) 
     const shouldForce = currentBufferSize >= MAX_BUFFER_BEFORE_FORCE || waitedMs >= MAX_WAIT_BEFORE_FORCE_MS;
 
     if (shouldForce) {
-        console.log(`[Batch] ⚡ FORCE process thread=${threadId} (buffer=${currentBufferSize}, waited=${(waitedMs/1000).toFixed(1)}s)`);
+        console.log(`[Batch] ⚡ FORCE process thread=${threadId} type=${threadType}${isAdminThread ? ' [ADMIN]' : ''} (buffer=${currentBufferSize}, waited=${(waitedMs/1000).toFixed(1)}s)`);
         const batch = pendingBatches.get(threadId);
         if (batch) {
             const toSend = batch.buffer.splice(0, batch.buffer.length);
@@ -631,8 +637,14 @@ async function processIncomingMessage(message: Message, threadType: ThreadKind) 
         return;
     }
 
-    const debounceMs = calcDebounce(threadId);
-    console.log(`[Batch] thread=${threadId} debounce=${(debounceMs/1000).toFixed(1)}s slot=${getCurrentSlotName()} buffer=${currentBufferSize}`);
+    // ⚠️ FIX v1.7.2 — Chọn debounce function theo loại thread + admin flag.
+    // Admin → calcDebounceAdmin (100-300ms, gần như ngay lập tức)
+    // DM     → calcDebounceDM     (0.5-3s)
+    // Group  → calcDebounce       (3-60s) — giữ nguyên vì group cần gom tin
+    const debounceMs = isAdminThread
+        ? calcDebounceAdmin()
+        : (threadType === 'User' ? calcDebounceDM(threadId) : calcDebounce(threadId));
+    console.log(`[Batch] thread=${threadId} type=${threadType}${isAdminThread ? ' [ADMIN]' : ''} debounce=${(debounceMs/1000).toFixed(1)}s slot=${getCurrentSlotName()} buffer=${currentBufferSize}`);
     entry.timer = setTimeout(() => {
         const batch = pendingBatches.get(threadId);
         if (!batch) return;
@@ -653,6 +665,7 @@ let listenerStarted = false;
 let lastMessageReceivedAt = 0;
 let connectedAt = 0;
 let noMessageWarned = false;  // chỉ warn 1 lần khi chưa nhận msg, không spam
+let noAdminUidWarned = false;  // ⚠️ FIX v1.7.2 — warn 1 lần khi ADMIN_UID chưa set
 let messageReceiveCount = 0;
 let reconnectAttempts = 0;
 const MAX_RECONNECT_ATTEMPTS = 10;
@@ -685,6 +698,202 @@ function startListenerWithReconnect(): void {
     }
 }
 
+// ============================================================
+// ⚠️ FIX v1.7.2 — Admin Slash Commands
+// ============================================================
+// Xử lý NGAY LẬP TỨC khi admin DM /cmd — không qua AI pipeline.
+// Tránh tình huống admin ra lệnh mà bot đợi 5-15s AI call mới response.
+//
+// Commands:
+//   /status         — xem trạng thái bot (proactive on/off, paused, queue)
+//   /stop           — stop proactive scheduler (chửi tự động)
+//   /start          — start proactive scheduler
+//   /pause [min]    — pause scheduler N phút (mặc định 30)
+//   /resume         — resume scheduler ngay lập tức
+//   /groups [search]— list groups bot đang ở (có search)
+//   /find <name>    — tìm user theo tên trong tất cả group
+//   /uid            — xem UID của bot
+//   /help           — xem danh sách commands
+// ============================================================
+async function handleAdminSlashCommand(cmd: string, threadId: string, threadType: any): Promise<void> {
+    const parts = cmd.slice(1).trim().split(/\s+/);
+    const command = (parts[0] ?? '').toLowerCase();
+    const args = parts.slice(1);
+    const zaloType = threadType === ThreadType.Group ? ThreadType.Group : ThreadType.User;
+
+    const reply = async (text: string) => {
+        try {
+            // Admin command → reply NGAY, không typing delay
+            await global.api.sendMessage({ msg: text }, threadId, zaloType);
+        } catch (e: any) {
+            console.error('[SlashCmd] reply failed:', e?.message ?? e);
+        }
+    };
+
+    console.log(`[SlashCmd] /${command} ${args.join(' ')}`);
+
+    switch (command) {
+        case 'help': {
+            await reply([
+                '🤖 ADMIN COMMANDS:',
+                '/status — xem trạng thái bot',
+                '/stop — tắt scheduler chửi tự động',
+                '/start — bật scheduler chửi tự động',
+                '/pause [phút] — pause scheduler N phút (mặc định 30)',
+                '/resume — resume scheduler ngay',
+                '/groups [tên] — list groups bot đang ở',
+                '/find <tên> — tìm user trong các group',
+                '/uid — xem UID của bot',
+                '/help — xem lệnh này',
+                '',
+                'Ví dụ: /find lưu mai trang',
+                '       /groups lưu heo',
+                '       /pause 60',
+            ].join('\n'));
+            return;
+        }
+        case 'status': {
+            const { getProactiveStats } = await import('./module/proactive');
+            const stats = getProactiveStats();
+            const paused = isProactivePaused();
+            const queueStats = queue.getStats();
+            const lines = [
+                '📊 BOT STATUS',
+                `• Scheduler: ${stats.enabled ? 'ENABLED' : 'DISABLED'}${paused ? ' (PAUSED)' : ''}`,
+                `• Last fire: ${stats.lastFireAt ? new Date(stats.lastFireAt).toLocaleString('vi-VN') : '(chưa fire)'}`,
+                `• Total fires: ${stats.totalFires}`,
+                `• Targets: ${stats.targetCount}`,
+                `• Queue: active=${queueStats.active}/${queueStats.maxConcurrency} queued=${queueStats.queued} processed=${queueStats.totalProcessed} errors=${queueStats.totalErrors}`,
+                `• Messages received: ${messageReceiveCount}`,
+                `• Connected: ${connectedAt ? new Date(connectedAt).toLocaleString('vi-VN') : '(chưa connect)'}`,
+            ];
+            try {
+                const ctx = global.api.getContext();
+                const botUid = (ctx as any)?.uid ?? '(unknown)';
+                lines.push(`• Bot UID: ${botUid}`);
+            } catch {}
+            await reply(lines.join('\n'));
+            return;
+        }
+        case 'stop': {
+            const { setProactiveMode } = await import('./module/proactive');
+            setProactiveMode(false);
+            await reply('⏹ Đã TẮT scheduler chửi tự động. Bot sẽ không tự chửi target nữa cho đến khi /start.');
+            return;
+        }
+        case 'start': {
+            const { setProactiveMode } = await import('./module/proactive');
+            setProactiveMode(true);
+            resumeNow();
+            await reply('▶ Đã BẬT scheduler chửi tự động. Bot sẽ tự chửi target mỗi 8-30 phút.');
+            return;
+        }
+        case 'pause': {
+            const minutes = parseInt(args[0] ?? '30', 10);
+            const safeMinutes = isNaN(minutes) || minutes < 1 ? 30 : Math.min(minutes, 1440);
+            pauseForMinutes(safeMinutes);
+            await reply(`⏸ Đã pause scheduler ${safeMinutes} phút. Bot sẽ tập trung rep bạn.`);
+            return;
+        }
+        case 'resume': {
+            resumeNow();
+            await reply('▶ Đã resume scheduler. Bot sẽ tiếp tục tự chửi.');
+            return;
+        }
+        case 'groups': {
+            await reply('📋 Đang lấy danh sách group từ Zalo...');
+            try {
+                const allGroupsResp: any = await global.api.getAllGroups();
+                const gridVerMap = allGroupsResp?.gridVerMap ?? {};
+                const groupIds = Object.keys(gridVerMap).filter(Boolean);
+                if (groupIds.length === 0) {
+                    await reply('❌ Bot chưa ở group nào.');
+                    return;
+                }
+                const infoResp: any = await global.api.getGroupInfo(groupIds);
+                const gridInfoMap = infoResp?.gridInfoMap ?? {};
+                let groups: Array<{ groupId: string; name: string; memberCount: number }> = [];
+                for (const gid of groupIds) {
+                    const g = gridInfoMap[gid];
+                    if (!g) continue;
+                    const name = String(g?.name ?? g?.groupName ?? '(không tên)');
+                    const memberCount = g?.totalMember ?? g?.currentMems?.length ?? 0;
+                    groups.push({ groupId: gid, name, memberCount });
+                }
+                const search = args.join(' ').trim().toLowerCase();
+                if (search) {
+                    groups = groups.filter(g => g.name.toLowerCase().includes(search));
+                }
+                if (groups.length === 0) {
+                    await reply(`❌ Không tìm thấy group nào match "${search}".`);
+                    return;
+                }
+                const lines = groups.slice(0, 30).map((g, i) =>
+                    `${i + 1}. "${g.name}" — ${g.groupId} — ${g.memberCount} members`
+                );
+                await reply(`📋 ${groups.length} group(s)${search ? ` match "${search}"` : ''}:\n${lines.join('\n')}`);
+            } catch (e: any) {
+                await reply(`❌ Lỗi list groups: ${e?.message ?? e}`);
+            }
+            return;
+        }
+        case 'find': {
+            const query = args.join(' ').trim();
+            if (!query) {
+                await reply('❌ Cần nhập tên cần tìm. VD: /find lưu mai trang');
+                return;
+            }
+            await reply(`🔍 Đang tìm "${query}" trong các group...`);
+            try {
+                const { loadThreads, findMembersByName } = await import('./module/threads');
+                const threads = loadThreads().filter(t => t.threadType === 'Group');
+                const results: Array<{ uid: string; name: string; groupName: string; groupId: string; score: number }> = [];
+                for (const t of threads) {
+                    try {
+                        const found = await findMembersByName(t.threadId, query, 1);
+                        for (const f of found) {
+                            if (f.score >= 50) {
+                                results.push({
+                                    uid: f.uid,
+                                    name: f.name,
+                                    groupName: t.groupName ?? '(không tên)',
+                                    groupId: t.threadId,
+                                    score: f.score,
+                                });
+                            }
+                        }
+                    } catch {}
+                }
+                if (results.length === 0) {
+                    await reply(`❌ Không tìm thấy user nào match "${query}" trong ${threads.length} group(s).`);
+                    return;
+                }
+                results.sort((a, b) => b.score - a.score);
+                const lines = results.slice(0, 10).map((r, i) =>
+                    `${i + 1}. ${r.name} (uid: ${r.uid}) — score ${r.score}\n   ở group "${r.groupName}" (${r.groupId})`
+                );
+                await reply(`✓ Tìm thấy ${results.length} user match "${query}":\n\n${lines.join('\n\n')}`);
+            } catch (e: any) {
+                await reply(`❌ Lỗi tìm user: ${e?.message ?? e}`);
+            }
+            return;
+        }
+        case 'uid': {
+            try {
+                const ctx = global.api.getContext();
+                const botUid = (ctx as any)?.uid ?? '(unknown)';
+                await reply(`🤖 Bot UID: ${botUid}\n\nAdmin UID của bạn (từ DM): ${threadId}`);
+            } catch (e: any) {
+                await reply(`❌ Lỗi lấy UID: ${e?.message ?? e}`);
+            }
+            return;
+        }
+        default: {
+            await reply(`❌ Lệnh không nhận diện: /${command}\n\nGõ /help để xem danh sách lệnh.`);
+        }
+    }
+}
+
 api.listener.on("message", async (message: Message) => {
     lastMessageReceivedAt = Date.now();
     messageReceiveCount += 1;
@@ -714,6 +923,36 @@ api.listener.on("message", async (message: Message) => {
         console.log(`[Listener] 🔥 ADMIN từ ${message.data.uidFrom} → bot vâng lời tuyệt đối!`);
         // Admin message: luôn xử lý, luôn reply
         (message as any).__isAdmin = true;
+
+        // ⚠️ FIX v1.7.2 — Pause proactive scheduler khi admin DM để bot tập trung rep.
+        // Tránh tình huống "bot không rep t mà vẫn dùng tool" — scheduler sẽ tự resume
+        // sau 10 phút không có DM mới từ admin.
+        if (message.type === ThreadType.User) {
+            pauseForMinutes(10);
+            console.log(`[Listener] ⏸ Proactive scheduler paused 10 phút — tập trung rep admin DM`);
+        }
+
+        // ⚠️ FIX v1.7.2 — ADMIN SLASH COMMANDS — xử lý NGAY LẬP TỨC, không qua AI.
+        // Lý do: AI call mất 5-15s, admin cần response ngay khi ra lệnh.
+        // Commands: /status, /stop, /start, /pause, /resume, /groups, /find <name>, /uid
+        if (contentType === 'string') {
+            const cmd = String(message.data.content).trim();
+            if (cmd.startsWith('/')) {
+                console.log(`[Listener] ⚡ Admin slash command: "${cmd}"`);
+                void handleAdminSlashCommand(cmd, message.threadId, message.type).catch((e) => {
+                    console.error('[SlashCmd] Error:', e);
+                });
+                return;  // skip AI pipeline
+            }
+        }
+    } else if (!adminUid) {
+        // ⚠️ FIX v1.7.2 — Warn 1 lần/lần start nếu ADMIN_UID chưa set.
+        if (!noAdminUidWarned) {
+            console.warn(`[Listener] ⚠ ADMIN_UID chưa set trong .env — bot không có tính năng admin!`);
+            console.warn(`[Listener]   DM hiện tại từ threadId=${message.threadId} (có thể là UID của bạn)`);
+            console.warn(`[Listener]   Set ADMIN_UID=${message.threadId} trong .env rồi restart bot để bật admin mode.`);
+            noAdminUidWarned = true;
+        }
     }
 
     // Filter: xử lý plain text + quote, đồng thời translate chat.photo → text description

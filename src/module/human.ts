@@ -161,6 +161,57 @@ export function calcDebounce(threadId: string): number {
     return Math.min(total, 60000);
 }
 
+/**
+ * ⚠️ FIX v1.7.2 — DM debounce: SHORTER than group debounce.
+ *
+ * Vấn đề: Trước đây calcDebounce() dùng chung cho DM và Group → bot đợi 3-60s
+ * trước khi xử lý DM của user → user thấy "bot chậm hiểu, không care tin nhắn".
+ *
+ * Giải pháp: DM dùng debounce riêng, NGẮN HƠN NHIỀU:
+ *   - Base: 0.8-1.5s (gần như ngay lập tức)
+ *   - Nếu user spam (gap < 1s): 1.5-2.5s để gom 2-3 tin
+ *   - Nếu user chat chậm: 0.5-1s
+ *   - Time-of-day multiplier (nhưng nhẹ hơn group)
+ *   - KHÔNG có "10% đang bận" cho DM — admin/user DM phải được rep nhanh
+ *   - Cap 3s — không bao giờ đợi quá 3s
+ *
+ * @param threadId Thread ID để check pace
+ */
+export function calcDebounceDM(threadId: string): number {
+    const slot = getCurrentTimeSlot();
+    const userGap = getUserAvgGap(threadId);
+
+    let base: number;
+    if (userGap > 0 && userGap < 1000) {
+        // User đang spam nhanh — gom 1 chút
+        base = 1500 + Math.floor(Math.random() * 1000);  // 1.5-2.5s
+    } else if (userGap > 30000) {
+        // User chat chậm — rep ngay
+        base = 500 + Math.floor(Math.random() * 500);  // 0.5-1s
+    } else {
+        // Bình thường
+        base = 800 + Math.floor(Math.random() * 700);  // 0.8-1.5s
+    }
+
+    // DM dùng multiplier nhẹ hơn (0.7-1.2 thay vì 0.85-1.8)
+    const dmMultiplier = Math.max(0.7, Math.min(1.2, slot.latencyMultiplier));
+    let total = Math.floor(base * dmMultiplier);
+
+    // Cap 3s — DM phải nhanh
+    return Math.min(total, 3000);
+}
+
+/**
+ * ⚠️ FIX v1.7.2 — Admin debounce: NGAY LẬP TỨC.
+ *
+ * Khi admin (boss) nhắn → bot phải xử lý NGAY, không đợi.
+ * Trả về 0 = process ngay lập tức.
+ */
+export function calcDebounceAdmin(): number {
+    // 100-300ms — chỉ đủ để gom 2 tin nếu admin send 2 tin liên tiếp cực nhanh
+    return 100 + Math.floor(Math.random() * 200);
+}
+
 // ============================================================
 // Seen delay — không seen ngay lập tức
 // ============================================================
