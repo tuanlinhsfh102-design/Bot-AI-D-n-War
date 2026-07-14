@@ -1,0 +1,5 @@
+{
+  "sourceHash": "ce7b36bb19fc6b353b197bbd941a93d1fb757deb",
+  "summary": "- User liên tục gửi tin nhắn nhóm từ Mèo Simmy cho bot xử lý, muốn bot giám sát và tương tác trong nhóm.\n- Bot đã react HAHA với Mèo Simmy, bị đáp \"Cười mẹ m à\", bot lại react và kích hoạt voice chat (dang dở).\n- Từ đó bot không phản hồi dù user vẫn cung cấp tin nhắn mới (Mèo Simmy nói chuyện game, rủ Ann đi chơi, nhắc thằng vb, gửi link Discord, nói \"chửi cgi lmj\").\n- Mâu thuẫn chưa giải quyết: Bot im lặng sau khi Mèo Simmy có vẻ khó chịu; cuối cùng Mèo Simmy gửi link và câu nói có thể nhắm vào bot.\n- Thông tin cá nhân: không lộ ngoài link Discord mời vào server.\n- User chưa rõ thích/ghét, nhưng kiên trì gửi tin nhắn, cho thấy kỳ vọng bot tiếp tục hoạt động.",
+  "updatedAt": 1783647215848
+}

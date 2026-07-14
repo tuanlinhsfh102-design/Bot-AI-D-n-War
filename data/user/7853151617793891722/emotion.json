@@ -1,0 +1,69 @@
+{
+  "state": "aggressive",
+  "intensity": 10,
+  "reason": "User chửi: @nguyễn đình dương tk lồn ơi =))) =))) =))) rain | msgid: 80",
+  "lastTriggerAt": 1783588738838,
+  "lastInteraction": 0,
+  "consecutiveShortReplies": 0,
+  "consecutiveIgnored": 0,
+  "history": [
+    {
+      "state": "cocky",
+      "intensity": 2,
+      "reason": "Người lạ gây sự, cần dằn mặt",
+      "triggeredBy": "7853151617793891722",
+      "triggeredAt": 1783528232130
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: tk lồn nay chơi cần sa à | msgid: 8022357484752, climsgid: 1",
+      "triggeredBy": "7853151617793891722",
+      "triggeredAt": 1783528377035
+    },
+    {
+      "state": "aggressive",
+      "intensity": 9,
+      "reason": "Bị xúc phạm cá nhân, cần savage hơn",
+      "triggeredBy": "7853151617793891722",
+      "triggeredAt": 1783528385918
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: trả lời \"địt mẹ m command command cái con cặc gì đấy @ᅟᅟzh @",
+      "triggeredBy": "7853151617793891722",
+      "triggeredAt": 1783587349793
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: @nguyễn đình dương nhảm lồn đó e =))) =))) =))) rain | msgid",
+      "triggeredBy": "7853151617793891722",
+      "triggeredAt": 1783588274496
+    },
+    {
+      "state": "savage",
+      "intensity": 5,
+      "reason": "User nổ: @nguyễn đình dương đéo lên nổi mà =))) =))) =))) rain | msgi",
+      "triggeredBy": "7853151617793891722",
+      "triggeredAt": 1783588597604
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: @nguyễn đình dương lồn mẹ m ngu v =))) =))) =))) rain | msgi",
+      "triggeredBy": "7853151617793891722",
+      "triggeredAt": 1783588695745
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: @nguyễn đình dương tk lồn ơi =))) =))) =))) rain | msgid: 80",
+      "triggeredBy": "7853151617793891722",
+      "triggeredAt": 1783588738838
+    }
+  ],
+  "affinity": 20,
+  "warStreak": 0
+}

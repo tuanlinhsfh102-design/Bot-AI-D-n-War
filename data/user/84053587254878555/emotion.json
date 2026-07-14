@@ -1,0 +1,132 @@
+{
+  "state": "aggressive",
+  "intensity": 10,
+  "reason": "User chửi: quân tử 10 năm trả thù chưa muộn mà sao bố cho m cơ hội mà m",
+  "lastTriggerAt": 1783608155675,
+  "lastInteraction": 0,
+  "consecutiveShortReplies": 0,
+  "consecutiveIgnored": 0,
+  "history": [
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: ê ê th lồn mắt so le :))) @nguyễn đình dương | msgid: 802405",
+      "triggeredBy": "1623417801991887862",
+      "triggeredAt": 1783581354585
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: tk lồn nghịch tử rain =)) =)) =)) =)) @nguyễn đình dương | m",
+      "triggeredBy": "84053587254878555",
+      "triggeredAt": 1783581365566
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: tk lồn nhịn để bố chửi à rain =))=))=))=)) @nguyễn đình dươn",
+      "triggeredBy": "84053587254878555",
+      "triggeredAt": 1783582226705
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: m sủa đi m ơi =))) @nguyễn đình dương | msgid: 8024542373986",
+      "triggeredBy": "84053587254878555",
+      "triggeredAt": 1783588367025
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: sủa nữa m ơi =))) @nguyễn đình dương | msgid: 8024559267439,",
+      "triggeredBy": "84053587254878555",
+      "triggeredAt": 1783588610124
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: m ngu mà=))) @nguyễn đình dương | msgid: 8024776262950, clim",
+      "triggeredBy": "84053587254878555",
+      "triggeredAt": 1783591790542
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: tk lờ ngu óc cứt rain =)) =)) =)) =)) @nguyễn đình dương | m",
+      "triggeredBy": "84053587254878555",
+      "triggeredAt": 1783594091383
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: bố địt tung cái lồn mẹ m mà rain =))=))=))=)) @nguyễn đình d",
+      "triggeredBy": "84053587254878555",
+      "triggeredAt": 1783595255089
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: tk cặc đú ê rain =))=))=))=)) @nguyễn đình dương | msgid: 80",
+      "triggeredBy": "84053587254878555",
+      "triggeredAt": 1783595268108
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: tk lồn loạn luân với em gái ê rain =))=))=))=)) @nguyễn đình",
+      "triggeredBy": "84053587254878555",
+      "triggeredAt": 1783595300414
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: m ngu ma =))) @nguyễn đình dương | msgid: 8025029371530, cli",
+      "triggeredBy": "84053587254878555",
+      "triggeredAt": 1783596237383
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: chua gi câm =))) @nguyễn đình dương | msgid: 8025039366592, ",
+      "triggeredBy": "84053587254878555",
+      "triggeredAt": 1783596424514
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: lồn má m =))) @nguyễn đình dương | msgid: 8025346428956, cli",
+      "triggeredBy": "84053587254878555",
+      "triggeredAt": 1783601912483
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: tk ngu @nguyễn đình dương | msgid: 8025413238898, climsgid: ",
+      "triggeredBy": "84053587254878555",
+      "triggeredAt": 1783603028601
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "Bị Bố Hot Mạng và nhiều người khác chửi liên tục trong group, cần đáp trả dame cao",
+      "triggeredBy": "84053587254878555",
+      "triggeredAt": 1783603381335
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: cầm host lỏ lồn mà sĩ cơ rain =))=))=))=)) @nguyễn đình dươn",
+      "triggeredBy": "84053587254878555",
+      "triggeredAt": 1783607303445
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: quân tử 10 năm trả thù chưa muộn mà sao bố cho m cơ hội mà m",
+      "triggeredBy": "84053587254878555",
+      "triggeredAt": 1783608155675
+    }
+  ],
+  "affinity": 20,
+  "warStreak": 0
+}

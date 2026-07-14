@@ -1,0 +1,34 @@
+{
+  "state": "aggressive",
+  "intensity": 10,
+  "reason": "User chửi: trả lời \"đi soi profile người khác về flex à con đĩ @nguyet ",
+  "lastTriggerAt": 1783604177664,
+  "lastInteraction": 0,
+  "consecutiveShortReplies": 0,
+  "consecutiveIgnored": 0,
+  "history": [
+    {
+      "state": "cocky",
+      "intensity": 2,
+      "reason": "Đối thủ cũ quay lại thách đấu, cần cocky lên tí",
+      "triggeredBy": "6992679248861258107",
+      "triggeredAt": 1783603966234
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: trả lời \"có dấu hay ko dấu cũng nguyễn đình dương đủ mẹ nó r",
+      "triggeredBy": "6232077367414530061",
+      "triggeredAt": 1783603968249
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: trả lời \"đi soi profile người khác về flex à con đĩ @nguyet ",
+      "triggeredBy": "6232077367414530061",
+      "triggeredAt": 1783604177664
+    }
+  ],
+  "affinity": 20,
+  "warStreak": 0
+}

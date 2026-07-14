@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "@ai-sdk/google": "^2.0.8",
+    "@ai-sdk/openai-compatible": "^1.0.42",
+    "@google/genai": "^1.15.0",
+    "@modelcontextprotocol/sdk": "^1.17.4",
+    "ai": "^5.0.22",
+    "dotenv": "^17.2.1",
+    "mime": "^4.0.7",
+    "mongodb": "^7.4.0",
+    "qrcode-terminal": "^0.12.0",
+    "undici": "^7.15.0",
+    "zca-js": "^2.1.2",
+    "zod": "^4.1.0"
+  },
+  "name": "zalo-sleiz-bot",
+  "version": "1.7.1",
+  "main": "src/index.ts",
+  "devDependencies": {
+    "@types/node": "^24.3.0"
+  },
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "dev": "bun --watch run src/index.ts"
+  },
+  "author": "Sleiz Edition",
+  "license": "MIT",
+  "description": "Zalo AI Bot — Sleiz persona (nam 15t sinh 2k11, dân war nhí, thích gây sự, va chạm, cục tính, cà khịa, sẵn sàng chửi nhau, mention đối phương, CÓ scheduler ngầm tự chửi targets mỗi 8-30 phút)"
+}

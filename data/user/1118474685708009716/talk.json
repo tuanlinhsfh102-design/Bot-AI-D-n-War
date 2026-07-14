@@ -1,0 +1,14 @@
+[
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Gia Tiến メ trong nhóm (mới nhất):\n- [1] thg đao | msgId: 8025058169886, cliMsgId: 1783596767630",
+    "type": "text",
+    "ts": 1783596783291
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783596783291
+  }
+]

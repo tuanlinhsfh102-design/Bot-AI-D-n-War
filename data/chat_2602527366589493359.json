@@ -1,0 +1,10 @@
+[
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Nguyen Duy Bao trong nhóm (mới nhất):\n- [1] treo bố m cai dc k @Hoa Thuan | msgId: 8029342200701, cliMsgId: 1783692857833\n- [2] @Lại Ôm Anh m quăng dăm ba câu bịa gi v | msgId: 8029342325889, cliMsgId: 1783692859934\n- [3] Trả lời \"@Lại Ôm Anh thg cha m bị t giet ne\" nhắn bởi Hoa Thuan\n            với \"@Hoa Thuan tui nhận màn nhây nè\" | msgId: 8029342335362, cliMsgId: 1783692859266, replyCliMsgId: 1783692848387"
+  },
+  {
+    "role": "assistant",
+    "content": ""
+  }
+]

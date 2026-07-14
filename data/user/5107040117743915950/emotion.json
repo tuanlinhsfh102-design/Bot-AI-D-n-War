@@ -1,0 +1,153 @@
+{
+  "state": "aggressive",
+  "intensity": 10,
+  "reason": "User chửi: @nguyễn đình dương cút con mẹ mày đi... | msgid: 80247098000",
+  "lastTriggerAt": 1783590786241,
+  "lastInteraction": 0,
+  "consecutiveShortReplies": 0,
+  "consecutiveIgnored": 0,
+  "history": [
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: tk lồn nghịch tử rain =)) =)) =)) =)) @nguyễn đình dương | m",
+      "triggeredBy": "84053587254878555",
+      "triggeredAt": 1783581365566
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: cái lồn mẹ m dính cứt trâu =))) @nguyễn đình dương | msgid: ",
+      "triggeredBy": "5801146414256610288",
+      "triggeredAt": 1783581792224
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: lồn cụ mày =))) @nuh | msgid: 8024118809852, climsgid: 17835",
+      "triggeredBy": "8319396167718309125",
+      "triggeredAt": 1783582336684
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: trả lời \"ngoc lồn đéo đủ trình war đâu câm mồm đĩ mẹ mày lại",
+      "triggeredBy": "754235508817983238",
+      "triggeredAt": 1783586225394
+    },
+    {
+      "state": "savage",
+      "intensity": 5,
+      "reason": "đối phương chửi thề thô lỗ",
+      "triggeredBy": "6172689059037181656",
+      "triggeredAt": 1783586528654
+    },
+    {
+      "state": "aggressive",
+      "intensity": 3,
+      "reason": "Enemy khiêu khích gắt",
+      "triggeredBy": "8610293531040186380",
+      "triggeredAt": 1783587133140
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: cha cho sủa chx @nguyễn đình dương | msgid: 8024458736706, c",
+      "triggeredBy": "3449955104735020433",
+      "triggeredAt": 1783587222171
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: đĩ ngu ăn hại =))=))=))=))=))=))=)) @nguyễn đình dương | msg",
+      "triggeredBy": "8236491312297915708",
+      "triggeredAt": 1783587634032
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: @minh châu châu cái lồn mẹ m à | msgid: 8024497125196, clims",
+      "triggeredBy": "4292394378289651936",
+      "triggeredAt": 1783587738994
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: đá vô mu lồn m nha | msgid: 8024507592656, climsgid: 1783587",
+      "triggeredBy": "7659907136336670012",
+      "triggeredAt": 1783587898728
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: @nguyễn đình dương mày làm lồn gì tao | msgid: 8024516406926",
+      "triggeredBy": "6728310093676775470",
+      "triggeredAt": 1783588004753
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: @nguyễn đình dương lồn thì to như lồn trâu thủ dâm ống cống ",
+      "triggeredBy": "5107040117743915950",
+      "triggeredAt": 1783588310555
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: @nguyễn đình dương lồn thì to như lồn trâu thủ dâm ống cống ",
+      "triggeredBy": "5107040117743915950",
+      "triggeredAt": 1783588397045
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: @nguyễn đình dương có giỏi thì bơi ra chửi tay đôi đi thằng ",
+      "triggeredBy": "5107040117743915950",
+      "triggeredAt": 1783588429319
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: @nguyễn đình dương con mẹ mày đẻ m ra đau lồn chứ được con c",
+      "triggeredBy": "5107040117743915950",
+      "triggeredAt": 1783588586263
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "Đang war căng",
+      "triggeredBy": "5107040117743915950",
+      "triggeredAt": 1783588690223
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: @nguyễn đình dương con mẹ mày đẻ m ra đau lồn chứ được con c",
+      "triggeredBy": "5107040117743915950",
+      "triggeredAt": 1783588856591
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: @nguyễn đình dương hiện hồn đi thằng mặt lồn | msgid: 802469",
+      "triggeredBy": "5107040117743915950",
+      "triggeredAt": 1783590557480
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: @nguyễn đình dương con mẹ mày đẻ m ra đau lồn chứ được con c",
+      "triggeredBy": "5107040117743915950",
+      "triggeredAt": 1783590669287
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: @nguyễn đình dương cút con mẹ mày đi... | msgid: 80247098000",
+      "triggeredBy": "5107040117743915950",
+      "triggeredAt": 1783590786241
+    }
+  ],
+  "affinity": 20,
+  "warStreak": 0
+}

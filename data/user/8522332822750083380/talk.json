@@ -1,0 +1,14 @@
+[
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Nguyen Nhung trong nhóm (mới nhất):\n- [1] làm trò jz | msgId: 8025552079787, cliMsgId: 1783605328953",
+    "type": "text",
+    "ts": 1783605348863
+  },
+  {
+    "role": "assistant",
+    "content": "[{\"type\":\"startTyping\"},{\"type\":\"delay\",\"time\":800},{\"type\":\"sendMessage\",\"content\":\"thì war chút xíu thôi chị ơi =))) tụi nó nó đấm tôi thì tôi đấm lại\"},{\"type\":\"delay\",\"time\":600},{\"type\":\"sendMessage\",\"content\":\"chị có cần gì không hay ngồi xem cho vui :>\"}]",
+    "type": "text",
+    "ts": 1783605348863
+  }
+]

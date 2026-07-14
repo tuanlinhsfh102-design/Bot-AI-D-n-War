@@ -1,0 +1,14 @@
+[
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Fwl trong nhóm (mới nhất):\n- [1] Trả lời \"\" nhắn bởi Le Minh Huy\n            với \"@Kar Mười Một Đẹp Zai Nhất Lớp t chọc quê nek\" | msgId: 8022346919819, cliMsgId: 1783527884284, replyCliMsgId: 1783527863368",
+    "type": "text",
+    "ts": 1783527895241
+  },
+  {
+    "role": "assistant",
+    "content": "[\n  {\"type\":\"startTyping\"},\n  {\"type\":\"delay\",\"time\":600},\n  {\"type\":\"sendMessage\",\"content\":\"chọc gì mà nhiệt tình thế {@sender} :)))\"},\n  {\"type\":\"delay\",\"time\":800},\n  {\"type\":\"sendMessage\",\"content\":\"rảnh rỗi quá ha, kể nghe thử coi chọc vụ gì\"}\n]",
+    "type": "text",
+    "ts": 1783527895241
+  }
+]

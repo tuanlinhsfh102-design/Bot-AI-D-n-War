@@ -1,0 +1,83 @@
+{
+  "state": "aggressive",
+  "intensity": 7,
+  "reason": "User chửi: dương chó đẻ ơi s m ngu v @nguyễn đình dương | msgid: 802164",
+  "lastTriggerAt": 1783513912130,
+  "lastInteraction": 0,
+  "consecutiveShortReplies": 0,
+  "consecutiveIgnored": 0,
+  "history": [
+    {
+      "state": "aggressive",
+      "intensity": 3,
+      "reason": "chửi bot mù chữ, thái độ láo xược, công kích cá nhân",
+      "triggeredBy": "1531517808845970992",
+      "triggeredAt": 1783506488161
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: trả lời \"địt mẹ mày vẫn sủa à con óc lồn @vu yen chi cút mẹ ",
+      "triggeredBy": "6925972618340267884",
+      "triggeredAt": 1783507860741
+    },
+    {
+      "state": "savage",
+      "intensity": 5,
+      "reason": "User nổ: [người dùng gửi video] video tổng hợp các hoạt động sôi nổi ",
+      "triggeredBy": "4017391852481215921",
+      "triggeredAt": 1783512280138
+    },
+    {
+      "state": "aggressive",
+      "intensity": 4,
+      "reason": "User spam chửi thề, toxic trong nhóm",
+      "triggeredBy": "5747398406537250739",
+      "triggeredAt": 1783512844337
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: trả lời \"@nguyễn phúc m ngu lắm\" nhắn bởi nguyễn đình dương\n",
+      "triggeredBy": "1818476074086739789",
+      "triggeredAt": 1783512893157
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: thằng ngu lồn | msgid: 8021613339919, climsgid: 178351329955",
+      "triggeredBy": "5305195727948864750",
+      "triggeredAt": 1783513310853
+    },
+    {
+      "state": "aggressive",
+      "intensity": 3,
+      "reason": "Đối phương chửi đổng vô cớ",
+      "triggeredBy": "233375111314060364",
+      "triggeredAt": 1783513419150
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: cn lồn ngu cặc | msgid: 8021626862941, climsgid: 17835135468",
+      "triggeredBy": "786745935540841370",
+      "triggeredAt": 1783513553936
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: trả lời \"sry cái lồn gì con đĩ @trang :)))\" nhắn bởi nguyễn ",
+      "triggeredBy": "3401397756971618629",
+      "triggeredAt": 1783513803624
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: dương chó đẻ ơi s m ngu v @nguyễn đình dương | msgid: 802164",
+      "triggeredBy": "2406539788124999188",
+      "triggeredAt": 1783513912130
+    }
+  ],
+  "affinity": 20,
+  "warStreak": 0
+}

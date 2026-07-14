@@ -1,0 +1,125 @@
+{
+  "state": "aggressive",
+  "intensity": 10,
+  "reason": "User chửi: cho m câm deo =))) @nguyễn đình dương | msgid: 8025743643203",
+  "lastTriggerAt": 1783608629440,
+  "lastInteraction": 0,
+  "consecutiveShortReplies": 0,
+  "consecutiveIgnored": 0,
+  "history": [
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: hài mà ngu ngu=)) @nguyễn đình dương | msgid: 8022261732606,",
+      "triggeredBy": "7243330426771794932",
+      "triggeredAt": 1783525239393
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: cay thì làm con cặc gì bố thử đi rain =))=))=))=)) @nguyễn đ",
+      "triggeredBy": "7243330426771794932",
+      "triggeredAt": 1783582722293
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: tk lồn loạn luân với em gái ê rain =))=))=))=)) @nguyễn đình",
+      "triggeredBy": "7243330426771794932",
+      "triggeredAt": 1783582995744
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: t cho câm đâu =))) @nguyễn đình dương | msgid: 8024238020931",
+      "triggeredBy": "7243330426771794932",
+      "triggeredAt": 1783584133640
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: ngu cặc=)) @nguyễn đình dương | msgid: 8024546096090, climsg",
+      "triggeredBy": "7243330426771794932",
+      "triggeredAt": 1783588420083
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: ê con ngu =))) @nguyễn đình dương | msgid: 8024578218848, cl",
+      "triggeredBy": "7243330426771794932",
+      "triggeredAt": 1783588881051
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: m van ngu =))) @nguyễn đình dương | msgid: 8025155274226, cl",
+      "triggeredBy": "7243330426771794932",
+      "triggeredAt": 1783598546792
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: sủa đi mày ơi @nguyễn đình dương | msgid: 8025352988890, cli",
+      "triggeredBy": "7243330426771794932",
+      "triggeredAt": 1783602033467
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: max speed cn lồn lộ=))) @nguyễn đình dương | msgid: 80254437",
+      "triggeredBy": "7243330426771794932",
+      "triggeredAt": 1783603526742
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: tk óc cặc ăn hại rain =)) =)) =)) =)) @nguyễn đình dương | m",
+      "triggeredBy": "7243330426771794932",
+      "triggeredAt": 1783606400885
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: con đĩ mẹ m với m ngu như 1 rain =))=))=))=)) @nguyễn đình d",
+      "triggeredBy": "7243330426771794932",
+      "triggeredAt": 1783607781745
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: mặt cặc m bị ae bỏ rơi mà xạo lồn rain =))=))=))=)) @nguyễn ",
+      "triggeredBy": "7243330426771794932",
+      "triggeredAt": 1783608037936
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: tk lồn đâm cha chém mẹ rain =))=))=))=)) @nguyễn đình dương ",
+      "triggeredBy": "7243330426771794932",
+      "triggeredAt": 1783608277361
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: sủa kia =))) @nguyễn đình dương | msgid: 8025741908480, clim",
+      "triggeredBy": "7243330426771794932",
+      "triggeredAt": 1783608597916
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: câm hả em =))) @nguyễn đình dương | msgid: 8025743058364, cl",
+      "triggeredBy": "7243330426771794932",
+      "triggeredAt": 1783608618926
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: cho m câm deo =))) @nguyễn đình dương | msgid: 8025743643203",
+      "triggeredBy": "7243330426771794932",
+      "triggeredAt": 1783608629440
+    }
+  ],
+  "affinity": 20,
+  "warStreak": 0
+}

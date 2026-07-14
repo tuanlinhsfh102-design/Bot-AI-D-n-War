@@ -1,0 +1,41 @@
+{
+  "state": "aggressive",
+  "intensity": 10,
+  "reason": "User chửi: con mập ngu | msgid: 8041467990027, climsgid: 1784016143068",
+  "lastTriggerAt": 1784016143326,
+  "lastInteraction": 0,
+  "consecutiveShortReplies": 0,
+  "consecutiveIgnored": 0,
+  "history": [
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: cn đĩ mập ngu | msgid: 8041449069293, climsgid: 178401587829",
+      "triggeredBy": "8370616318916547675",
+      "triggeredAt": 1784015878548
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: con mập ngu | msgid: 8041451769952, climsgid: 1784015917618",
+      "triggeredBy": "8370616318916547675",
+      "triggeredAt": 1784015917875
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "Luân tiếp tục chửi bot: con chó mập lồn ăn hại, hài vl",
+      "triggeredBy": "8370616318916547675",
+      "triggeredAt": 1784016097164
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: con mập ngu | msgid: 8041467990027, climsgid: 1784016143068",
+      "triggeredBy": "8370616318916547675",
+      "triggeredAt": 1784016143326
+    }
+  ],
+  "affinity": 20,
+  "warStreak": 0
+}

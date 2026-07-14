@@ -1,0 +1,106 @@
+[
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Hưng trong nhóm (mới nhất):\n- [1] Trả lời \"🚦 @616802408318816559\n{\n    \"ownerId\": \"3108030821398207617\",\n    \"cliMsgId\": 1783593261862,\n    \"globalMsgId\": 8024864662379,\n    \"cliMsgType\": 1,\n    \"ts\": 1783593261914,\n    \"msg\": \"lồn ngu @Nguyễn Đình Dương rớt all @All\",\n    \"attach\": {\n        \"thumb\": \"\",\n        \"mentions\": [\n            {\n                \"uid\": 6089586054517981218,\n                \"ignoreNickname\": 0,\n                \"len\": 18,\n                \"pos\": 8,\n                \"type\": 0\n            },\n            {\n                \"uid\": -753661341934062902,\n                \"ignoreNickname\": 0,\n                \"len\": 4,\n                \"pos\": 35,\n                \"type\": 1\n            }\n        ],\n        \"description\": \"\",\n        \"action\": \"\",\n        \"childnumber\": \"0\",\n        \"href\": \"\",\n        \"title\": \"\",\n        \"params\": \"\"\n    },\n    \"fromD\": \"Pé\"\n}\" nhắn bởi Minh Hoang\n            với \"@Minh Hoang\" | msgId: 8025982609263, cliMsgId: 1783614361904, replyCliMsgId: 1783614116037"
+  },
+  {
+    "role": "assistant",
+    "content": ""
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Ngoc Anh trong nhóm (mới nhất):\n- [1] ? | msgId: 8026012538219, cliMsgId: 1783615803195"
+  },
+  {
+    "role": "assistant",
+    "content": ""
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Babicun trong nhóm (mới nhất):\n- [1] [Người dùng gửi sticker] | msgId: 8026024196819, cliMsgId: 1783616480985"
+  },
+  {
+    "role": "assistant",
+    "content": ""
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Đức Trọng メ Chuối Chín trong nhóm (mới nhất):\n- [1] Trả lời \"all sủa\" nhắn bởi Nguyễn Đình Dương\n            với \"@Nguyễn Đình Dương sủa má m dk\" | msgId: 8026025494834, cliMsgId: 1783616560375, replyCliMsgId: 1783616487749"
+  },
+  {
+    "role": "assistant",
+    "content": ""
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Ngoc Anh trong nhóm (mới nhất):\n- [1] [Người dùng gửi video] | msgId: 8026027822637, cliMsgId: 1783616706310"
+  },
+  {
+    "role": "assistant",
+    "content": ""
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Zinn trong nhóm (mới nhất):\n- [1] Trả lời \"@Ngoc Anh tag\" nhắn bởi My Anh\n            với \"@My Anh\" | msgId: 8026078115240, cliMsgId: 1783621659593, replyCliMsgId: 1783621632391\n- [2] Trả lời \"đĩ nam kìa\" nhắn bởi My Anh\n            với \"@My Anh\" | msgId: 8026078136565, cliMsgId: 1783621663179, replyCliMsgId: 1783621635232\n- [3] paw đó | msgId: 8026078145444, cliMsgId: 1783621664955\n- [4] Trả lời \"\" nhắn bởi My Anh\n            với \"@My Anh tk nào\" | msgId: 8026078181855, cliMsgId: 1783621671499, replyCliMsgId: 1783621649578\n- [5] Trả lời \"code chatgpt 🐧👌\" nhắn bởi Nguyễn Đình Dương\n            với \"@Nguyễn Đình Dương tk lồn mưm fall tokyo\" | msgId: 8026078234147, cliMsgId: 1783621681052, replyCliMsgId: 1783621669374"
+  },
+  {
+    "role": "assistant",
+    "content": ""
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Zinn trong nhóm (mới nhất):\n- [1] mem | msgId: 8026078251464, cliMsgId: 1783621684071"
+  },
+  {
+    "role": "assistant",
+    "content": ""
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Zinn trong nhóm (mới nhất):\n- [1] Trả lời \"\" nhắn bởi Đức Trọng メ Chuối Chín\n            với \"@Zinn\" | msgId: 8026078400401, cliMsgId: 1783621710492, replyCliMsgId: 1783621698864\n- [2] @Zinn | msgId: 8026078420591, cliMsgId: 1783621714499\n- [3] @van viet (zin) con cặc biết bay | msgId: 8026078449759, cliMsgId: 1783621719760\n- [4] nô | msgId: 8026078458986, cliMsgId: 1783621721650\n- [5] tao là zin | msgId: 8026078487457, cliMsgId: 1783621726822"
+  },
+  {
+    "role": "assistant",
+    "content": ""
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Ngoc Anh trong nhóm (mới nhất):\n- [1] Trả lời \"paw đó\" nhắn bởi Ngoc Anh\n            với \"@Ngoc Anh má\" | msgId: 8026078525651, cliMsgId: 1783621733625, replyCliMsgId: 1783621664955\n- [2] Trả lời \"@Ngoc Anh má\" nhắn bởi My Anh\n            với \"@My Anh\" | msgId: 8026078559161, cliMsgId: 1783621739791, replyCliMsgId: 1783621733625\n- [3] Trả lời \"@Zinn cay tao\" nhắn bởi Nguyễn Đình Dương\n            với \"@Minh Châu châu ơi\" | msgId: 8026078570274, cliMsgId: 1783621741859, replyCliMsgId: 1783621729636\n- [4] nhớ nyc | msgId: 8026078580238, cliMsgId: 1783621743525\n- [5] có mặt paw á | msgId: 8026078583313, cliMsgId: 1783621744326"
+  },
+  {
+    "role": "assistant",
+    "content": ""
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Zinn trong nhóm (mới nhất):\n- [1] mcuoi vl | msgId: 8026078639097, cliMsgId: 1783621754395\n- [2] co | msgId: 8026078641023, cliMsgId: 1783621754676\n- [3] Trả lời \"@Zinn\" nhắn bởi Đức Trọng メ Chuối Chín\n            với \"@Đức Trọng メ Chuối Chín sao\" | msgId: 8026078646544, cliMsgId: 1783621755714, replyCliMsgId: 1783621752549\n- [4] Trả lời \"co\" nhắn bởi My Anh\n            với \"@My Anh ib\" | msgId: 8026078662217, cliMsgId: 1783621758512, replyCliMsgId: 1783621754676\n- [5] Trả lời \"\" nhắn bởi Đức Trọng メ Chuối Chín\n            với \"@Đức Trọng メ Chuối Chín nô\" | msgId: 8026078690004, cliMsgId: 1783621763753, replyCliMsgId: 1783621736731"
+  },
+  {
+    "role": "assistant",
+    "content": ""
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Đức Trọng メ Chuối Chín trong nhóm (mới nhất):\n- [1] Trả lời \"\" nhắn bởi Đức Trọng メ Chuối Chín\n            với \"@Zinn\" | msgId: 8026078835117, cliMsgId: 1783621790726, replyCliMsgId: 1783621781605"
+  },
+  {
+    "role": "assistant",
+    "content": ""
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Zinn trong nhóm (mới nhất):\n- [1] ccho oc lon @Nguyễn Đình Dương | msgId: 8026079466094, cliMsgId: 1783621907057\n- [2] [Người dùng gửi sticker] | msgId: 8026079493218, cliMsgId: 1783621912175\n- [3] cn gai me m ngu ma dk @Nguyễn Đình Dương | msgId: 8026079505633, cliMsgId: 1783621914167\n- [4] Trả lời \"cn gai me m ngu ma dk @Nguyễn Đình Dương\" nhắn bởi Đức Trọng メ Chuối Chín\n            với \"@Đức Trọng メ Chuối Chín chat với bot\" | msgId: 8026079535620, cliMsgId: 1783621919990, replyCliMsgId: 1783621914167\n- [5] Trả lời \"cn gai me m ngu ma dk @Nguyễn Đình Dương\" nhắn bởi Đức Trọng メ Chuối Chín\n            với \"@Đức Trọng メ Chuối Chín key tao?\" | msgId: 8026079536481, cliMsgId: 1783621920190, replyCliMsgId: 1783621914167"
+  },
+  {
+    "role": "assistant",
+    "content": ""
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟtoᅟᅟbin trong nhóm (mới nhất):\n- [1] zl thông báo r @All | msgId: 8026082191353, cliMsgId: 1783622433773\n- [2] rain | msgId: 8026082193484, cliMsgId: 1783622434283\n- [3] rai | msgId: 8026082198804, cliMsgId: 1783622435371\n- [4] rain | msgId: 8026082204118, cliMsgId: 1783622436573\n- [5] rain | msgId: 8026082209276, cliMsgId: 1783622437623"
+  },
+  {
+    "role": "assistant",
+    "content": ""
+  }
+]

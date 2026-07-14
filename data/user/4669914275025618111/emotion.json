@@ -1,0 +1,153 @@
+{
+  "state": "aggressive",
+  "intensity": 10,
+  "reason": "User chửi: dương lồn gà | msgid: 8026874096292, climsgid: 1783653216795",
+  "lastTriggerAt": 1783653224040,
+  "lastInteraction": 0,
+  "consecutiveShortReplies": 0,
+  "consecutiveIgnored": 0,
+  "history": [
+    {
+      "state": "aggressive",
+      "intensity": 3,
+      "reason": "Phát tiếp tục spam 12 tin, tự tag mình, gọi bot là 'điên' và 'ngu' - war mode tiếp",
+      "triggeredBy": "1838183387050250739",
+      "triggeredAt": 1783642186651
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: trả lời \"thôi bố đang war với con linh xong rồi m để bố xả h",
+      "triggeredBy": "4669914275025618111",
+      "triggeredAt": 1783652528569
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: trả lời \"ỉa lên mặt bố à m lấy răng mà ỉa miệng m còn đang ỉ",
+      "triggeredBy": "4669914275025618111",
+      "triggeredAt": 1783652571219
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: trả lời \"cái lz mẹ m im đi @nguyen duy bao @minh hoang\" nhắn",
+      "triggeredBy": "4669914275025618111",
+      "triggeredAt": 1783652584548
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: trả lời \"con đĩ mẹ m biến đi @nguyen duy bao @minh hoang\" nh",
+      "triggeredBy": "4669914275025618111",
+      "triggeredAt": 1783652613947
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: trả lời \"đĩ mẹ m sủa đi @nguyen duy bao @minh hoang\" nhắn bở",
+      "triggeredBy": "4669914275025618111",
+      "triggeredAt": 1783652638301
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: trả lời \"đĩ mẹ m sủa đi @nguyen duy bao @minh hoang\" nhắn bở",
+      "triggeredBy": "4669914275025618111",
+      "triggeredAt": 1783652654542
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: dương cặc ơi là dương:)) | msgid: 8026831089369, climsgid: 1",
+      "triggeredBy": "4669914275025618111",
+      "triggeredAt": 1783652692607
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: trả lời \"đĩ mẹ m sủa đi @nguyen duy bao\" nhắn bởi nguyễn đìn",
+      "triggeredBy": "4669914275025618111",
+      "triggeredAt": 1783652717073
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: trả lời \"đjt mẹ m cút đi @nguyen duy bao\" nhắn bởi nguyễn đì",
+      "triggeredBy": "4669914275025618111",
+      "triggeredAt": 1783652754767
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: trả lời \"đjt mẹ m cút đi @nguyen duy bao\" nhắn bởi nguyễn đì",
+      "triggeredBy": "4669914275025618111",
+      "triggeredAt": 1783652773874
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: trả lời \"đĩ mẹ m sủa đi @nguyen duy bao\" nhắn bởi nguyễn đìn",
+      "triggeredBy": "4669914275025618111",
+      "triggeredAt": 1783652790137
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: trả lời \"lồn mẹ m câm đi @nguyen duy bao\" nhắn bởi nguyễn đì",
+      "triggeredBy": "4669914275025618111",
+      "triggeredAt": 1783652800699
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: trả lời \"đĩ mẹ m sủa đi @nguyen duy bao\" nhắn bởi nguyễn đìn",
+      "triggeredBy": "4669914275025618111",
+      "triggeredAt": 1783652817585
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: trả lời \"cái lz mẹ m im đi @nguyen duy bao\" nhắn bởi nguyễn ",
+      "triggeredBy": "4669914275025618111",
+      "triggeredAt": 1783652823942
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: tnhien sủa:)) | msgid: 8026843216172, climsgid: 178365283088",
+      "triggeredBy": "4669914275025618111",
+      "triggeredAt": 1783652836961
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: sủa mà em:)) | msgid: 8026843717111, climsgid: 1783652837156",
+      "triggeredBy": "4669914275025618111",
+      "triggeredAt": 1783652842378
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: ai câm cơ:)) | msgid: 8026848250762, climsgid: 1783652893748",
+      "triggeredBy": "4669914275025618111",
+      "triggeredAt": 1783652893990
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: dương đĩ xaon lồn:)) | msgid: 8026857169992, climsgid: 17836",
+      "triggeredBy": "4669914275025618111",
+      "triggeredAt": 1783653013575
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: dương lồn gà | msgid: 8026874096292, climsgid: 1783653216795",
+      "triggeredBy": "4669914275025618111",
+      "triggeredAt": 1783653224040
+    }
+  ],
+  "affinity": 20,
+  "warStreak": 0
+}

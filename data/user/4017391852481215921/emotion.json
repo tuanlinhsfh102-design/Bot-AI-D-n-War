@@ -1,0 +1,34 @@
+{
+  "state": "savage",
+  "intensity": 5,
+  "reason": "User nổ: [người dùng gửi video] video tổng hợp các hoạt động sôi nổi ",
+  "lastTriggerAt": 1783512280138,
+  "lastInteraction": 0,
+  "consecutiveShortReplies": 0,
+  "consecutiveIgnored": 0,
+  "history": [
+    {
+      "state": "aggressive",
+      "intensity": 3,
+      "reason": "chửi bot mù chữ, thái độ láo xược, công kích cá nhân",
+      "triggeredBy": "1531517808845970992",
+      "triggeredAt": 1783506488161
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: trả lời \"địt mẹ mày vẫn sủa à con óc lồn @vu yen chi cút mẹ ",
+      "triggeredBy": "6925972618340267884",
+      "triggeredAt": 1783507860741
+    },
+    {
+      "state": "savage",
+      "intensity": 5,
+      "reason": "User nổ: [người dùng gửi video] video tổng hợp các hoạt động sôi nổi ",
+      "triggeredBy": "4017391852481215921",
+      "triggeredAt": 1783512280138
+    }
+  ],
+  "affinity": 20,
+  "warStreak": 0
+}

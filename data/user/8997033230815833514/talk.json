@@ -1,0 +1,62 @@
+[
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Date trong nhóm (mới nhất):\n- [1] Trả lời \"\" nhắn bởi Bo\n            với \"@Bo cho log levi\" | msgId: 8021038186000, cliMsgId: 1783503325280, replyCliMsgId: 1783503309763\n- [2] tui xẽ cho trọng log lại acc tui | msgId: 8021039127475, cliMsgId: 1783503338820",
+    "type": "text",
+    "ts": 1783503364528
+  },
+  {
+    "role": "assistant",
+    "content": "[\n  {\n    \"type\": \"startTyping\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 800\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"log acc qua lại vãi lồn, cẩn thận bay acc nha {@sender} :)))\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 600\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"cẩn thận mất acc ráng chịu đó :>\"\n  }\n]",
+    "type": "text",
+    "ts": 1783503364528
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Date trong nhóm (mới nhất):\n- [1] [Người dùng gửi video] Video này là một bản edit ngắn về game Free Fire, trong đó nhân vật sử dụng các chiêu thức và kỹ năng đặc biệt trên nền nhạc sôi động. Các dòng chữ \"Ngày em đi, trong anh biết bao vui buồn\", \"Rơi lâu lâu, nước mắt trong lòng cu tuôn\" xuất hiện trên màn hình, tạo nên không khí vừa hoài niệm vừa kịch tính cho các pha xử lý trong game. | msgId: 8021042086083, cliMsgId: 1783503356005",
+    "type": "text",
+    "ts": 1783503421545
+  },
+  {
+    "role": "assistant",
+    "content": "[\n  {\n    \"type\": \"addReaction\",\n    \"msgId\": \"8021042086083\",\n    \"cliMsgId\": \"1783503356005\",\n    \"reaction\": \"HAHA\"\n  },\n  {\n    \"type\": \"startTyping\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 700\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"nhạc sến vãi lồn {@sender} :)))\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 800\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"ff giờ toàn người chơi hệ cảm xúc à ông\"\n  }\n]",
+    "type": "text",
+    "ts": 1783503421545
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Date trong nhóm (mới nhất):\n- [1] [Người dùng gửi video] Video quay lại những khoảnh khắc highlight của một người chơi trong game Free Fire, thể hiện kỹ năng bắn hạ đối thủ bằng khẩu M1014. Đoạn video còn xuất hiện dòng chữ \"ducdyeu Headshot\" khi người chơi hạ gục địch. | msgId: 8021049297265, cliMsgId: 1783503466851",
+    "type": "text",
+    "ts": 1783503527658
+  },
+  {
+    "role": "assistant",
+    "content": "[\n  {\n    \"type\": \"addReaction\",\n    \"msgId\": \"8021049297265\",\n    \"cliMsgId\": \"1783503466851\",\n    \"reaction\": \"WOW\"\n  },\n  {\n    \"type\": \"startTyping\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 700\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"gắt đấy M1014 bắn cũng ra gì phết :)))\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 600\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"ducdyeu nghe cái tên oai thế ông\"\n  }\n]",
+    "type": "text",
+    "ts": 1783503527658
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Date trong nhóm (mới nhất):\n- [1] mẹ hài vl | msgId: 8021062794818, cliMsgId: 1783503679975",
+    "type": "text",
+    "ts": 1783503698500
+  },
+  {
+    "role": "assistant",
+    "content": "[\n  {\n    \"type\": \"addReaction\",\n    \"msgId\": \"8021062794818\",\n    \"cliMsgId\": \"1783503679975\",\n    \"reaction\": \"WOW\"\n  },\n  {\n    \"type\": \"startTyping\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 700\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"hài cái gì ông, gu mặn thế :)))\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 500\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"tui thấy nó lỏ vãi :>\"\n  }\n]",
+    "type": "text",
+    "ts": 1783503698500
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Date trong nhóm (mới nhất):\n- [1] [Người dùng gửi video] Video này tổng hợp những hình ảnh gợi cảm của một tài khoản mạng xã hội, đi kèm với đó là nội dung dẫn dắt người xem tìm đến một đường link cụ thể. Điểm đáng chú ý trong video là các đoạn cắt ngắn ghi lại cảnh người dùng tự quay và chia sẻ thông tin tài khoản, kèm theo dòng chữ \"HOT WAR BÙI VÂN KHÁNH LỘ LINK MỌI LÚC MỌI NƠI\". | msgId: 8021067592270, cliMsgId: 1783503734351",
+    "type": "text",
+    "ts": 1783503782516
+  },
+  {
+    "role": "assistant",
+    "content": "[\n  {\n    \"type\": \"addReaction\",\n    \"msgId\": \"8021067592270\",\n    \"cliMsgId\": \"1783503734351\",\n    \"reaction\": \"WOW\"\n  },\n  {\n    \"type\": \"startTyping\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 600\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"gửi cái thứ rác rưởi gì thế {@sender} :)))\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 800\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"câu view kiểu này lỏ vãi lồn, dẹp dùm cái đi\"\n  }\n]",
+    "type": "text",
+    "ts": 1783503782516
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Trần Tiến trong nhóm (mới nhất):\n- [1] Trả lời \"\" nhắn bởi Nguyễn Đình Dương\n            với \"@Nguyễn Đình Dương anh yêu em\" | msgId: 8020446971248, cliMsgId: 1783494829888, replyCliMsgId: 1783494805187",
+    "type": "text",
+    "ts": 1783494862045
+  },
+  {
+    "role": "assistant",
+    "content": "[{\"type\":\"addReaction\",\"msgId\":\"8020446971248\",\"cliMsgId\":\"1783494829888\",\"reaction\":\"WOW\"},{\"type\":\"startTyping\"},{\"type\":\"delay\",\"time\":800},{\"type\":\"replyMessage\",\"shortId\":\"8020446971248\",\"content\":\"vãi thật :)))\"},{\"type\":\"delay\",\"time\":600},{\"type\":\"sendMessage\",\"content\":\"đang thiếu thốn tình cảm hay gì mà đi tỏ tình với con trai thế ông :>\"}]",
+    "type": "text",
+    "ts": 1783494862045
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Trần Tiến trong nhóm (mới nhất):\n- [1] ra tín hiệu đê :))) @Nguyễn Đình Dương | msgId: 8025072085382, cliMsgId: 1783597017214\n- [2] con cún nay =))) @Nguyễn Đình Dương | msgId: 8025072136812, cliMsgId: 1783597017885\n- [3] đú đú =))) @Nguyễn Đình Dương | msgId: 8025072191339, cliMsgId: 1783597019225\n- [4] nhạt nhoè v à @Nguyễn Đình Dương | msgId: 8025072191342, cliMsgId: 1783597019235\n- [5] Tin nóng cho tôi 2 chục b sẽ nhận dc 5 chục từ tối | msgId: 8025072297807, cliMsgId: 1783597020489",
+    "type": "text",
+    "ts": 1783597023582
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783597023582
+  }
+]

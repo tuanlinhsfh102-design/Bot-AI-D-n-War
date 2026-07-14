@@ -1,0 +1,62 @@
+{
+  "state": "aggressive",
+  "intensity": 9,
+  "reason": "User chửi: đúng ngu!! | msgid: 8021202371619, climsgid: 1783505796184",
+  "lastTriggerAt": 1783505806165,
+  "lastInteraction": 0,
+  "consecutiveShortReplies": 0,
+  "consecutiveIgnored": 0,
+  "history": [
+    {
+      "state": "savage",
+      "intensity": 2,
+      "reason": "nó vẫn cố gáy chửi tiếp",
+      "triggeredBy": "7753788871393606635",
+      "triggeredAt": 1783495159537
+    },
+    {
+      "state": "savage",
+      "intensity": 4,
+      "reason": "nó chửi bot md, bịa chuyện liên tục",
+      "triggeredBy": "7753788871393606635",
+      "triggeredAt": 1783495225920
+    },
+    {
+      "state": "savage",
+      "intensity": 5,
+      "reason": "nó spam ảnh và cố tình khịa tiếp",
+      "triggeredBy": "7753788871393606635",
+      "triggeredAt": 1783495291312
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: trả lời \"@thanh tâm bố lại k nghèo như mặt lồn m\" nhắn bởi n",
+      "triggeredBy": "7753788871393606635",
+      "triggeredAt": 1783497869623
+    },
+    {
+      "state": "aggressive",
+      "intensity": 8,
+      "reason": "Enemy thách thức và châm chọc liên tục.",
+      "triggeredBy": "7753788871393606635",
+      "triggeredAt": 1783498422622
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: [người dùng gửi video] video này ghi lại những đoạn tin nhắn",
+      "triggeredBy": "7753788871393606635",
+      "triggeredAt": 1783498474261
+    },
+    {
+      "state": "aggressive",
+      "intensity": 9,
+      "reason": "User chửi: đúng ngu!! | msgid: 8021202371619, climsgid: 1783505796184",
+      "triggeredBy": "7753788871393606635",
+      "triggeredAt": 1783505806165
+    }
+  ],
+  "affinity": 20,
+  "warStreak": 0
+}

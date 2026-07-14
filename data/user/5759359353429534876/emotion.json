@@ -1,0 +1,48 @@
+{
+  "state": "savage",
+  "intensity": 2,
+  "reason": "Đối phương bắt đầu xin tha/giỡn sau khi bị chửi lại, chuyển sang thái độ châm chọc (savage)",
+  "lastTriggerAt": 1783585617416,
+  "lastInteraction": 0,
+  "consecutiveShortReplies": 0,
+  "consecutiveIgnored": 0,
+  "history": [
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: sủa kh dương=))) @nguyễn đình dương | msgid: 8022769147959, ",
+      "triggeredBy": "7519172826142522152",
+      "triggeredAt": 1783560683220
+    },
+    {
+      "state": "cocky",
+      "intensity": 6,
+      "reason": "User thách thức: trả lời \"lên đi @chi qua qua @cún @tiến đạt\" nhắn bởi nguyễn",
+      "triggeredBy": "5759359353429534876",
+      "triggeredAt": 1783562266558
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: lồn má mày con đĩ | msgid: 8024340670286, climsgid: 17835855",
+      "triggeredBy": "5759359353429534876",
+      "triggeredAt": 1783585580247
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "Bị chửi, chuyển sang chế độ war",
+      "triggeredBy": "5759359353429534876",
+      "triggeredAt": 1783585585689
+    },
+    {
+      "state": "savage",
+      "intensity": 3,
+      "reason": "Đối phương bắt đầu xin tha/giỡn sau khi bị chửi lại, chuyển sang thái độ châm chọc (savage)",
+      "triggeredBy": "5759359353429534876",
+      "triggeredAt": 1783585617416
+    }
+  ],
+  "affinity": 20,
+  "warStreak": 0
+}

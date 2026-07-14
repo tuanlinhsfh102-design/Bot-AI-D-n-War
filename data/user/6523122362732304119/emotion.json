@@ -1,0 +1,153 @@
+{
+  "state": "cocky",
+  "intensity": 6,
+  "reason": "User thách thức: cái tk đú war ảo tưởng sức mạnh bị cha noti cho cay rõ =))=)",
+  "lastTriggerAt": 1783608470582,
+  "lastInteraction": 0,
+  "consecutiveShortReplies": 0,
+  "consecutiveIgnored": 0,
+  "history": [
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: trả lời \"sry cái lồn gì con đĩ @trang :)))\" nhắn bởi nguyễn ",
+      "triggeredBy": "3401397756971618629",
+      "triggeredAt": 1783513803624
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: dương chó đẻ ơi s m ngu v @nguyễn đình dương | msgid: 802164",
+      "triggeredBy": "2406539788124999188",
+      "triggeredAt": 1783513912130
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: [người dùng gửi video] video ghi lại các đoạn tin nhắn trao ",
+      "triggeredBy": "7616703314149298370",
+      "triggeredAt": 1783514768204
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: @nguyễn đình dương địt mẹ mày tk ngu | msgid: 8021725191954,",
+      "triggeredBy": "539050021153863178",
+      "triggeredAt": 1783515316305
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: mic k thg cặc súc vật bại não | msgid: 8021792413569, climsg",
+      "triggeredBy": "4185995300196558694",
+      "triggeredAt": 1783516460998
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: thằng chó ngu | msgid: 8021804846318, climsgid: 178351666742",
+      "triggeredBy": "6523122362732304119",
+      "triggeredAt": 1783516677804
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: ngôn bố tung ra sát thương vãi lồn rain =)) =)) =)) =)) @ngu",
+      "triggeredBy": "6523122362732304119",
+      "triggeredAt": 1783594480996
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: mặt lồn m chat chậm còn ăn hại rain =)) =)) =)) =)) @nguyễn ",
+      "triggeredBy": "6523122362732304119",
+      "triggeredAt": 1783594696819
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: tk lồn ê sao m béo quá v rain =))=))=))=)) @nguyễn đình dươn",
+      "triggeredBy": "6523122362732304119",
+      "triggeredAt": 1783595598960
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: sao tk lồn này ăn hại quá v rain =))=))=))=)) @nguyễn đình d",
+      "triggeredBy": "6523122362732304119",
+      "triggeredAt": 1783595686150
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: trình lồn m đòi ăn bố à rain =))=))=))=)) @nguyễn đình dương",
+      "triggeredBy": "6523122362732304119",
+      "triggeredAt": 1783595741942
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: tk lồn nhịn để bố chửi à rain =))=))=))=)) @nguyễn đình dươn",
+      "triggeredBy": "6523122362732304119",
+      "triggeredAt": 1783595751212
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: ê cái tk con cặc ngu kâkk rain =))=))=))=)) @nguyễn đình dươ",
+      "triggeredBy": "6523122362732304119",
+      "triggeredAt": 1783595854384
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: cay thì làm con cặc gì bố thử đi rain =))=))=))=)) @nguyễn đ",
+      "triggeredBy": "6523122362732304119",
+      "triggeredAt": 1783595935850
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: ê tk lồn nghịch tử rain =))=))=))=)) @nguyễn đình dương | ms",
+      "triggeredBy": "6523122362732304119",
+      "triggeredAt": 1783596036020
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: con mẹ m tk lồn rain =))=))=))=)) @nguyễn đình dương | msgid",
+      "triggeredBy": "6523122362732304119",
+      "triggeredAt": 1783596578431
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: ngu kia =))) @nguyễn đình dương | msgid: 8025222199095, clim",
+      "triggeredBy": "6523122362732304119",
+      "triggeredAt": 1783599755590
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: ê con ngu =))) @nguyễn đình dương | msgid: 8025428229589, cl",
+      "triggeredBy": "6523122362732304119",
+      "triggeredAt": 1783603268701
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: ngu k @nguyễn đình dương | msgid: 8025673085547, climsgid: 1",
+      "triggeredBy": "6523122362732304119",
+      "triggeredAt": 1783607382733
+    },
+    {
+      "state": "cocky",
+      "intensity": 6,
+      "reason": "User thách thức: cái tk đú war ảo tưởng sức mạnh bị cha noti cho cay rõ =))=)",
+      "triggeredBy": "6523122362732304119",
+      "triggeredAt": 1783608470582
+    }
+  ],
+  "affinity": 20,
+  "warStreak": 0
+}

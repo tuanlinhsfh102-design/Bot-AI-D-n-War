@@ -1,0 +1,104 @@
+{
+  "state": "aggressive",
+  "intensity": 10,
+  "reason": "User chửi: tiếp đi con chó lồn :))) @nguyễn đình dương | msgid: 8025361",
+  "lastTriggerAt": 1783602167077,
+  "lastInteraction": 0,
+  "consecutiveShortReplies": 0,
+  "consecutiveIgnored": 0,
+  "history": [
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: ê ê th lồn mắt so le :))) @nguyễn đình dương | msgid: 802405",
+      "triggeredBy": "1623417801991887862",
+      "triggeredAt": 1783581354585
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: lồn mẹ m dính sình =))) @nguyễn đình dương | msgid: 80240944",
+      "triggeredBy": "1623417801991887862",
+      "triggeredAt": 1783581956982
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: sủa liên tục ơ??🤣@nguyễn đình dươngg | msgid: 8024934374483",
+      "triggeredBy": "1623417801991887862",
+      "triggeredAt": 1783594499969
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: cha cho m câm chưa👉?@nguyễn đình dươngng | msgid: 802499744",
+      "triggeredBy": "1623417801991887862",
+      "triggeredAt": 1783595636685
+    },
+    {
+      "state": "cocky",
+      "intensity": 6,
+      "reason": "User thách thức: chậm vậy sao cứu được con đĩ mẹ mày nhanh lên đi chứ:))) @ng",
+      "triggeredBy": "1623417801991887862",
+      "triggeredAt": 1783596499952
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: mày sủa đi nè😛@nguyễn đình dươngg | msgid: 8025047242392, c",
+      "triggeredBy": "1623417801991887862",
+      "triggeredAt": 1783596577371
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: vô danh cấm sủa?😏@nguyễn đình dươngg | msgid: 8025053557461",
+      "triggeredBy": "1623417801991887862",
+      "triggeredAt": 1783596687065
+    },
+    {
+      "state": "cocky",
+      "intensity": 6,
+      "reason": "User thách thức: mạnh lên sao yếu đuối v con:))) @nguyễn đình dương | msgid: ",
+      "triggeredBy": "1623417801991887862",
+      "triggeredAt": 1783599837626
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: mày run cặc chưa con:))) @nguyễn đình dương | msgid: 8025227",
+      "triggeredBy": "1623417801991887862",
+      "triggeredAt": 1783599863022
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: mày sủa điên dại lên con?😏@nguyễn đình dươngg | msgid: 8025",
+      "triggeredBy": "1623417801991887862",
+      "triggeredAt": 1783599920184
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: sao mày sủa chậm dị? @nguyễn đình dương | msgid: 80252576221",
+      "triggeredBy": "1623417801991887862",
+      "triggeredAt": 1783600383621
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: mẹ mày bị tao dã vào lồn=))) @nguyễn đình dương | msgid: 802",
+      "triggeredBy": "1623417801991887862",
+      "triggeredAt": 1783600517271
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: tiếp đi con chó lồn :))) @nguyễn đình dương | msgid: 8025361",
+      "triggeredBy": "1623417801991887862",
+      "triggeredAt": 1783602167077
+    }
+  ],
+  "affinity": 20,
+  "warStreak": 0
+}

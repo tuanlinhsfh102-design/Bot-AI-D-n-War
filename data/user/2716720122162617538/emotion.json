@@ -1,0 +1,20 @@
+{
+  "state": "aggressive",
+  "intensity": 7,
+  "reason": "User chửi: m bị ngu à t kêu m chỉ chửi mỗi con lưu mai trang m vẫn cố m",
+  "lastTriggerAt": 1784016179909,
+  "lastInteraction": 0,
+  "consecutiveShortReplies": 0,
+  "consecutiveIgnored": 0,
+  "history": [
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: m bị ngu à t kêu m chỉ chửi mỗi con lưu mai trang m vẫn cố m",
+      "triggeredBy": "2716720122162617538",
+      "triggeredAt": 1784016179909
+    }
+  ],
+  "affinity": 20,
+  "warStreak": 0
+}

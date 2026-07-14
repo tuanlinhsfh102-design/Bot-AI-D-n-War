@@ -1,0 +1,97 @@
+{
+  "state": "aggressive",
+  "intensity": 10,
+  "reason": "User chửi: địt mẹ m sủa cái lồn gì đấy @đttl hw @ng huy hoàng @khangz @",
+  "lastTriggerAt": 1783592384131,
+  "lastInteraction": 0,
+  "consecutiveShortReplies": 0,
+  "consecutiveIgnored": 0,
+  "history": [
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: ê ê th lồn mắt so le :))) @nguyễn đình dương | msgid: 802405",
+      "triggeredBy": "1623417801991887862",
+      "triggeredAt": 1783581354585
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: tk lồn nghịch tử rain =)) =)) =)) =)) @nguyễn đình dương | m",
+      "triggeredBy": "84053587254878555",
+      "triggeredAt": 1783581365566
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: cái lồn mẹ m dính cứt trâu =))) @nguyễn đình dương | msgid: ",
+      "triggeredBy": "5801146414256610288",
+      "triggeredAt": 1783581792224
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: lồn cụ mày =))) @nuh | msgid: 8024118809852, climsgid: 17835",
+      "triggeredBy": "8319396167718309125",
+      "triggeredAt": 1783582336684
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: trả lời \"ngoc lồn đéo đủ trình war đâu câm mồm đĩ mẹ mày lại",
+      "triggeredBy": "754235508817983238",
+      "triggeredAt": 1783586225394
+    },
+    {
+      "state": "savage",
+      "intensity": 5,
+      "reason": "đối phương chửi thề thô lỗ",
+      "triggeredBy": "6172689059037181656",
+      "triggeredAt": 1783586528654
+    },
+    {
+      "state": "aggressive",
+      "intensity": 3,
+      "reason": "Enemy khiêu khích gắt",
+      "triggeredBy": "8610293531040186380",
+      "triggeredAt": 1783587133140
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: cha cho sủa chx @nguyễn đình dương | msgid: 8024458736706, c",
+      "triggeredBy": "3449955104735020433",
+      "triggeredAt": 1783587222171
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: đĩ ngu ăn hại =))=))=))=))=))=))=)) @nguyễn đình dương | msg",
+      "triggeredBy": "8236491312297915708",
+      "triggeredAt": 1783587634032
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: @minh châu châu cái lồn mẹ m à | msgid: 8024497125196, clims",
+      "triggeredBy": "4292394378289651936",
+      "triggeredAt": 1783587738994
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: trả lời \"địt mẹ m làm nail mà sủa gớm thế @ntv @babicun @ngo",
+      "triggeredBy": "4292394378289651936",
+      "triggeredAt": 1783590098044
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: địt mẹ m sủa cái lồn gì đấy @đttl hw @ng huy hoàng @khangz @",
+      "triggeredBy": "4292394378289651936",
+      "triggeredAt": 1783592384131
+    }
+  ],
+  "affinity": 20,
+  "warStreak": 0
+}

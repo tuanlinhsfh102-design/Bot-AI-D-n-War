@@ -1,0 +1,26 @@
+[
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ キ Ng Hoang Quan メ trong nhóm (mới nhất):\n- [1] @All nhận edit vds free | msgId: 8021551217939, cliMsgId: 1783512151550\n- [2] đừng chửi t là được | msgId: 8021551494447, cliMsgId: 1783512156693\n- [3] cặc | msgId: 8021551519257, cliMsgId: 1783512157174\n- [4] [Người dùng gửi sticker] | msgId: 8021551571611, cliMsgId: 1783512158108\n- [5] Trả lời \"Bot cái lồn mẹ m tao chửi mày ngu như chó thế này thì bot ở đâu ra nhục vãi lồn con ạ\" nhắn bởi Nguyễn Đình Dương\n            với \"@Nguyễn Đình Dương botnrox\" | msgId: 8021551824154, cliMsgId: 1783512162791, replyCliMsgId: 1783512155312\n- [6] rõ | msgId: 8021551893809, cliMsgId: 1783512164076\n- [7] kkk | msgId: 8021551938578, cliMsgId: 1783512164958\n- [8] Trả lời \"\" nhắn bởi Ken Ken\n            với \"@Ken Ken xấu lồn\" | msgId: 8021552055629, cliMsgId: 1783512166997, replyCliMsgId: 1783512155630\n- [9] [Người dùng gửi video] Video là một đoạn edit bắt mắt về giao diện trang cá nhân Zalo của tài khoản \"Ken Ken\" với hiệu ứng chuyển cảnh 3D và nhạc nền remix sôi động. Điểm nhấn của clip là tên \"Ken Ken\" và dòng chữ \"Hôm nay Ken Ken có gì vui?\" xuất hiện lặp lại trên nền hình ảnh huyền ảo, tạo phong cách ấn tượng cho hồ sơ người dùng. | msgId: 8021551500665, cliMsgId: 1783512155630\n- [10] noti ccho ken ken | msgId: 8021552139619, cliMsgId: 1783512168609\n- [11] [Người dùng gửi ảnh] Bức ảnh là hình ảnh nhân vật mèo ảo Talking Angela với đôi mắt to tròn đang nhìn thẳng vào camera trong trò chơi điện tử.\n\n[KHÔNG_CÓ_NGƯỜI] | msgId: 8021552221877, cliMsgId: 1783512170130",
+    "type": "text",
+    "ts": 1783512228071
+  },
+  {
+    "role": "assistant",
+    "content": "[\n  {\n    \"type\": \"addReaction\",\n    \"msgId\": \"8021551519257\",\n    \"cliMsgId\": \"1783512157174\",\n    \"reaction\": \"HAHA\"\n  },\n  {\n    \"type\": \"startTyping\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 700\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"Ghê, edit vds free cơ à :)))\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 600\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"Mà tự nhiên sủa 'cặc' là sao, bị ngáo à {@sender} :)))\"\n  },\n  {\n    \"type\": \"RecordSocialSignal\",\n    \"userId\": \"8726123423755856488\",\n    \"displayName\": \"キ Ng Hoang Quan メ\",\n    \"type\": \"friend\",\n    \"points\": 5,\n    \"reason\": \"Nói chuyện kiểu làm quen dù hơi trẻ trâu\"\n  }\n]",
+    "type": "text",
+    "ts": 1783512228071
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ キ Ng Hoang Quan メ trong nhóm (mới nhất):\n- [1] [Người dùng gửi video] Video ghi lại cảnh một bạn nam đeo khẩu trang đang nhảy cover theo điệu nhạc sôi động ngay tại nhà. Xuyên suốt video không có bất kỳ chữ nào xuất hiện trên màn hình. | msgId: 8021552562655, cliMsgId: 1783512176104\n- [2] Trả lời \"@Ken Ken xấu lồn\" nhắn bởi ᅟᅟtoᅟᅟbin\n            với \"@ᅟᅟtoᅟᅟbin = cn mẹ m k\" | msgId: 8021553625828, cliMsgId: 1783512195922, replyCliMsgId: 1783512166997\n- [3] [Người dùng gửi sticker] | msgId: 8021553713181, cliMsgId: 1783512197596\n- [4] Trả lời \"@ᅟᅟtoᅟᅟbin = cn mẹ m k\" nhắn bởi Ken Ken\n            với \"@Ken Ken ? vô duyên con đĩ\" | msgId: 8021554742823, cliMsgId: 1783512216570, replyCliMsgId: 1783512195922\n- [5] Trả lời \"\" nhắn bởi ᅟᅟtoᅟᅟbin\n            với \"@ᅟᅟtoᅟᅟbin dm bữa cg có con lồn naof ib t r hỏi tui hỏi b cnay đc k , n gửi vd r block\" | msgId: 8021555507756, cliMsgId: 1783512230638, replyCliMsgId: 1783512176104\n- [6] địt mẹ | msgId: 8021555580644, cliMsgId: 1783512232036",
+    "type": "text",
+    "ts": 1783512258829
+  },
+  {
+    "role": "assistant",
+    "content": "[\n  {\n    \"type\": \"startTyping\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 700\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"đm đang êm đẹp tự nhiên chửi đổng thế ông :)))\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 600\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"ngứa mồm à hay sao mà nhảy vào cuộc thế\"\n  }\n]",
+    "type": "text",
+    "ts": 1783512258829
+  }
+]

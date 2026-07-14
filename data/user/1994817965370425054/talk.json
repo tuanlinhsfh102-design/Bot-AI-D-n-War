@@ -1,0 +1,14 @@
+[
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Ntkiti trong nhóm (mới nhất):\n- [1] ủa là j | msgId: 8021234120135, cliMsgId: 1783506334602",
+    "type": "text",
+    "ts": 1783506347409
+  },
+  {
+    "role": "assistant",
+    "content": "[\n  {\n    \"type\": \"startTyping\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 800\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"đang chill tí mà {@sender} :)))\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 500\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"chuyện người lớn hóng gì m\"\n  }\n]",
+    "type": "text",
+    "ts": 1783506347409
+  }
+]

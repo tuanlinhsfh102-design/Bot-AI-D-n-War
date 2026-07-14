@@ -1,0 +1,14 @@
+[
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Phuong Thuyy trong nhóm (mới nhất):\n- [1] Trả lời \"ồn lồn\" nhắn bởi Vũ Duy\n            với \"@Vũ Duy sàn\" | msgId: 8022332033152, cliMsgId: 1783527269788, replyCliMsgId: 1783527240162\n- [2] Trả lời \"@Vũ Duy sàn\" nhắn bởi Phuong Thuyy\n            với \"@Phuong Thuyy sàn j\" | msgId: 8022332141231, cliMsgId: 1783527273901, replyCliMsgId: 1783527269788\n- [3] link lên | msgId: 8022332213513, cliMsgId: 1783527276772\n- [4] Zl | msgId: 8022332221704, cliMsgId: 1783527277167",
+    "type": "text",
+    "ts": 1783527294933
+  },
+  {
+    "role": "assistant",
+    "content": "[\n  {\n    \"type\": \"addReaction\",\n    \"msgId\": \"8022332221704\",\n    \"cliMsgId\": \"1783527277167\",\n    \"reaction\": \"WOW\"\n  },\n  {\n    \"type\": \"startTyping\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 800\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"kiếm link gì đấy {@sender} :)))\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 600\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"định làm gì mà xin zl :> rảnh thế\"\n  }\n]",
+    "type": "text",
+    "ts": 1783527294933
+  }
+]

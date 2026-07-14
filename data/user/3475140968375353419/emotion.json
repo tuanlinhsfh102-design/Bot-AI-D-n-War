@@ -1,0 +1,27 @@
+{
+  "state": "savage",
+  "intensity": 2,
+  "reason": "User is being annoying and acting dumb",
+  "lastTriggerAt": 1783496214273,
+  "lastInteraction": 0,
+  "consecutiveShortReplies": 0,
+  "consecutiveIgnored": 0,
+  "history": [
+    {
+      "state": "savage",
+      "intensity": 2,
+      "reason": "nó vẫn cố gáy chửi tiếp",
+      "triggeredBy": "7753788871393606635",
+      "triggeredAt": 1783495159537
+    },
+    {
+      "state": "savage",
+      "intensity": 2,
+      "reason": "User is being annoying and acting dumb",
+      "triggeredBy": "3475140968375353419",
+      "triggeredAt": 1783496214273
+    }
+  ],
+  "affinity": 20,
+  "warStreak": 0
+}

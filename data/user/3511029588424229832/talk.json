@@ -1,0 +1,14 @@
+[
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Tiến Đạt trong nhóm (mới nhất):\n- [1] H vẫn còn ảo ửa | msgId: 8024854068112, cliMsgId: 1783593080397",
+    "type": "text",
+    "ts": 1783593092864
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783593092864
+  }
+]

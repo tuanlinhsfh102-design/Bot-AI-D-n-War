@@ -1,0 +1,64 @@
+[
+  {
+    "uid": "816440634814027045",
+    "warCount": 3,
+    "lastChallengedAt": 1783648956847,
+    "lastSeenInThread": "4989260362886476364",
+    "addedAt": 1783149869546
+  },
+  {
+    "uid": "fake_uid_123",
+    "warCount": 6,
+    "lastChallengedAt": 1783599458494,
+    "lastSeenInThread": "1010252058088014196",
+    "addedAt": 1783149869546
+  },
+  {
+    "uid": "987654321",
+    "warCount": 2,
+    "lastChallengedAt": 1783630016980,
+    "lastSeenInThread": "group_abc",
+    "addedAt": 1783149869546
+  },
+  {
+    "uid": "961681042945072937",
+    "warCount": 2,
+    "lastChallengedAt": 1783589667796,
+    "lastSeenInThread": "8896113499462337540",
+    "addedAt": 1783149869546
+  },
+  {
+    "uid": "953784669674453837",
+    "warCount": 4,
+    "lastChallengedAt": 1783662990227,
+    "lastSeenInThread": "8072231092820900983",
+    "addedAt": 1783149869546
+  },
+  {
+    "uid": "1170811371086587214",
+    "warCount": 1,
+    "lastChallengedAt": 1783315840815,
+    "lastSeenInThread": "4989260362886476364",
+    "addedAt": 1783314815323
+  },
+  {
+    "uid": "5875733775284490747",
+    "warCount": 5,
+    "lastChallengedAt": 1783607480193,
+    "lastSeenInThread": "8072231092820900983",
+    "addedAt": 1783315228016
+  },
+  {
+    "uid": "23819036851691045",
+    "warCount": 2,
+    "lastChallengedAt": 1783667434206,
+    "lastSeenInThread": "1010252058088014196",
+    "addedAt": 1783316811071
+  },
+  {
+    "uid": "5545576312534184836",
+    "warCount": 3,
+    "lastChallengedAt": 1783632618957,
+    "addedAt": 1783590500838
+  }
+]

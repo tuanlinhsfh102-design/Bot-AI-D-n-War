@@ -1,0 +1,26 @@
+[
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Tran Anh Quan trong nhóm (mới nhất):\n- [1] [Người dùng gửi video] Video là một bản tổng hợp (AMV) các phân cảnh hoạt hình anime nghệ thuật với nhiều bối cảnh đa dạng như thành phố, thiên nhiên, khoa học viễn tưởng và các phân cảnh hành động. Các đoạn phim được biên tập đồng bộ theo nhịp điệu âm nhạc, đi kèm với watermark tên \"Kang Lim\" xuất hiện xuyên suốt video. | msgId: 8021615121991, cliMsgId: 1783513331867",
+    "type": "text",
+    "ts": 1783513362176
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783513362176
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Tran Anh Quan trong nhóm (mới nhất):\n- [1] [Người dùng gửi video] Video là một bản tổng hợp (edit) các phân cảnh đẹp mắt từ nhiều bộ phim anime khác nhau, đan xen giữa những khung cảnh chiến đấu kịch tính và những khoảnh khắc đời thường đầy cảm xúc. Xuyên suốt video, chữ \"Kang Lim\" liên tục xuất hiện như một dấu ấn bản quyền ở góc dưới cùng bên phải màn hình. | msgId: 8021619412745, cliMsgId: 1783513409673",
+    "type": "text",
+    "ts": 1783513439414
+  },
+  {
+    "role": "assistant",
+    "content": "[{\"type\":\"addReaction\",\"msgId\":\"8021619412745\",\"cliMsgId\":\"1783513409673\",\"reaction\":\"HAHA\"},{\"type\":\"startTyping\"},{\"type\":\"delay\",\"time\":800},{\"type\":\"sendMessage\",\"content\":\"edit cái lz gì mà trông chán đời v {@sender} :)))\"},{\"type\":\"delay\",\"time\":600},{\"type\":\"sendMessage\",\"content\":\"cái watermark Kang Lim to đùng nhìn ngứa cả mắt, rảnh vl đi edit mấy cái này :>\"}]",
+    "type": "text",
+    "ts": 1783513439414
+  }
+]

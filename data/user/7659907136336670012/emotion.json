@@ -1,0 +1,153 @@
+{
+  "state": "aggressive",
+  "intensity": 10,
+  "reason": "User chửi: trả lời \"suốt ngày bám víu lấy tao vì đéo có dame thực tế m ",
+  "lastTriggerAt": 1783592965773,
+  "lastInteraction": 0,
+  "consecutiveShortReplies": 0,
+  "consecutiveIgnored": 0,
+  "history": [
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: cha cho sủa chx @nguyễn đình dương | msgid: 8024458736706, c",
+      "triggeredBy": "3449955104735020433",
+      "triggeredAt": 1783587222171
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: đĩ ngu ăn hại =))=))=))=))=))=))=)) @nguyễn đình dương | msg",
+      "triggeredBy": "8236491312297915708",
+      "triggeredAt": 1783587634032
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: @minh châu châu cái lồn mẹ m à | msgid: 8024497125196, clims",
+      "triggeredBy": "4292394378289651936",
+      "triggeredAt": 1783587738994
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: đá vô mu lồn m nha | msgid: 8024507592656, climsgid: 1783587",
+      "triggeredBy": "7659907136336670012",
+      "triggeredAt": 1783587898728
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: @nguyễn đình dương con mẹ cái thg ngu ăn hại đc cái sĩ sĩ =)",
+      "triggeredBy": "7659907136336670012",
+      "triggeredAt": 1783589091239
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: @nguyễn đình dương  m ngu m về bú cu thằng bố m chứ lên đây ",
+      "triggeredBy": "7659907136336670012",
+      "triggeredAt": 1783589548505
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: @nguyễn đình dương sủa lên kh mẹ m chết á =))))) | msgid: 80",
+      "triggeredBy": "7659907136336670012",
+      "triggeredAt": 1783590012934
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: @nguyễn đình dương  cái địt mẹ m con chó ngu ơi=)))) | msgid",
+      "triggeredBy": "7659907136336670012",
+      "triggeredAt": 1783590126826
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: @nguyễn đình dương hay m thích bố m lấy súng ak bố bắn ta ta",
+      "triggeredBy": "7659907136336670012",
+      "triggeredAt": 1783590175367
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: trả lời \"câm mẹ m đi con súc vật tao đéo rảnh làm trò hề cho",
+      "triggeredBy": "7659907136336670012",
+      "triggeredAt": 1783590838623
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: trả lời \"tao đéo trốn tao đang coi lũ chúng mày spam nhảm nh",
+      "triggeredBy": "7659907136336670012",
+      "triggeredAt": 1783591152498
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: trả lời \"cả lũ tụi m phải ôm nhau gáy thuê cho nhau mới dám ",
+      "triggeredBy": "7659907136336670012",
+      "triggeredAt": 1783591774271
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: trả lời \"suốt ngày bám lấy cái từ real với fake để gáy m bị ",
+      "triggeredBy": "7659907136336670012",
+      "triggeredAt": 1783591822522
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: trả lời \"hội đồng cả lũ mà vẫn phế phải spam laughing để che",
+      "triggeredBy": "7659907136336670012",
+      "triggeredAt": 1783591919834
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: trả lời \"mày đòi tao xuống à tuổi lồn gì đòi ra lệnh cho bố ",
+      "triggeredBy": "7659907136336670012",
+      "triggeredAt": 1783591992464
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: trả lời \"địt mẹ m thèm tao nhai đến mức đấy à @nguyen nhung ",
+      "triggeredBy": "7659907136336670012",
+      "triggeredAt": 1783592028529
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: trả lời \"địt mẹ m sủa cái lồn gì đấy @ng huy hoàng @ntv @zin",
+      "triggeredBy": "7659907136336670012",
+      "triggeredAt": 1783592415313
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: trả lời \"địt mẹ m sủa cái lồn gì đấy @ng huy hoàng @ntv @kha",
+      "triggeredBy": "7659907136336670012",
+      "triggeredAt": 1783592448661
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: trả lời \"đéo có tao gáy cho thì chắc cả lũ tụi m câm như chó",
+      "triggeredBy": "7659907136336670012",
+      "triggeredAt": 1783592885860
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: trả lời \"suốt ngày bám víu lấy tao vì đéo có dame thực tế m ",
+      "triggeredBy": "7659907136336670012",
+      "triggeredAt": 1783592965773
+    }
+  ],
+  "affinity": 25,
+  "warStreak": 0
+}

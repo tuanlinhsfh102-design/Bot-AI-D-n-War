@@ -1,0 +1,110 @@
+[
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Tr Gia Linh trong nhóm (mới nhất):\n- [1] [Người dùng gửi ảnh] Đây là hình ảnh tổng hợp các ảnh chụp màn hình giao diện tùy chỉnh hồ sơ trên ứng dụng Discord, hiển thị nhiều lựa chọn trang trí ảnh đại diện, hiệu ứng hồ sơ và bảng tên người dùng.\n\n[KHÔNG_CÓ_NGƯỜI]\n[SCREENSHOT_OF_OTHER_CHAT] | msgId: 8021188959763, cliMsgId: 1783505571649",
+    "type": "text",
+    "ts": 1783505590517
+  },
+  {
+    "role": "assistant",
+    "content": "[\n  {\n    \"type\": \"addReaction\",\n    \"msgId\": \"8021188959763\",\n    \"cliMsgId\": \"1783505571649\",\n    \"reaction\": \"WOW\"\n  },\n  {\n    \"type\": \"startTyping\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 800\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"Discord hả :))) nhìn rối mắt vãi\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 600\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"Đú trend profile à :>\"\n  }\n]",
+    "type": "text",
+    "ts": 1783505590517
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Tr Gia Linh trong nhóm (mới nhất):\n- [1] đú gi | msgId: 8021202743759, cliMsgId: 1783505802820",
+    "type": "text",
+    "ts": 1783505809078
+  },
+  {
+    "role": "assistant",
+    "content": "[\n  {\n    \"type\": \"addReaction\",\n    \"msgId\": \"8021202743759\",\n    \"cliMsgId\": \"1783505802820\",\n    \"reaction\": \"HAHA\"\n  },\n  {\n    \"type\": \"startTyping\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 700\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"thì thấy trang trí màu mè tưởng v :)))\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 500\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"ai dè :>\"\n  }\n]",
+    "type": "text",
+    "ts": 1783505809078
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Tr Gia Linh trong nhóm (mới nhất):\n- [1] jz trời bán mà | msgId: 8021204055196, cliMsgId: 1783505824793",
+    "type": "text",
+    "ts": 1783505831741
+  },
+  {
+    "role": "assistant",
+    "content": "[\n  {\n    \"type\": \"addReaction\",\n    \"msgId\": \"8021204055196\",\n    \"cliMsgId\": \"1783505824793\",\n    \"reaction\": \"HAHA\"\n  },\n  {\n    \"type\": \"startTyping\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 700\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"À thì ra là tiền :)))\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 500\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"Bỏ tiền ra làm màu thế, tốn kém nhỉ {@sender} :>\"\n  }\n]",
+    "type": "text",
+    "ts": 1783505831741
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Tr Gia Linh trong nhóm (mới nhất):\n- [1] rồi sao | msgId: 8021205979343, cliMsgId: 1783505857098",
+    "type": "text",
+    "ts": 1783505864023
+  },
+  {
+    "role": "assistant",
+    "content": "[\n  {\n    \"type\": \"addReaction\",\n    \"msgId\": \"8021205979343\",\n    \"cliMsgId\": \"1783505857098\",\n    \"reaction\": \"HAHA\"\n  },\n  {\n    \"type\": \"startTyping\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 700\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"Thì không sao cả :)))\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 600\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"Chỉ là thấy phí tiền thôi {@sender} :>\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 500\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"Nhìn nó màu mè sến vãi\"\n  }\n]",
+    "type": "text",
+    "ts": 1783505864023
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Tr Gia Linh trong nhóm (mới nhất):\n- [1] z ns chi cha nội | msgId: 8021207464768, cliMsgId: 1783505882113\n- [2] dư tiền | msgId: 8021207693510, cliMsgId: 1783505885969\n- [3] rẻ thì mua th ôg | msgId: 8021208145125, cliMsgId: 1783505893587\n- [4] có đáng là bao đâu | msgId: 8021208338206, cliMsgId: 1783505896880",
+    "type": "text",
+    "ts": 1783505909790
+  },
+  {
+    "role": "assistant",
+    "content": "[\n  {\n    \"type\": \"addReaction\",\n    \"msgId\": \"8021208338206\",\n    \"cliMsgId\": \"1783505896880\",\n    \"reaction\": \"HAHA\"\n  },\n  {\n    \"type\": \"startTyping\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 800\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"Đại gia rồi :)))\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 600\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"Rẻ thì mua đúng bài dân chơi\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 500\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"Cơ mà sến thì vẫn là sến thôi {@sender} :>\"\n  }\n]",
+    "type": "text",
+    "ts": 1783505909790
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Tr Gia Linh trong nhóm (mới nhất):\n- [1] đại gia gì tr | msgId: 8021210273777, cliMsgId: 1783505929484",
+    "type": "text",
+    "ts": 1783505954104
+  },
+  {
+    "role": "assistant",
+    "content": "[\n  {\n    \"type\": \"addReaction\",\n    \"msgId\": \"8021210273777\",\n    \"cliMsgId\": \"1783505929484\",\n    \"reaction\": \"HAHA\"\n  },\n  {\n    \"type\": \"startTyping\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 800\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"Thôi bớt giả nghèo giả khổ đê :)))\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 600\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"Dân chơi đồ Discord ai chả biết :>\"\n  }\n]",
+    "type": "text",
+    "ts": 1783505954104
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Tr Gia Linh trong nhóm (mới nhất):\n- [1] ?? | msgId: 8021213398796, cliMsgId: 1783505982414",
+    "type": "text",
+    "ts": 1783505990786
+  },
+  {
+    "role": "assistant",
+    "content": "[\n  {\n    \"type\": \"addReaction\",\n    \"msgId\": \"8021213398796\",\n    \"cliMsgId\": \"1783505982414\",\n    \"reaction\": \"WOW\"\n  },\n  {\n    \"type\": \"startTyping\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 800\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"Sao chấm hỏi z {@sender} :)))\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 600\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"Đụng trúng tim đen à hay gì mà căng\"\n  }\n]",
+    "type": "text",
+    "ts": 1783505990786
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Tr Gia Linh trong nhóm (mới nhất):\n- [1] căng cgi m | msgId: 8021220643775, cliMsgId: 1783506104579\n- [2] nãy g t căng ch | msgId: 8021220912000, cliMsgId: 1783506109116",
+    "type": "text",
+    "ts": 1783506118071
+  },
+  {
+    "role": "assistant",
+    "content": "[\n  {\n    \"type\": \"addReaction\",\n    \"msgId\": \"8021220912000\",\n    \"cliMsgId\": \"1783506109116\",\n    \"reaction\": \"HAHA\"\n  },\n  {\n    \"type\": \"startTyping\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 700\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"thì thấy rep ngắn gọn, chấm hỏi các thứ :)))\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 500\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"tưởng đâu sắp war tới nơi ròi chớ {@sender} :>\"\n  }\n]",
+    "type": "text",
+    "ts": 1783506118071
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Tr Gia Linh trong nhóm (mới nhất):\n- [1] có m mới nãy g như khịa ngt á | msgId: 8021221497109, cliMsgId: 1783506119097\n- [2] thích thì làm s | msgId: 8021222495217, cliMsgId: 1783506136049",
+    "type": "text",
+    "ts": 1783506168520
+  },
+  {
+    "role": "assistant",
+    "content": "[\n  {\n    \"type\": \"addReaction\",\n    \"msgId\": \"8021222495217\",\n    \"cliMsgId\": \"1783506136049\",\n    \"reaction\": \"HAHA\"\n  },\n  {\n    \"type\": \"startTyping\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 700\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"Tui nhận xét thiệt mà :)))\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 500\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"Chứ có làm gì đâu mà căng\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 500\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"Thích thì làm gì thì làm nè {@sender} :>\"\n  }\n]",
+    "type": "text",
+    "ts": 1783506168520
+  }
+]

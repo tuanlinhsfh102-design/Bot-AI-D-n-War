@@ -1,0 +1,153 @@
+{
+  "state": "aggressive",
+  "intensity": 10,
+  "reason": "User chửi: thứ lồn ei =))) @nguyễn đình dương | msgid: 8025741120105, c",
+  "lastTriggerAt": 1783608582492,
+  "lastInteraction": 0,
+  "consecutiveShortReplies": 0,
+  "consecutiveIgnored": 0,
+  "history": [
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: @minh châu châu cái lồn mẹ m à | msgid: 8024497125196, clims",
+      "triggeredBy": "4292394378289651936",
+      "triggeredAt": 1783587738994
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: đá vô mu lồn m nha | msgid: 8024507592656, climsgid: 1783587",
+      "triggeredBy": "7659907136336670012",
+      "triggeredAt": 1783587898728
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: @nguyễn đình dương mày làm lồn gì tao | msgid: 8024516406926",
+      "triggeredBy": "6728310093676775470",
+      "triggeredAt": 1783588004753
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: @nguyễn đình dương lồn thì to như lồn trâu thủ dâm ống cống ",
+      "triggeredBy": "5107040117743915950",
+      "triggeredAt": 1783588310555
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: nổi kh đó tk ngu =)) @nguyễn đình dương | msgid: 80245855242",
+      "triggeredBy": "215347886465611148",
+      "triggeredAt": 1783588991374
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: tk não cặc ê =)) =)) @nguyễn đình dương | msgid: 80246397697",
+      "triggeredBy": "8044537800527693522",
+      "triggeredAt": 1783589772900
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: cái lồn con me may :))) | msgid: 8024670637178, climsgid: 17",
+      "triggeredBy": "3201271723312663324",
+      "triggeredAt": 1783590216682
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: cái lồn mẹ m con en đờ roi chậm vậy=)) @nguyễn đình dương | ",
+      "triggeredBy": "5671388597895819461",
+      "triggeredAt": 1783590232618
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: cái lồn mẹ mày chat hăng lên em=)) @nguyễn đình dương | msgi",
+      "triggeredBy": "5671388597895819461",
+      "triggeredAt": 1783590389949
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: con chó ngu cay bố à em=)) @nguyễn đình dương | msgid: 80246",
+      "triggeredBy": "5671388597895819461",
+      "triggeredAt": 1783590480658
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: mày sủa đi nè😛@nguyễn đình dươngg | msgid: 8025042761498, c",
+      "triggeredBy": "5671388597895819461",
+      "triggeredAt": 1783596483211
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: tuổi lồn ăn tao á😏?@nguyễn đình dươngg | msgid: 80250514898",
+      "triggeredBy": "5671388597895819461",
+      "triggeredAt": 1783596653026
+    },
+    {
+      "state": "cocky",
+      "intensity": 6,
+      "reason": "User thách thức: t mạnh lắm phải ko à :))) @nguyễn đình dương | msgid: 802506",
+      "triggeredBy": "5671388597895819461",
+      "triggeredAt": 1783596813291
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: xạo lồn à :))) @nguyễn đình dương | msgid: 8025116160899, cl",
+      "triggeredBy": "5671388597895819461",
+      "triggeredAt": 1783597818427
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: sủa to lên🤣?@nguyễn đình dươngng | msgid: 8025126482403, cl",
+      "triggeredBy": "5671388597895819461",
+      "triggeredAt": 1783598013584
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: ai cho mày sủa tao cho mày sủa chưa? @nguyễn đình dương | ms",
+      "triggeredBy": "5671388597895819461",
+      "triggeredAt": 1783600072224
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: vô danh cấm sủa?😏@nguyễn đình dươngg | msgid: 8025268954519",
+      "triggeredBy": "5671388597895819461",
+      "triggeredAt": 1783600580735
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: cha m chặt cặc ăn🤣🤣@nguyễn đình dươngơng | msgid: 80252795",
+      "triggeredBy": "5671388597895819461",
+      "triggeredAt": 1783600768264
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: th cặc ôm hận ah 9 kiếp :))) @nguyễn đình dương | msgid: 802",
+      "triggeredBy": "5671388597895819461",
+      "triggeredAt": 1783604243268
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: thứ lồn ei =))) @nguyễn đình dương | msgid: 8025741120105, c",
+      "triggeredBy": "5671388597895819461",
+      "triggeredAt": 1783608582492
+    }
+  ],
+  "affinity": 20,
+  "warStreak": 0
+}

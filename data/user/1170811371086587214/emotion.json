@@ -1,0 +1,76 @@
+{
+  "state": "aggressive",
+  "intensity": 7,
+  "reason": "User chửi: bot ghẻ lồn | msgid: 8026249788116, climsgid: 1783643023527",
+  "lastTriggerAt": 1783643099994,
+  "lastInteraction": 0,
+  "consecutiveShortReplies": 0,
+  "consecutiveIgnored": 0,
+  "history": [
+    {
+      "state": "savage",
+      "intensity": 2,
+      "reason": "nó vẫn cố gáy chửi tiếp",
+      "triggeredBy": "7753788871393606635",
+      "triggeredAt": 1783495159537
+    },
+    {
+      "state": "savage",
+      "intensity": 2,
+      "reason": "User is being annoying and acting dumb",
+      "triggeredBy": "3475140968375353419",
+      "triggeredAt": 1783496214273
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: t off war nha anh em không nhận sàn nào nữa nhé,chết mẹ đi l",
+      "triggeredBy": "2492528370672123878",
+      "triggeredAt": 1783498340345
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: trả lời \"khóa tìm kiếm bằng sđt làm con cặc gì sợ người ta t",
+      "triggeredBy": "961681042945072937",
+      "triggeredAt": 1783498659611
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: sủa tiếp | msgid: 8021085873662, climsgid: 1783504013957",
+      "triggeredBy": "1170811371086587214",
+      "triggeredAt": 1783504025799
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: sủa tiếp | msgid: 8021295630359, climsgid: 1783507405151",
+      "triggeredBy": "1170811371086587214",
+      "triggeredAt": 1783507409542
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: cút đi bảo | msgid: 8021670058920, climsgid: 1783514327413",
+      "triggeredBy": "1170811371086587214",
+      "triggeredAt": 1783514362961
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: trả lời \"@tri thanh real\" nhắn bởi hưng\n            với \"@hư",
+      "triggeredBy": "1170811371086587214",
+      "triggeredAt": 1783608165200
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: bot ghẻ lồn | msgid: 8026249788116, climsgid: 1783643023527",
+      "triggeredBy": "1170811371086587214",
+      "triggeredAt": 1783643099994
+    }
+  ],
+  "affinity": 25,
+  "warStreak": 0
+}

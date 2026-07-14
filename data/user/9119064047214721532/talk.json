@@ -1,0 +1,50 @@
+[
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Chu Thị Phương Thúy trong nhóm (mới nhất):\n- [1] [Người dùng gửi sticker] | msgId: 8025669951200, cliMsgId: 1783607314817\n- [2] Website Tin Tức GenZ : hotgenz.com\n\nCấp Key Viết Báo Free\n\n📩 Muốn tham gia? Hãy gia nhập nhóm Zalo để nhận hướng dẫn và ứng tuyển ngay:\n\n👉 Nhóm ứng tuyển CTV HotGenZ: https://zalo.me/g/7tjcgcs4zq39vb5t0cfn \n\n Kênh Tut Mẹo MMO :https://t.me/tutmeo90 \n\n Kênh Add Locket Người Lạ : https://t.me/locketadd | msgId: 8025669983259, cliMsgId: 1783607315489",
+    "type": "text",
+    "ts": 1783607393672
+  },
+  {
+    "role": "assistant",
+    "content": "[{\"type\":\"addReaction\",\"msgId\":\"8025669951200\",\"cliMsgId\":\"1783607314817\",\"reaction\":\"WOW\"},{\"type\":\"startTyping\"},{\"type\":\"delay\",\"time\":800},{\"type\":\"sendMessage\",\"content\":\"=))) đm group đang war nảy lửa mà chen vô quảng cáo luôn hả Thúy =))) tinh thần kinh doanh cao vãi\"},{\"type\":\"delay\",\"time\":600},{\"type\":\"sendMessage\",\"content\":\"mà \"HotGenZ\" với \"Tut Mẹo MMO\" với \"Add Locket Người Lạ\" =))) đủ cả 3 thể loại luôn, nghe hấp dẫn vãi lồn :)))\"},{\"type\":\"delay\",\"time\":500},{\"type\":\"sendMessage\",\"content\":\"thôi để t out cho m có đất quảng bá nha Thúy, chúc m bán được nhiều key :>\"}]",
+    "type": "text",
+    "ts": 1783607393672
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Chu Thị Phương Thúy trong nhóm (mới nhất):\n- [1] Website Tin Tức GenZ : hotgenz.com\n\nCấp Key Viết Báo Free\n\n📩 Muốn tham gia? Hãy gia nhập nhóm Zalo để nhận hướng dẫn và ứng tuyển ngay:\n\n👉 Nhóm ứng tuyển CTV HotGenZ: https://zalo.me/g/7tjcgcs4zq39vb5t0cfn \n\n Kênh Tut Mẹo MMO :https://t.me/tutmeo90 \n\n Kênh Add Locket Người Lạ : https://t.me/locketadd | msgId: 8025763496937, cliMsgId: 1783608998453",
+    "type": "text",
+    "ts": 1783609050083
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783609050083
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Chu Thị Phương Thúy trong nhóm (mới nhất):\n- [1] Website Tin Tức GenZ : hotgenz.com\n\nCấp Key Viết Báo Free\n\n📩 Muốn tham gia? Hãy gia nhập nhóm Zalo để nhận hướng dẫn và ứng tuyển ngay:\n\n👉 Nhóm ứng tuyển CTV HotGenZ: https://zalo.me/g/7tjcgcs4zq39vb5t0cfn \n\n Kênh Tut Mẹo MMO :https://t.me/tutmeo90 \n\n Kênh Add Locket Người Lạ : https://t.me/locketadd | msgId: 8025863565057, cliMsgId: 1783610993161",
+    "type": "text",
+    "ts": 1783611045818
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783611045818
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Chu Thị Phương Thúy trong nhóm (mới nhất):\n- [1] Website Tin Tức GenZ : hotgenz.com\n\nCấp Key Viết Báo Free\n\n📩 Muốn tham gia? Hãy gia nhập nhóm Zalo để nhận hướng dẫn và ứng tuyển ngay:\n\n👉 Nhóm ứng tuyển CTV HotGenZ: https://zalo.me/g/7tjcgcs4zq39vb5t0cfn \n\n Kênh Tut Mẹo MMO :https://t.me/tutmeo90 \n\n Kênh Add Locket Người Lạ : https://t.me/locketadd | msgId: 8025908755284, cliMsgId: 1783612092908",
+    "type": "text",
+    "ts": 1783612146105
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783612146105
+  }
+]

@@ -1,0 +1,482 @@
+[
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] Trả lời \"để tao làm i vậy nha\" nhắn bởi Ng Hoai Khang\n            với \"@Ng Hoai Khang ôg ơi\" | msgId: 8025295784126, cliMsgId: 1783601039856, replyCliMsgId: 1783600697284\n- [2] Trả lời \"@Ng Hoai Khang ôg ơi\" nhắn bởi ᅟᅟzh\n            với \"@ᅟᅟzh câm\" | msgId: 8025296082276, cliMsgId: 1783601045018, replyCliMsgId: 1783601039856\n- [3] [Người dùng gửi sticker] | msgId: 8025296103079, cliMsgId: 1783601046375",
+    "type": "text",
+    "ts": 1783601058651
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783601058651
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] .. | msgId: 8025296532564, cliMsgId: 1783601052773\n- [2] Trả lời \"\" nhắn bởi ᅟᅟzh\n            với \"tag lồn gì thích tao à\" | msgId: 8025296510000, cliMsgId: 1783601053318, replyCliMsgId: 1783601053095",
+    "type": "text",
+    "ts": 1783601071451
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783601071451
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] tag lồn gì thích tao à | msgId: 8025296902998, cliMsgId: 1783601059190\n- [2] Trả lời \"@ᅟᅟzh câm\" nhắn bởi Ng Hoai Khang\n            với \"@Ng Hoai Khang tôi làm gì\" | msgId: 8025296969013, cliMsgId: 1783601060321, replyCliMsgId: 1783601045018\n- [3] @Ng Hoai Khang tôi làm gì | msgId: 8025297196373, cliMsgId: 1783601064284\n- [4] Trả lời \"@Ng Hoai Khang tôi làm gì\" nhắn bởi ᅟᅟzh\n            với \"@ᅟᅟzh giận dồik\" | msgId: 8025297375560, cliMsgId: 1783601067374, replyCliMsgId: 1783601060321\n- [5] Trả lời \"@ᅟᅟzh giận dồik\" nhắn bởi Ng Hoai Khang\n            với \"kêu lồn gì suốt ngày vậy bọn ngu ?\" | msgId: 8025297374036, cliMsgId: 1783601067597, replyCliMsgId: 1783601067374",
+    "type": "text",
+    "ts": 1783601090417
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783601090417
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] Trả lời \"@ᅟᅟzh giận dồik\" nhắn bởi Ng Hoai Khang\n            với \"@Ng Hoai Khang thôi mà\" | msgId: 8025297609645, cliMsgId: 1783601071392, replyCliMsgId: 1783601067374\n- [2] stk | msgId: 8025297680998, cliMsgId: 1783601072696\n- [3] bank 2k | msgId: 8025297821224, cliMsgId: 1783601075043\n- [4] Trả lời \"bank 2k\" nhắn bởi ᅟᅟzh\n            với \"@ᅟᅟzh 200\" | msgId: 8025298056874, cliMsgId: 1783601079212, replyCliMsgId: 1783601075043\n- [5] [Người dùng gửi sticker] | msgId: 8025298092457, cliMsgId: 1783601080239\n- [6] Trả lời \"@ᅟᅟzh 200\" nhắn bởi Ng Hoai Khang\n            với \"@Ng Hoai Khang hết tiền\" | msgId: 8025298296001, cliMsgId: 1783601083260, replyCliMsgId: 1783601079212",
+    "type": "text",
+    "ts": 1783601103094
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783601103094
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] Trả lời \"\" nhắn bởi ᅟᅟzh\n            với \"@Văn Hùng 丷 ?\" | msgId: 8025304365336, cliMsgId: 1783601187796, replyCliMsgId: 1783601184029\n- [2] [Người dùng gửi sticker] | msgId: 8025304371306, cliMsgId: 1783601188707\n- [3] Trả lời \"adm\" nhắn bởi Ng Hoai Khang\n            với \".ghepdoi @Ng Hoai Khang\" | msgId: 8025304682115, cliMsgId: 1783601193284, replyCliMsgId: 1783601167477",
+    "type": "text",
+    "ts": 1783601228556
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783601228556
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] .ghepdoi @Ng Hoai Khang | msgId: 8025305723205, cliMsgId: 1783601211245\n- [2] haha | msgId: 8025305908621, cliMsgId: 1783601214397\n- [3] Trả lời \"\" nhắn bởi ᅟᅟzh\n            với \"@ᅟᅟzh adm vk đâu\" | msgId: 8025305974525, cliMsgId: 1783601215559, replyCliMsgId: 107016072730980\n- [4] Trả lời \"@ᅟᅟzh adm vk đâu\" nhắn bởi Ng Hoai Khang\n            với \"kêu cái địt mẹ m\" | msgId: 8025305968484, cliMsgId: 1783601215854, replyCliMsgId: 1783601215559\n- [5] Trả lời \"haha\" nhắn bởi ᅟᅟzh\n            với \"@Văn Hùng 丷 ghép t nx\" | msgId: 8025306158915, cliMsgId: 1783601218736, replyCliMsgId: 1783601214397\n- [6] [Người dùng gửi sticker] | msgId: 8025306200596, cliMsgId: 1783601219815\n- [7] Trả lời \"@ᅟᅟzh adm vk đâu\" nhắn bởi Ng Hoai Khang\n            với \"@Ng Hoai Khang tutu\" | msgId: 8025306257423, cliMsgId: 1783601220373, replyCliMsgId: 1783601215559\n- [8] .kick | msgId: 8025306285136, cliMsgId: 1783601220876\n- [9] Trả lời \".kick\" nhắn bởi Ng Hoai Khang\n            với \"📖 Hướng dẫn:\n.kick @mention\n.kick reply\n.kick uid <UID>\" | msgId: 8025306260463, cliMsgId: 1783601221202, replyCliMsgId: 1783601220876\n- [10] .bot on | msgId: 8025306353077, cliMsgId: 1783601222030",
+    "type": "text",
+    "ts": 1783601241350
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783601241350
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] .kick | msgId: 8025306640829, cliMsgId: 1783601226984\n- [2] Trả lời \".kick\" nhắn bởi Sleep\n            với \"📖 Hướng dẫn:\n.kick @mention\n.kick reply\n.kick uid <UID>\" | msgId: 8025306609241, cliMsgId: 1783601227398, replyCliMsgId: 1783601226984",
+    "type": "text",
+    "ts": 1783601260421
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783601260421
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] Trả lời \".ghepdoi @Nguyen Khanh Ngoc\" nhắn bởi Ng Hoai Khang\n            với \"@Ng Hoai Khang xin lỗi dợ, đừng dận anh\" | msgId: 8025308475144, cliMsgId: 1783601258683, replyCliMsgId: 1783601245053",
+    "type": "text",
+    "ts": 1783601292267
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783601292267
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] ? | msgId: 8025311603214, cliMsgId: 1783601312455\n- [2] .ghepdoi @Trần Nhật | msgId: 8025311815517, cliMsgId: 1783601316094\n- [3] Trả lời \"sao m thích tao vậy hân\" nhắn bởi Sleep\n            với \"@Sleep \n?\" | msgId: 8025311882879, cliMsgId: 1783601317259, replyCliMsgId: 1783601311610\n- [4] .mute | msgId: 8025311895446, cliMsgId: 1783601317484\n- [5] .uid @Ng Hoai Khang | msgId: 8025312219190, cliMsgId: 1783601323016\n- [6] Trả lời \".uid @Ng Hoai Khang\" nhắn bởi ᅟᅟzh\n            với \"5765796715736957790\" | msgId: 8025312221155, cliMsgId: 1783601323220, replyCliMsgId: 1783601323016\n- [7] anh đẹp trai nè | msgId: 8025312476477, cliMsgId: 1783601327316\n- [8] ? | msgId: 8025312510848, cliMsgId: 1783601328006\n- [9] .mute @Bảo Hân | msgId: 8025312550495, cliMsgId: 1783601328697\n- [10] .mute | msgId: 8025312627598, cliMsgId: 1783601330013\n- [11] Trả lời \".mute\" nhắn bởi Sleep\n            với \"Bạn không có quyền sử dụng lệnh này!\" | msgId: 8025312621107, cliMsgId: 1783601330284, replyCliMsgId: 1783601330013",
+    "type": "text",
+    "ts": 1783601362043
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783601362043
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] Trả lời \"\" nhắn bởi ᅟᅟzh\n            với \"@Văn Hùng 丷 ai nắc tao vậy\" | msgId: 8025323224342, cliMsgId: 1783601511402, replyCliMsgId: 107016090196800\n- [2] [Người dùng gửi sticker] | msgId: 8025323256808, cliMsgId: 1783601512308\n- [3] .ghepdoi @Bảo Hân @Ng | msgId: 8025323379112, cliMsgId: 1783601514008",
+    "type": "text",
+    "ts": 1783601544570
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783601544571
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] Trả lời \".ghepdoi @Văn Hùng 丷 @Bảo Hân\" nhắn bởi Sleep\n            với \"@Sleep ko tag đc tao đâu\" | msgId: 8025326018421, cliMsgId: 1783601559194, replyCliMsgId: 1783601546302\n- [2] haha | msgId: 8025326065849, cliMsgId: 1783601560013\n- [3] haha | msgId: 8025326106881, cliMsgId: 1783601560759\n- [4] haha | msgId: 8025326147243, cliMsgId: 1783601561444\n- [5] .ghepdoi @Bảo Hân | msgId: 8025326741630, cliMsgId: 1783601571660",
+    "type": "text",
+    "ts": 1783601602034
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783601602034
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] [Người dùng gửi video] | msgId: 8025327618032, cliMsgId: 1783601586300",
+    "type": "text",
+    "ts": 1783601636160
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783601636160
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] Trả lời \"@Nguyen Linh Anh ê bt ghép wall kiểu này ko\" nhắn bởi Ng Hoai Khang\n            với \"@Ng Hoai Khang kiểu j\" | msgId: 8025333546153, cliMsgId: 1783601687756, replyCliMsgId: 1783601636671",
+    "type": "text",
+    "ts": 1783601717495
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783601717495
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] Trả lời \"\" nhắn bởi Sleep\n            với \"@Sleep bank tao\" | msgId: 8025334168105, cliMsgId: 1783601698349, replyCliMsgId: 1783601683017\n- [2] [Người dùng gửi video] | msgId: 8025332023433, cliMsgId: 1783601653397\n- [3] Trả lời \"@Ng Hoai Khang kiểu j\" nhắn bởi ᅟᅟzh\n            với \"@ᅟᅟzh ib\" | msgId: 8025334726484, cliMsgId: 1783601707701, replyCliMsgId: 1783601687756\n- [4] [Người dùng gửi sticker] | msgId: 8025334768804, cliMsgId: 1783601709234",
+    "type": "text",
+    "ts": 1783601736458
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783601736458
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] [Người dùng gửi video] | msgId: 8025334616752, cliMsgId: 1783601705612",
+    "type": "text",
+    "ts": 1783601761856
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783601761856
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] ai cod ảnh cái lồn ko @All | msgId: 8025338045410, cliMsgId: 1783601763956\n- [2] ? | msgId: 8025338236436, cliMsgId: 1783601767086\n- [3] Trả lời \"ai cod ảnh cái lồn ko @All\" nhắn bởi Sleep\n            với \"@Sleep gu gồ\" | msgId: 8025338468437, cliMsgId: 1783601771051, replyCliMsgId: 1783601763956",
+    "type": "text",
+    "ts": 1783601802225
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783601802225
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] Trả lời \"@Sleep gu gồ\" nhắn bởi ᅟᅟzh\n            với \"@Văn Hùng 丷\" | msgId: 8025338813330, cliMsgId: 1783601776866, replyCliMsgId: 1783601771051\n- [2] [Người dùng gửi sticker] | msgId: 8025338860789, cliMsgId: 1783601778142\n- [3] ko dc | msgId: 8025338931741, cliMsgId: 1783601778884\n- [4] ph ảnh c nào lộ cơ | msgId: 8025339208962, cliMsgId: 1783601783551\n- [5] tk này | msgId: 8025339305284, cliMsgId: 1783601785218\n- [6] Trả lời \"@Văn Hùng 丷\" nhắn bởi Sleep\n            với \"@Sleep tuất\" | msgId: 8025339337254, cliMsgId: 1783601785769, replyCliMsgId: 1783601776866\n- [7] có 100 tr | msgId: 8025339417675, cliMsgId: 1783601787102\n- [8] ib cho ảnh video sex | msgId: 8025339597827, cliMsgId: 1783601790189",
+    "type": "text",
+    "ts": 1783601821558
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783601821558
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] [Người dùng gửi video] | msgId: 8025338005422, cliMsgId: 1783601763030",
+    "type": "text",
+    "ts": 1783601859416
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783601859416
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] Trả lời \"\" nhắn bởi ᅟᅟzh\n            với \"@ᅟᅟzh tht\" | msgId: 8025353727053, cliMsgId: 1783602028398, replyCliMsgId: 107016098247900\n- [2] [Người dùng gửi sticker] | msgId: 8025353797113, cliMsgId: 1783602029657",
+    "type": "text",
+    "ts": 1783602060849
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602060849
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] Trả lời \"uh\" nhắn bởi Nguyen Phuong Anh\n            với \"@Nguyen Phuong Anh ê fan\" | msgId: 8025354591962, cliMsgId: 1783602042741, replyCliMsgId: 1783601885240",
+    "type": "text",
+    "ts": 1783602079889
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602079889
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] thảo fan anh đấy | msgId: 8025356244368, cliMsgId: 1783602069890",
+    "type": "text",
+    "ts": 1783602092601
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602092601
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] mấy em đừng đùa | msgId: 8025356909742, cliMsgId: 1783602080761",
+    "type": "text",
+    "ts": 1783602105503
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602105503
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] Trả lời \"@Nguyen Phuong Anh ê fan\" nhắn bởi ᅟᅟzh\n            với \"@ᅟᅟzh j\" | msgId: 8025357682537, cliMsgId: 1783602093284, replyCliMsgId: 1783602042741\n- [2] [Người dùng gửi sticker] | msgId: 8025357702611, cliMsgId: 1783602094451",
+    "type": "text",
+    "ts": 1783602118202
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602118202
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] tên | msgId: 8025366203374, cliMsgId: 1783602235109\n- [2] tên | msgId: 8025366351800, cliMsgId: 1783602237632\n- [3] (mẹ thằng khang) | msgId: 8025366467793, cliMsgId: 1783602239559\n- [4] ? | msgId: 8025366636051, cliMsgId: 1783602242389\n- [5] [Người dùng gửi video] | msgId: 8025366719536, cliMsgId: 1783602243593",
+    "type": "text",
+    "ts": 1783602260294
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602260294
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] .leave | msgId: 8025369296579, cliMsgId: 1783602286528",
+    "type": "text",
+    "ts": 1783602309697
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602309697
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] Trả lời \"@Ng Hoai Khang tôi đâu bà\" nhắn bởi ᅟᅟzh\n            với \"@ᅟᅟzh tên j ghép luôn\" | msgId: 8025368097653, cliMsgId: 1783602266703, replyCliMsgId: 1783602248067\n- [2] [Người dùng gửi sticker] | msgId: 8025368148053, cliMsgId: 1783602267611",
+    "type": "text",
+    "ts": 1783602312402
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602312402
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] hùng đẹp trai | msgId: 8025371241631, cliMsgId: 1783602318720\n- [2] ? | msgId: 8025371499988, cliMsgId: 1783602323054\n- [3] [Người dùng gửi video] | msgId: 8025369385689, cliMsgId: 1783602287865\n- [4] :) | msgId: 8025371704610, cliMsgId: 1783602326448\n- [5] trêu | msgId: 8025371792770, cliMsgId: 1783602327920",
+    "type": "text",
+    "ts": 1783602353373
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602353373
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] tên là | msgId: 8025371970635, cliMsgId: 1783602330879\n- [2] hùng óc chó | msgId: 8025372264641, cliMsgId: 1783602335761\n- [3] Hùng Ve Chai | msgId: 8025372487775, cliMsgId: 1783602339498\n- [4] Trả lời \"hùng óc chó\" nhắn bởi Sleep\n            với \"@Sleep óc lồn\" | msgId: 8025372976038, cliMsgId: 1783602347632, replyCliMsgId: 1783602335761\n- [5] là oke | msgId: 8025373057120, cliMsgId: 1783602348980",
+    "type": "text",
+    "ts": 1783602366073
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602366073
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] Trả lời \"hùng óc chó\" nhắn bởi Sleep\n            với \".mute @Sleep\" | msgId: 8025373630613, cliMsgId: 1783602358551, replyCliMsgId: 1783602335761",
+    "type": "text",
+    "ts": 1783602378834
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602378834
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] cya | msgId: 8025374778403, cliMsgId: 1783602377537\n- [2] Trả lời \"cay\" nhắn bởi Sleep\n            với \".longsat @Sleep\" | msgId: 8025375127300, cliMsgId: 1783602383382, replyCliMsgId: 1783602375118",
+    "type": "text",
+    "ts": 1783602435522
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602435522
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] Trả lời \"cya\" nhắn bởi Sleep\n            với \".bantho @Sleep\" | msgId: 8025375897345, cliMsgId: 1783602396124, replyCliMsgId: 1783602377537\n- [2] hahahah | msgId: 8025375978202, cliMsgId: 1783602397527",
+    "type": "text",
+    "ts": 1783602448220
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602448220
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] ngu hả | msgId: 8025382374443, cliMsgId: 1783602503858\n- [2] Trả lời \"\" nhắn bởi ᅟᅟzh\n            với \"@ᅟᅟzh ?\" | msgId: 8025382777082, cliMsgId: 1783602510196, replyCliMsgId: 107016143911440\n- [3] [Người dùng gửi sticker] | msgId: 8025382849461, cliMsgId: 1783602512134",
+    "type": "text",
+    "ts": 1783602529068
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602529068
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] để | msgId: 8025391689757, cliMsgId: 1783602659226\n- [2] tên | msgId: 8025391749308, cliMsgId: 1783602660211\n- [3] là | msgId: 8025391791062, cliMsgId: 1783602660954\n- [4] Khanh hann đi bạn | msgId: 8025392166547, cliMsgId: 1783602667174\n- [5] tôi | msgId: 8025392234793, cliMsgId: 1783602668343",
+    "type": "text",
+    "ts": 1783602693759
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602693759
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] tưởng ngầy | msgId: 8025397222703, cliMsgId: 1783602752102\n- [2] ngầu | msgId: 8025397305579, cliMsgId: 1783602753454\n- [3] um | msgId: 8025397430237, cliMsgId: 1783602755546\n- [4] ngầu | msgId: 8025397508119, cliMsgId: 1783602756857\n- [5] ghép luôn ko | msgId: 8025398001870, cliMsgId: 1783602765095\n- [6] Trả lời \"\" nhắn bởi Cún\n            với \"@Cún tuất tưởng ngầu\" | msgId: 8025398138527, cliMsgId: 1783602767285, replyCliMsgId: 1783602755295",
+    "type": "text",
+    "ts": 1783602810338
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602810338
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] [Người dùng gửi video] | msgId: 8025403122090, cliMsgId: 1783602850303",
+    "type": "text",
+    "ts": 1783602912115
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602912115
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] Trả lời \"\" nhắn bởi Cún\n            với \"@Cún mình tao cân all\" | msgId: 8025408633239, cliMsgId: 1783602942217, replyCliMsgId: 1783602921628\n- [2] tuất | msgId: 8025408643871, cliMsgId: 1783602942365\n- [3] tuất | msgId: 8025408718727, cliMsgId: 1783602943622\n- [4] 😏😏👋 | msgId: 8025408836275, cliMsgId: 1783602945579\n- [5] Trả lời \"@Cún mình tao cân all\" nhắn bởi Sleep\n            với \"@Sleep\" | msgId: 8025408838848, cliMsgId: 1783602945599, replyCliMsgId: 1783602942217\n- [6] ai hỏi | msgId: 8025408930627, cliMsgId: 1783602947113\n- [7] Trả lời \"đám cứi linh đình\" nhắn bởi Cún\n            với \".less @Cún\" | msgId: 8025408966283, cliMsgId: 1783602947684, replyCliMsgId: 1783602940515\n- [8] [Người dùng gửi video] | msgId: 8025405951219, cliMsgId: 1783602897610",
+    "type": "text",
+    "ts": 1783602987774
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602987774
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] [Người dùng gửi video] | msgId: 8025407654345, cliMsgId: 1783602921628\n- [2] ăn cặc nói quài | msgId: 8025409775699, cliMsgId: 1783602961033\n- [3] thích tao kiểu: | msgId: 8025410147112, cliMsgId: 1783602967228\n- [4] [Người dùng gửi sticker] | msgId: 8025410217437, cliMsgId: 1783602968445\n- [5] [Người dùng gửi video] | msgId: 8025410736310, cliMsgId: 1783602976822\n- [6] [Người dùng gửi video] | msgId: 8025410743946, cliMsgId: 1783602976812\n- [7] [Người dùng gửi video] | msgId: 8025410747586, cliMsgId: 1783602976804\n- [8] [Người dùng gửi video] | msgId: 8025408247899, cliMsgId: 1783602935713",
+    "type": "text",
+    "ts": 1783603001283
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783603001283
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] acp anh đi vk | msgId: 8025544554238, cliMsgId: 1783605203190\n- [2] a iu e | msgId: 8025544939325, cliMsgId: 1783605210125\n- [3] @Ng Hoai Khang | msgId: 8025546846228, cliMsgId: 1783605241919",
+    "type": "text",
+    "ts": 1783605355097
+  },
+  {
+    "role": "assistant",
+    "content": "Zh lại xuất hiện — \"acp anh đi vk\" rồi tag Khang. Người lạ/thường khịa nhẹ, war cũ. Nhưng war Nguyet Nhi vừa xong, có thể chill chứ không war nữa.\n\n[{\"type\":\"addReaction\",\"msgId\":\"8025544939325\",\"cliMsgId\":\"1783605210125\",\"reaction\":\"WOW\"},{\"type\":\"startTyping\"},{\"type\":\"delay\",\"time\":700},{\"type\":\"sendMessage\",\"content\":\"=))) hồi nào war Nguyet Nhi thì không thấy mặt, war xong mới lên thả thính {@sender}\"},{\"type\":\"delay\",\"time\":800},{\"type\":\"sendMessage\",\"content\":\"\"acp anh đi vk\" mà tag Khang — tưởng m đang tỏ tình ai =)))\"},{\"type\":\"delay\",\"time\":600},{\"type\":\"sendMessage\",\"content\":\"thôi đi ngủ đi — sắp 9h rồi, mai còn đi chơi tiếp nha :>\"}]",
+    "type": "text",
+    "ts": 1783605355097
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] .kick @Nguyễn Đình Dương | msgId: 8025548762021, cliMsgId: 1783605273865",
+    "type": "text",
+    "ts": 1783605438210
+  },
+  {
+    "role": "assistant",
+    "content": "\n\nZh dùng lệnh \".kick\" — thách thức trực tiếp. War đến cửa. Nhưng là lệnh bot (prefixed .) — không phải lời người nói. Có thể nó dùng bot chứ không tự làm được. Nhẹ nhàng phản đòn.\n\n[{\"type\":\"addReaction\",\"msgId\":\"8025548762021\",\"cliMsgId\":\"1783605273865\",\"reaction\":\"WOW\"},{\"type\":\"startTyping\"},{\"type\":\"delay\",\"time\":800},{\"type\":\"sendMessage\",\"content\":\"=))) kick ai cơ? mới tí đã .kick rồi à {@sender}\"},{\"type\":\"delay\",\"time\":700},{\"type\":\"sendMessage\",\"content\":\"biết copy lệnh bot mà không biết làm admin à — m có quyền kick ai =)))\"},{\"type\":\"delay\",\"time\":600},{\"type\":\"sendMessage\",\"content\":\"thôi đi ngủ đi Zh — bot mà cũng đòi war\"}]\n\nGhi nhận: Zh dùng lệnh bot (không phải tự war). Enemy score nhẹ, nhưng không đáng để war hẳn. Chill.",
+    "type": "text",
+    "ts": 1783605438210
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ ᅟᅟzh trong nhóm (mới nhất):\n- [1] Trả lời \"cái lz mẹ m im đi @Hưng\" nhắn bởi Nguyễn Đình Dương\n            với \"@Nguyễn Đình Dương tag tk này nx a dương @Khanh Nhat\" | msgId: 8025730381011, cliMsgId: 1783608385738, replyCliMsgId: 1783608378813\n- [2] tụi m ồn hả | msgId: 8025730740885, cliMsgId: 1783608392313\n- [3] .mute @Nguyễn Đình Dương | msgId: 8025730757387, cliMsgId: 1783608392577",
+    "type": "text",
+    "ts": 1783608445802
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783608445802
+  }
+]

@@ -1,0 +1,153 @@
+{
+  "state": "aggressive",
+  "intensity": 10,
+  "reason": "User chửi: kkk cho ngu @nguyễn đình dương | msgid: 8025522017271, clims",
+  "lastTriggerAt": 1783604858737,
+  "lastInteraction": 0,
+  "consecutiveShortReplies": 0,
+  "consecutiveIgnored": 0,
+  "history": [
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: lồn ê @nguyễn đình dương | msgid: 8024203105717, climsgid: 1",
+      "triggeredBy": "9125524563644043477",
+      "triggeredAt": 1783583626381
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: con đĩ ngu rain =)) =)) =)) =)) @nguyễn đình dương | msgid: ",
+      "triggeredBy": "9125524563644043477",
+      "triggeredAt": 1783586344153
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: th ngu =))) @nguyễn đình dương | msgid: 8024654318936, clims",
+      "triggeredBy": "9125524563644043477",
+      "triggeredAt": 1783589980786
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: ngu kia =))) @nguyễn đình dương | msgid: 8024703511072, clim",
+      "triggeredBy": "9125524563644043477",
+      "triggeredAt": 1783590695735
+    },
+    {
+      "state": "cocky",
+      "intensity": 6,
+      "reason": "User thách thức: cay mạnh =))) @nguyễn đình dương | msgid: 8024869493151, cli",
+      "triggeredBy": "9125524563644043477",
+      "triggeredAt": 1783593353613
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: mẹ m cứ ngu=))) @nguyễn đình dương | msgid: 8024889545613, c",
+      "triggeredBy": "9125524563644043477",
+      "triggeredAt": 1783593707120
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: lộ cặc cayy @nguyễn đình dương | msgid: 8024950622909, clims",
+      "triggeredBy": "9125524563644043477",
+      "triggeredAt": 1783594792499
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: đĩ mẹ m ngu vc=))) @nguyễn đình dương | msgid: 8024971093613",
+      "triggeredBy": "9125524563644043477",
+      "triggeredAt": 1783595151745
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: m van ngu =))) @nguyễn đình dương | msgid: 8024996994439, cl",
+      "triggeredBy": "9125524563644043477",
+      "triggeredAt": 1783595618356
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: ngu ma chối =))) @nguyễn đình dương | msgid: 8024999028981, ",
+      "triggeredBy": "9125524563644043477",
+      "triggeredAt": 1783595657222
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: nghèo lồn -)) @nguyễn đình dương | msgid: 8025011581763, cli",
+      "triggeredBy": "9125524563644043477",
+      "triggeredAt": 1783595891681
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: thèn lồn=))) @nguyễn đình dương | msgid: 8025016579153, clim",
+      "triggeredBy": "9125524563644043477",
+      "triggeredAt": 1783595993262
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: m ngu cặc @nguyễn đình dương | msgid: 8025044654839, climsgi",
+      "triggeredBy": "9125524563644043477",
+      "triggeredAt": 1783596518187
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: m ngu the @nguyễn đình dương | msgid: 8025045676710, climsgi",
+      "triggeredBy": "9125524563644043477",
+      "triggeredAt": 1783596538274
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: tk óc cặc ăn hại rain =)) =)) =)) =)) @nguyễn đình dương | m",
+      "triggeredBy": "9125524563644043477",
+      "triggeredAt": 1783597791760
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: bố phán m óc lồn là m lảng rain =))=))=))=)) @nguyễn đình dư",
+      "triggeredBy": "9125524563644043477",
+      "triggeredAt": 1783598873210
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: lồn nghịch tử rain =))=))=))=)) @nguyễn đình dương | msgid: ",
+      "triggeredBy": "9125524563644043477",
+      "triggeredAt": 1783599337375
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: ngôn cặc mà đòi so với bố à rain =))=))=))=)) @nguyễn đình d",
+      "triggeredBy": "9125524563644043477",
+      "triggeredAt": 1783599470724
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: tk lồn đâm cha chém mẹ rain =))=))=))=)) @nguyễn đình dương ",
+      "triggeredBy": "9125524563644043477",
+      "triggeredAt": 1783599489814
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: kkk cho ngu @nguyễn đình dương | msgid: 8025522017271, clims",
+      "triggeredBy": "9125524563644043477",
+      "triggeredAt": 1783604858737
+    }
+  ],
+  "affinity": 20,
+  "warStreak": 0
+}

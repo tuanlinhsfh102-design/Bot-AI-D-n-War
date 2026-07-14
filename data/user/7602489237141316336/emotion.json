@@ -1,0 +1,34 @@
+{
+  "state": "aggressive",
+  "intensity": 10,
+  "reason": "User chửi: tại nó chửi ngu | msgid: 8026268350827, climsgid: 1783643645",
+  "lastTriggerAt": 1783643668166,
+  "lastInteraction": 0,
+  "consecutiveShortReplies": 0,
+  "consecutiveIgnored": 0,
+  "history": [
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: trả lời \"méo meo mèo xong giờ sủa hả @mèo simmy\" nhắn bởi ng",
+      "triggeredBy": "7602489237141316336",
+      "triggeredAt": 1783608108622
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: sủa ngu jv thg óc:))? | msgid: 8026259449807, climsgid: 1783",
+      "triggeredBy": "7602489237141316336",
+      "triggeredAt": 1783643394409
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: tại nó chửi ngu | msgid: 8026268350827, climsgid: 1783643645",
+      "triggeredBy": "7602489237141316336",
+      "triggeredAt": 1783643668166
+    }
+  ],
+  "affinity": 20,
+  "warStreak": 0
+}

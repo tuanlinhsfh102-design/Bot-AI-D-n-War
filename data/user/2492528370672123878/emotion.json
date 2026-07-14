@@ -1,0 +1,41 @@
+{
+  "state": "aggressive",
+  "intensity": 10,
+  "reason": "User chửi: m ngu à linh | msgid: 8020688621834, climsgid: 1783498441855",
+  "lastTriggerAt": 1783498459907,
+  "lastInteraction": 0,
+  "consecutiveShortReplies": 0,
+  "consecutiveIgnored": 0,
+  "history": [
+    {
+      "state": "savage",
+      "intensity": 2,
+      "reason": "nó vẫn cố gáy chửi tiếp",
+      "triggeredBy": "7753788871393606635",
+      "triggeredAt": 1783495159537
+    },
+    {
+      "state": "savage",
+      "intensity": 2,
+      "reason": "User is being annoying and acting dumb",
+      "triggeredBy": "3475140968375353419",
+      "triggeredAt": 1783496214273
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: t off war nha anh em không nhận sàn nào nữa nhé,chết mẹ đi l",
+      "triggeredBy": "2492528370672123878",
+      "triggeredAt": 1783498340345
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: m ngu à linh | msgid: 8020688621834, climsgid: 1783498441855",
+      "triggeredBy": "2492528370672123878",
+      "triggeredAt": 1783498459907
+    }
+  ],
+  "affinity": 20,
+  "warStreak": 0
+}

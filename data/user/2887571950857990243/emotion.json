@@ -1,0 +1,62 @@
+{
+  "state": "aggressive",
+  "intensity": 10,
+  "reason": "User chửi: nói bố mày phế mà có giết dc bố mày đâu @nguyễn đình dương |",
+  "lastTriggerAt": 1783605714456,
+  "lastInteraction": 0,
+  "consecutiveShortReplies": 0,
+  "consecutiveIgnored": 0,
+  "history": [
+    {
+      "state": "cocky",
+      "intensity": 2,
+      "reason": "Đối thủ cũ quay lại thách đấu, cần cocky lên tí",
+      "triggeredBy": "6992679248861258107",
+      "triggeredAt": 1783603966234
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: trả lời \"có dấu hay ko dấu cũng nguyễn đình dương đủ mẹ nó r",
+      "triggeredBy": "6232077367414530061",
+      "triggeredAt": 1783603968249
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: dcm dc 4 cái ngôn lồn rách spam nát nước đéo có tí sthuong @",
+      "triggeredBy": "2887571950857990243",
+      "triggeredAt": 1783604794398
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "Em Tramm chuyển từ neutral sang enemy - chửi bot \"chó ngu\", \"ngôn lồn rách\"",
+      "triggeredBy": "2887571950857990243",
+      "triggeredAt": 1783604812175
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: bố mày win rõ | msgid: 8025565763043, climsgid: 178360555508",
+      "triggeredBy": "2887571950857990243",
+      "triggeredAt": 1783605557771
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: thấy bố mày phế k @nguyễn đình dương | msgid: 8025571601920,",
+      "triggeredBy": "2887571950857990243",
+      "triggeredAt": 1783605659344
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: nói bố mày phế mà có giết dc bố mày đâu @nguyễn đình dương |",
+      "triggeredBy": "2887571950857990243",
+      "triggeredAt": 1783605714456
+    }
+  ],
+  "affinity": 20,
+  "warStreak": 0
+}

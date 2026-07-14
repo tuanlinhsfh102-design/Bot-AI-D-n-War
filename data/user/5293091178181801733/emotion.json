@@ -1,0 +1,34 @@
+{
+  "state": "aggressive",
+  "intensity": 10,
+  "reason": "User chửi: trả lời \"soi cái pc tao mãi không chán à mày sống vì cái pc ",
+  "lastTriggerAt": 1783531046589,
+  "lastInteraction": 0,
+  "consecutiveShortReplies": 0,
+  "consecutiveIgnored": 0,
+  "history": [
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: ồn lồn | msgid: 8022331268178, climsgid: 1783527240162",
+      "triggeredBy": "5293091178181801733",
+      "triggeredAt": 1783527244944
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: ngu lồn | msgid: 8022394142549, climsgid: 1783530465699",
+      "triggeredBy": "5293091178181801733",
+      "triggeredAt": 1783530481401
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: trả lời \"soi cái pc tao mãi không chán à mày sống vì cái pc ",
+      "triggeredBy": "5293091178181801733",
+      "triggeredAt": 1783531046589
+    }
+  ],
+  "affinity": 20,
+  "warStreak": 0
+}

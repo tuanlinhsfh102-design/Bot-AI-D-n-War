@@ -1,0 +1,26 @@
+[
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Ng Hoai Khang trong nhóm (mới nhất):\n- [1] cay | msgId: 8025709027787, cliMsgId: 1783608000985",
+    "type": "text",
+    "ts": 1783608021930
+  },
+  {
+    "role": "assistant",
+    "content": "Khang gửi 1 chữ \"cay\" — kiểu nói mình cay vì war. Rival nhẹ. Chill khịa lại.\n\n[{\"type\":\"addReaction\",\"msgId\":\"8025709027787\",\"cliMsgId\":\"1783608000985\",\"reaction\":\"HAHA\"},{\"type\":\"startTyping\"},{\"type\":\"delay\",\"time\":700},{\"type\":\"sendMessage\",\"content\":\"=))) \"cay\" — m ngồi lội page hết war rồi mới gõ được 1 chữ à Khang ơi {@sender}\"},{\"type\":\"delay\",\"time\":800},{\"type\":\"sendMessage\",\"content\":\"bố war nãy giờ không thấy mặt, war xong mới lên nói \"cay\" =))) cute vãi\"},{\"type\":\"delay\",\"time\":600},{\"type\":\"sendMessage\",\"content\":\"thôi đi ngủ đi — mai hẵng gáy tiếp nha con\"},{\"type\":\"delay\",\"time\":500},{\"type\":\"sendMessage\",\"content\":\":>\"}]",
+    "type": "text",
+    "ts": 1783608021930
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Ng Hoai Khang trong nhóm (mới nhất):\n- [1] Trả lời \"@Tri Thanh nguyễn đình dương\" nhắn bởi Kieu Anh\n            với \"@Kieu Anh ko\" | msgId: 8025747362149, cliMsgId: 1783608697408, replyCliMsgId: 1783608692995\n- [2] Trả lời \".mute 5p @Nguyễn Đình Dương\" nhắn bởi Ng Hoai Khang\n            với \"@Ng Hoai Khang kick\" | msgId: 8025747367868, cliMsgId: 1783608697592, replyCliMsgId: 1783608692287\n- [3] con thiên tên j | msgId: 8025747558209, cliMsgId: 1783608700732\n- [4] .kick @Nguyễn Đình Dương | msgId: 8025747665788, cliMsgId: 1783608703164",
+    "type": "text",
+    "ts": 1783608719649
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783608719649
+  }
+]

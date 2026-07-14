@@ -1,0 +1,38 @@
+[
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Le Minh Huy trong nhóm (mới nhất):\n- [1] Trả lời \"@Kar Mười Một Đẹp Zai Nhất Lớp t chọc quê nek\" nhắn bởi Fwl\n            với \"@My lẹ\" | msgId: 8022366641132, cliMsgId: 1783528821245, replyCliMsgId: 1783527884284",
+    "type": "text",
+    "ts": 1783528833246
+  },
+  {
+    "role": "assistant",
+    "content": "[\n  {\"type\":\"startTyping\"},\n  {\"type\":\"delay\",\"time\":600},\n  {\"type\":\"sendMessage\",\"content\":\"My nào nữa z trời :)))\"},\n  {\"type\":\"delay\",\"time\":500},\n  {\"type\":\"sendMessage\",\"content\":\"định lôi ai vào đây nữa hay gì\"}\n]",
+    "type": "text",
+    "ts": 1783528833246
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Le Minh Huy trong nhóm (mới nhất):\n- [1] vì đói tim nên phải tạo cap to6 | msgId: 8022366808339, cliMsgId: 1783528829966",
+    "type": "text",
+    "ts": 1783528855893
+  },
+  {
+    "role": "assistant",
+    "content": "[\n  {\"type\":\"addReaction\",\"msgId\":\"8022366808339\",\"cliMsgId\":\"1783528829966\",\"reaction\":\"HAHA\"},\n  {\"type\":\"startTyping\"},\n  {\"type\":\"delay\",\"time\":600},\n  {\"type\":\"sendMessage\",\"content\":\"đói tim thì đi xin mẹ đi chứ tạo cap làm gì trời {@sender} :)))\"},\n  {\"type\":\"delay\",\"time\":600},\n  {\"type\":\"sendMessage\",\"content\":\"nhìn phèn vãi\"}\n]",
+    "type": "text",
+    "ts": 1783528855893
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Le Minh Huy trong nhóm (mới nhất):\n- [1] ae bỏ qua cho e :((( | msgId: 8022366906916, cliMsgId: 1783528835265\n- [2] [Người dùng gửi sticker] | msgId: 8022366955020, cliMsgId: 1783528837844\n- [3] [Người dùng gửi sticker] | msgId: 8022366983893, cliMsgId: 1783528839316",
+    "type": "text",
+    "ts": 1783528881968
+  },
+  {
+    "role": "assistant",
+    "content": "[\n  {\n    \"type\": \"addReaction\",\n    \"msgId\": \"8022366906916\",\n    \"cliMsgId\": \"1783528835265\",\n    \"reaction\": \"LIKE\"\n  },\n  {\n    \"type\": \"startTyping\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 600\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"tha cho đó :)))\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 500\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"chừa nha\"\n  },\n  {\n    \"type\": \"RecordSocialSignal\",\n    \"userId\": \"888355748424176165\",\n    \"displayName\": \"Le Minh Huy\",\n    \"type\": \"friend\",\n    \"points\": 10,\n    \"reason\": \"đã biết xin lỗi\"\n  },\n  {\n    \"type\": \"CoolDownEmotion\",\n    \"userId\": \"888355748424176165\",\n    \"delta\": 1\n  }\n]",
+    "type": "text",
+    "ts": 1783528881968
+  }
+]

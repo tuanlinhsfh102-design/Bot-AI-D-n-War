@@ -1,0 +1,111 @@
+{
+  "state": "aggressive",
+  "intensity": 9,
+  "reason": "Nguyet Nhi lên group gọi tao là 'con deix', war tiếp tục",
+  "lastTriggerAt": 1783668304387,
+  "lastInteraction": 0,
+  "consecutiveShortReplies": 0,
+  "consecutiveIgnored": 0,
+  "history": [
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: m bị ngu loz à | msgid: 8025460592982, climsgid: 17836038050",
+      "triggeredBy": "7581522101656671559",
+      "triggeredAt": 1783603813226
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: soạn cái lồn jv có chat đc đâu | msgid: 8025530130009, clims",
+      "triggeredBy": "7581522101656671559",
+      "triggeredAt": 1783604975054
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: ngu à | msgid: 8027187089687, climsgid: 1783657424165",
+      "triggeredBy": "7581522101656671559",
+      "triggeredAt": 1783657446588
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: đĩ ngu | msgid: 8027188361798, climsgid: 1783657442266",
+      "triggeredBy": "7581522101656671559",
+      "triggeredAt": 1783657465318
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: lồn mày rặn được mấy đứa r hay sao kinh nghiệm v con đĩ ô mô",
+      "triggeredBy": "7581522101656671559",
+      "triggeredAt": 1783657651202
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: ngu ngục | msgid: 8027212130817, climsgid: 1783657782158",
+      "triggeredBy": "7581522101656671559",
+      "triggeredAt": 1783657987623
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: con đĩ lồn ngu ngục | msgid: 8027237582076, climsgid: 178365",
+      "triggeredBy": "7581522101656671559",
+      "triggeredAt": 1783658243614
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: sủa đi | msgid: 8027245155539, climsgid: 1783658270977",
+      "triggeredBy": "7581522101656671559",
+      "triggeredAt": 1783658271612
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: bố nả cứt vô mồm lồn m luôn em | msgid: 8027249130692, clims",
+      "triggeredBy": "7581522101656671559",
+      "triggeredAt": 1783658337838
+    },
+    {
+      "state": "aggressive",
+      "intensity": 9,
+      "reason": "User chửi: tool như cái bụm lồn á bật chi hoài v | msgid: 8027631111616",
+      "triggeredBy": "7581522101656671559",
+      "triggeredAt": 1783665775949
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: loại ngu ngục như m còn đéo biết top là gì=))=)) | msgid: 80",
+      "triggeredBy": "7581522101656671559",
+      "triggeredAt": 1783666314003
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: tao kỳ thiên tay che trời chân đạp đất dẹp yên biển cả xử tử",
+      "triggeredBy": "7581522101656671559",
+      "triggeredAt": 1783666450949
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: tao thấy có mấy dòng lẹt đẹt đọc nãy giờ ngán vãi lồn mà cứ ",
+      "triggeredBy": "7581522101656671559",
+      "triggeredAt": 1783666604434
+    },
+    {
+      "state": "aggressive",
+      "intensity": 9,
+      "reason": "Nguyet Nhi lên group gọi tao là 'con deix', war tiếp tục",
+      "triggeredBy": "7581522101656671559",
+      "triggeredAt": 1783668304387
+    }
+  ],
+  "affinity": 20,
+  "warStreak": 0
+}

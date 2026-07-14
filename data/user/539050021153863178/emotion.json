@@ -1,0 +1,153 @@
+{
+  "state": "savage",
+  "intensity": 5,
+  "reason": "User nổ: m bị anh chửi k có phản kháng nổi à rain =))=))=))=)) @nguyễ",
+  "lastTriggerAt": 1783602771267,
+  "lastInteraction": 0,
+  "consecutiveShortReplies": 0,
+  "consecutiveIgnored": 0,
+  "history": [
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: trả lời \"@nguyễn phúc m ngu lắm\" nhắn bởi nguyễn đình dương\n",
+      "triggeredBy": "1818476074086739789",
+      "triggeredAt": 1783512893157
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: thằng ngu lồn | msgid: 8021613339919, climsgid: 178351329955",
+      "triggeredBy": "5305195727948864750",
+      "triggeredAt": 1783513310853
+    },
+    {
+      "state": "aggressive",
+      "intensity": 3,
+      "reason": "Đối phương chửi đổng vô cớ",
+      "triggeredBy": "233375111314060364",
+      "triggeredAt": 1783513419150
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: cn lồn ngu cặc | msgid: 8021626862941, climsgid: 17835135468",
+      "triggeredBy": "786745935540841370",
+      "triggeredAt": 1783513553936
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: trả lời \"sry cái lồn gì con đĩ @trang :)))\" nhắn bởi nguyễn ",
+      "triggeredBy": "3401397756971618629",
+      "triggeredAt": 1783513803624
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: dương chó đẻ ơi s m ngu v @nguyễn đình dương | msgid: 802164",
+      "triggeredBy": "2406539788124999188",
+      "triggeredAt": 1783513912130
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: [người dùng gửi video] video ghi lại các đoạn tin nhắn trao ",
+      "triggeredBy": "7616703314149298370",
+      "triggeredAt": 1783514768204
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: @nguyễn đình dương địt mẹ mày tk ngu | msgid: 8021725191954,",
+      "triggeredBy": "539050021153863178",
+      "triggeredAt": 1783515316305
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: s ô ngu v | msgid: 8021770306334, climsgid: 1783516073543",
+      "triggeredBy": "539050021153863178",
+      "triggeredAt": 1783516105617
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: mày ngu à em :; :; :> /-bd /-rose /-rose /-rose /-rose /-bd ",
+      "triggeredBy": "539050021153863178",
+      "triggeredAt": 1783516154390
+    },
+    {
+      "state": "aggressive",
+      "intensity": 0,
+      "reason": "Lê Viết Tấn Khang spam nhảm liên tục",
+      "triggeredBy": "539050021153863178",
+      "triggeredAt": 1783525290031
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: câm à em =))) @nguyễn đình dương | msgid: 8024475678179, cli",
+      "triggeredBy": "539050021153863178",
+      "triggeredAt": 1783587446790
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: chó ngu lộ vú ơi @nguyễn đình dương | msgid: 8024922900525, ",
+      "triggeredBy": "539050021153863178",
+      "triggeredAt": 1783594297313
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: con chó lồn =))) @nguyễn đình dương | msgid: 8024940441949, ",
+      "triggeredBy": "539050021153863178",
+      "triggeredAt": 1783594617100
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: m ngu lồn=))) @nguyễn đình dương | msgid: 8025045831533, cli",
+      "triggeredBy": "539050021153863178",
+      "triggeredAt": 1783596551056
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: đĩ mẹ m ngu vc=))) @nguyễn đình dương | msgid: 8025046546719",
+      "triggeredBy": "539050021153863178",
+      "triggeredAt": 1783596564661
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: mặt m ngu si đần độn bị t chửi có phản kháng nỗi đâu rain =)",
+      "triggeredBy": "539050021153863178",
+      "triggeredAt": 1783600599679
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: tk lồn nghịch tử rain =)) =)) =)) =)) @nguyễn đình dương | m",
+      "triggeredBy": "539050021153863178",
+      "triggeredAt": 1783601055084
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: tk lồn gia đình bất hạnh cha some ba nội à =))=))=))=)) @ngu",
+      "triggeredBy": "539050021153863178",
+      "triggeredAt": 1783601621529
+    },
+    {
+      "state": "savage",
+      "intensity": 5,
+      "reason": "User nổ: m bị anh chửi k có phản kháng nổi à rain =))=))=))=)) @nguyễ",
+      "triggeredBy": "539050021153863178",
+      "triggeredAt": 1783602771267
+    }
+  ],
+  "affinity": 20,
+  "warStreak": 0
+}

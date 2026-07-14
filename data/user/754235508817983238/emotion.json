@@ -1,0 +1,62 @@
+{
+  "state": "aggressive",
+  "intensity": 4,
+  "reason": "Ngoc Tica gọi tao là cn chó, quay lại war",
+  "lastTriggerAt": 1783668112396,
+  "lastInteraction": 0,
+  "consecutiveShortReplies": 0,
+  "consecutiveIgnored": 0,
+  "history": [
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: ê ê th lồn mắt so le :))) @nguyễn đình dương | msgid: 802405",
+      "triggeredBy": "1623417801991887862",
+      "triggeredAt": 1783581354585
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: tk lồn nghịch tử rain =)) =)) =)) =)) @nguyễn đình dương | m",
+      "triggeredBy": "84053587254878555",
+      "triggeredAt": 1783581365566
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: cái lồn mẹ m dính cứt trâu =))) @nguyễn đình dương | msgid: ",
+      "triggeredBy": "5801146414256610288",
+      "triggeredAt": 1783581792224
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: lồn cụ mày =))) @nuh | msgid: 8024118809852, climsgid: 17835",
+      "triggeredBy": "8319396167718309125",
+      "triggeredAt": 1783582336684
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: trả lời \"ngoc lồn đéo đủ trình war đâu câm mồm đĩ mẹ mày lại",
+      "triggeredBy": "754235508817983238",
+      "triggeredAt": 1783586225394
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: ngáo lồn hay j | msgid: 8024388482767, climsgid: 17835862326",
+      "triggeredBy": "754235508817983238",
+      "triggeredAt": 1783586257726
+    },
+    {
+      "state": "aggressive",
+      "intensity": 4,
+      "reason": "Ngoc Tica gọi tao là cn chó, quay lại war",
+      "triggeredBy": "754235508817983238",
+      "triggeredAt": 1783668112396
+    }
+  ],
+  "affinity": 20,
+  "warStreak": 0
+}

@@ -1,0 +1,27 @@
+{
+  "state": "aggressive",
+  "intensity": 10,
+  "reason": "User chửi: trả lời \"@duy linh  chết đi\" nhắn bởi mĩ phưn\n            vớ",
+  "lastTriggerAt": 1783561426090,
+  "lastInteraction": 0,
+  "consecutiveShortReplies": 0,
+  "consecutiveIgnored": 0,
+  "history": [
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: sủa kh dương=))) @nguyễn đình dương | msgid: 8022769147959, ",
+      "triggeredBy": "7519172826142522152",
+      "triggeredAt": 1783560683220
+    },
+    {
+      "state": "aggressive",
+      "intensity": 10,
+      "reason": "User chửi: trả lời \"@duy linh  chết đi\" nhắn bởi mĩ phưn\n            vớ",
+      "triggeredBy": "7519172826142522152",
+      "triggeredAt": 1783561426090
+    }
+  ],
+  "affinity": 20,
+  "warStreak": 0
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Nhi trong nhóm (mới nhất):\n- [1] [Người dùng gửi sticker] | msgId: 8021619849137, cliMsgId: 1783513418721\n- [2] gì z | msgId: 8021620065510, cliMsgId: 1783513422659",
+    "type": "text",
+    "ts": 1783513438103
+  },
+  {
+    "role": "assistant",
+    "content": "[\n  {\n    \"type\": \"addReaction\",\n    \"msgId\": \"8021619849137\",\n    \"cliMsgId\": \"1783513418721\",\n    \"reaction\": \"WOW\"\n  },\n  {\n    \"type\": \"startTyping\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 600\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"đang tám chuyện tí thui {@sender} :>\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 500\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"bà mới vào nhóm hả\"\n  },\n  {\n    \"type\": \"RecordSocialSignal\",\n    \"userId\": \"7933788872257633899\",\n    \"displayName\": \"Nhi\",\n    \"type\": \"friend\",\n    \"points\": 5,\n    \"reason\": \"Chào hỏi người mới, chill\"\n  }\n]",
+    "type": "text",
+    "ts": 1783513438103
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Nhi trong nhóm (mới nhất):\n- [1] Trả lời \"đang tám chuyện tí thui @Nhi :>\" nhắn bởi Nguyễn Đình Dương\n            với \"@Nguyễn Đình Dương tui vào lúc nhóm có 1 mấy ng\" | msgId: 8021623161290, cliMsgId: 1783513479239, replyCliMsgId: 1783513450603",
+    "type": "text",
+    "ts": 1783513504771
+  },
+  {
+    "role": "assistant",
+    "content": "[\n  {\n    \"type\": \"startTyping\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 600\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"vậy là bà lão làng rùi {@sender} :)))\"\n  },\n  {\n    \"type\": \"delay\",\n    \"time\": 500\n  },\n  {\n    \"type\": \"sendMessage\",\n    \"content\": \"sao nãy giờ mới thấy lên tiếng z\"\n  }\n]",
+    "type": "text",
+    "ts": 1783513504771
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Mất Tích trong nhóm (mới nhất):\n- [1] [Người dùng gửi video] | msgId: 8026083296354, cliMsgId: 1783622657896\n- [2] Trả lời \"bạch thiên mây aka mây cali hot gơn sì pam trừn tòn theo lăm thán👯👯👯👯👯👯👯\" nhắn bởi Ann\n            với \"@Ann ?\" | msgId: 8026083508788, cliMsgId: 1783622702608, replyCliMsgId: 1783622665245\n- [3] [Người dùng gửi video] | msgId: 8026083096871, cliMsgId: 1783622616156\n- [4] Trả lời \"@Mất Tích êm\" nhắn bởi Trương Tấn Phát\n            với \"@Trương Tấn Phát hả\" | msgId: 8026083582163, cliMsgId: 1783622717788, replyCliMsgId: 1783622669057",
+    "type": "text",
+    "ts": 1783622793313
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783622793313
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Mất Tích trong nhóm (mới nhất):\n- [1] . | msgId: 8026084583558, cliMsgId: 1783622930292\n- [2] @All add | msgId: 8026084620930, cliMsgId: 1783622938318\n- [3] [Người dùng gửi video] | msgId: 8026084432864, cliMsgId: 1783622897874\n- [4] Trả lời \"\" nhắn bởi Trương Tấn Phát\n            với \"@Trương Tấn Phát mây add vội\" | msgId: 8026084704736, cliMsgId: 1783622955543, replyCliMsgId: 1783622934890\n- [5] [Người dùng gửi video] | msgId: 8026084725905, cliMsgId: 1783622947515\n- [6] Trả lời \"\" nhắn bởi Minh Uyen\n            với \"@Minh Uyen vui k?\" | msgId: 8026084752722, cliMsgId: 1783622965937, replyCliMsgId: 1783622947504\n- [7] Trả lời \"\" nhắn bởi Nhàn\n            với \"@Nhàn .\" | msgId: 8026084764112, cliMsgId: 1783622969252, replyCliMsgId: 1783622927978\n- [8] [Người dùng gửi video] | msgId: 8026084598855, cliMsgId: 1783622927978\n- [9] Trả lời \"@Nhàn .\" nhắn bởi Triết\n            với \"@Triết da ck\" | msgId: 8026084820547, cliMsgId: 1783622981629, replyCliMsgId: 1783622969252\n- [10] Trả lời \"\" nhắn bởi Mất Tích\n            với \"@Trương Tấn Phát dg quay dis văng\" | msgId: 8026084824268, cliMsgId: 1783622982417, replyCliMsgId: 1783622950801",
+    "type": "text",
+    "ts": 1783622998650
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783622998650
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Mất Tích trong nhóm (mới nhất):\n- [1] lấy cái phông kia ed th | msgId: 8026084947614, cliMsgId: 1783623009020\n- [2] [Người dùng gửi sticker] | msgId: 8026085074162, cliMsgId: 1783623037030\n- [3] haha | msgId: 8026085070934, cliMsgId: 1783623036329\n- [4] [Người dùng gửi video] | msgId: 8026084777081, cliMsgId: 1783622950801",
+    "type": "text",
+    "ts": 1783623102612
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783623102612
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "state": "aggressive",
+  "intensity": 9,
+  "reason": "User chửi: trả lời \"bot chó mà cũng sủa đc hả thg hưng lz @nguyen van h",
+  "lastTriggerAt": 1783644122634,
+  "lastInteraction": 0,
+  "consecutiveShortReplies": 0,
+  "consecutiveIgnored": 0,
+  "history": [
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: trả lời \"🚦 @616802408318816559\n{\n    \"ownerid\": \"3108030821",
+      "triggeredBy": "2399643015199974972",
+      "triggeredAt": 1783614364854
+    },
+    {
+      "state": "aggressive",
+      "intensity": 2,
+      "reason": "Hưng quay lại war: \"nhaay vs bố m à\", \"địt mẹ\" - rõ ràng kiếm chuyện war tiếp",
+      "triggeredBy": "2399643015199974972",
+      "triggeredAt": 1783643534294
+    },
+    {
+      "state": "aggressive",
+      "intensity": 9,
+      "reason": "User chửi: trả lời \"bot chó mà cũng sủa đc hả thg hưng lz @nguyen van h",
+      "triggeredBy": "2399643015199974972",
+      "triggeredAt": 1783644122634
+    }
+  ],
+  "affinity": 20,
+  "warStreak": 0
+}

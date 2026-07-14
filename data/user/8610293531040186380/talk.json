@@ -1,0 +1,482 @@
+[
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] cố lên tí đi chó =))) rain @Nguyễn Đình Dương | msgId: 8025373003248, cliMsgId: 1783602348107",
+    "type": "text",
+    "ts": 1783602373425
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602373425
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] cái thk loắt choắt m cx phải biết điều chứ e =))=))=)) @Nguyễn Đình Dương | msgId: 8025373461186, cliMsgId: 1783602355899\n- [2] địt mẹ mày sồn lên =)) @Nguyễn Đình Dương | msgId: 8025373905985, cliMsgId: 1783602363437",
+    "type": "text",
+    "ts": 1783602386172
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602386172
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] anh tế mộ cn me. may lên anh ỉa vô mồm cn me may nha =))=))=)) @Nguyễn Đình Dương | msgId: 8025374412353, cliMsgId: 1783602371386\n- [2] câm ch e =))) @Nguyễn Đình Dương | msgId: 8025374748755, cliMsgId: 1783602377598",
+    "type": "text",
+    "ts": 1783602398939
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602398939
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] sao chậm kìa 3 =))) @Nguyễn Đình Dương | msgId: 8025375095535, cliMsgId: 1783602383689\n- [2] m quê à em =))) @Nguyễn Đình Dương | msgId: 8025375569999, cliMsgId: 1783602391268",
+    "type": "text",
+    "ts": 1783602411646
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602411646
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] bố chat mãi mãi đéo ngừng cơ mà:))) @Nguyễn Đình Dương | msgId: 8025375966946, cliMsgId: 1783602397470\n- [2] tức tao kìa =))) @Nguyễn Đình Dương | msgId: 8025376348958, cliMsgId: 1783602404302",
+    "type": "text",
+    "ts": 1783602424295
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602424295
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] chạy vội à =))) @Nguyễn Đình Dương | msgId: 8025376768855, cliMsgId: 1783602411108\n- [2] chắc tk nqu này còn ôm hận t vụ t tử hình mẹ nó bằng thuốc trừ sâu =)) @Nguyễn Đình Dương | msgId: 8025377119097, cliMsgId: 1783602417154",
+    "type": "text",
+    "ts": 1783602449504
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602449504
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] sủa gắt vậy chắc là cay tao =))) @Nguyễn Đình Dương | msgId: 8025377537445, cliMsgId: 1783602423565\n- [2] chết mẹ rồi nãy giờ chửi m mà quên anh sắp hết 4g =))))) @Nguyễn Đình Dương | msgId: 8025377862888, cliMsgId: 1783602429576\n- [3] sủa tiếp =))) @Nguyễn Đình Dương | msgId: 8025378263464, cliMsgId: 1783602436233\n- [4] Bị anh cho ngậm đống hành trong mõm r @Nguyễn Đình Dương | msgId: 8025378719155, cliMsgId: 1783602443946",
+    "type": "text",
+    "ts": 1783602462238
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602462238
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] t cho m xạo đâu =))) @Nguyễn Đình Dương | msgId: 8025379196770, cliMsgId: 1783602451818",
+    "type": "text",
+    "ts": 1783602474993
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602474993
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] Cái đù mẹ tk ngu tung skill gì đây :)) @Nguyễn Đình Dương | msgId: 8025379681771, cliMsgId: 1783602459030\n- [2] cho anh sờ bướm mẹ m tí =))) @Nguyễn Đình Dương | msgId: 8025380045518, cliMsgId: 1783602465168",
+    "type": "text",
+    "ts": 1783602487896
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602487896
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] Sủa con già mày lên thằng ngu ơi :)))) @Nguyễn Đình Dương | msgId: 8025380399978, cliMsgId: 1783602471884\n- [2] con má m =))) @Nguyễn Đình Dương | msgId: 8025380802027, cliMsgId: 1783602477916",
+    "type": "text",
+    "ts": 1783602500648
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602500648
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] xạo lồn k e =))) @Nguyễn Đình Dương | msgId: 8025381193846, cliMsgId: 1783602484948\n- [2] xuyên đêm kh mày =))) @Nguyễn Đình Dương | msgId: 8025381619870, cliMsgId: 1783602491720",
+    "type": "text",
+    "ts": 1783602513404
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602513404
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] mày nghĩ tỉ lệ là bao nhiêu phần % nào =))) @Nguyễn Đình Dương | msgId: 8025382032419, cliMsgId: 1783602498565\n- [2] Tao thả vài câu là lũ ngu chạy hết vì t là bố của cái lũ chúng m mà :)) @Nguyễn Đình Dương | msgId: 8025382454339, cliMsgId: 1783602505435",
+    "type": "text",
+    "ts": 1783602526175
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602526175
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] cái th chó chết =))) @Nguyễn Đình Dương | msgId: 8025382807353, cliMsgId: 1783602511498\n- [2] bị bố hành cho ra bã luôn mà :))) @Nguyễn Đình Dương | msgId: 8025383253332, cliMsgId: 1783602518617",
+    "type": "text",
+    "ts": 1783602538934
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602538934
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] nói đúng quá à =))) @Nguyễn Đình Dương | msgId: 8025383654994, cliMsgId: 1783602526017\n- [2] ê con chó óc cặc =))) @Nguyễn Đình Dương | msgId: 8025384071612, cliMsgId: 1783602532554",
+    "type": "text",
+    "ts": 1783602551696
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602551696
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] m sồn kg =))=))=)) @Nguyễn Đình Dương | msgId: 8025384532722, cliMsgId: 1783602540260",
+    "type": "text",
+    "ts": 1783602564463
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602564463
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] Đọc cái địt mẹ mày đọc :)))) @Nguyễn Đình Dương | msgId: 8025384959648, cliMsgId: 1783602547135\n- [2] tưởng sủa vậy là tao ngưng =))) @Nguyễn Đình Dương | msgId: 8025385440840, cliMsgId: 1783602554840",
+    "type": "text",
+    "ts": 1783602577151
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602577151
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] m ngu lồn mà =))) @Nguyễn Đình Dương | msgId: 8025385770224, cliMsgId: 1783602560924",
+    "type": "text",
+    "ts": 1783602596143
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602596143
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] Im cái đéo gì :)))) @Nguyễn Đình Dương | msgId: 8025386181931, cliMsgId: 1783602567526\n- [2] bố chửi tới cn mẹ mày tắt thở =))) @Nguyễn Đình Dương | msgId: 8025386637731, cliMsgId: 1783602574816\n- [3] ê con đỉ xấu xí =))) rain @Nguyễn Đình Dương | msgId: 8025387039839, cliMsgId: 1783602581551\n- [4] tin tao lấy tiết canh mẹ m k e =))) @Nguyễn Đình Dương | msgId: 8025387458664, cliMsgId: 1783602588711",
+    "type": "text",
+    "ts": 1783602608877
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602608877
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] mày bị toàn thế giới xa lánh vì bede mà thằng cặ khắm =))=))=)) @Nguyễn Đình Dương | msgId: 8025387808873, cliMsgId: 1783602594957\n- [2] yếu mà còn ra gió à chó =))) rain) @Nguyễn Đình Dương | msgId: 8025388214265, cliMsgId: 1783602601079",
+    "type": "text",
+    "ts": 1783602621697
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602621697
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] Con mẹ mày gặp tao còn phải quỳ mà :)))) @Nguyễn Đình Dương | msgId: 8025388617792, cliMsgId: 1783602608142\n- [2] t cầm vip10 t bắn nổ Iồn m nha con phò =)) @Nguyễn Đình Dương | msgId: 8025389038509, cliMsgId: 1783602614696",
+    "type": "text",
+    "ts": 1783602634392
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602634392
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] m sủa j cơ =))) @Nguyễn Đình Dương | msgId: 8025389439839, cliMsgId: 1783602622305\n- [2] m diễn hài mà cũng tự vả vào mồm à =))) @Nguyễn Đình Dương | msgId: 8025389927663, cliMsgId: 1783602630318",
+    "type": "text",
+    "ts": 1783602647787
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602647787
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] cái tk chó nì =))) @Nguyễn Đình Dương | msgId: 8025390304463, cliMsgId: 1783602636475",
+    "type": "text",
+    "ts": 1783602660563
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602660563
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] m đuối r à mà đòi treo =))) @Nguyễn Đình Dương | msgId: 8025390696616, cliMsgId: 1783602643250\n- [2] hả hả hả =))) @Nguyễn Đình Dương | msgId: 8025391149237, cliMsgId: 1783602650305",
+    "type": "text",
+    "ts": 1783602673259
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602673259
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] con chó này =))) @Nguyễn Đình Dương | msgId: 8025391565859, cliMsgId: 1783602657358\n- [2] m béo v em =))) @Nguyễn Đình Dương | msgId: 8025391907461, cliMsgId: 1783602663706",
+    "type": "text",
+    "ts": 1783602686087
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602686087
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] mày nghĩ tỉ lệ là bao nhiêu phần % nào =))) @Nguyễn Đình Dương | msgId: 8025392399175, cliMsgId: 1783602671620\n- [2] mơ đi em =))) @Nguyễn Đình Dương | msgId: 8025392853708, cliMsgId: 1783602679215",
+    "type": "text",
+    "ts": 1783602698849
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602698849
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] quê kìa =))) @Nguyễn Đình Dương | msgId: 8025393275129, cliMsgId: 1783602686209\n- [2] cbi thấy thằng out lén xong cap là bị kick rồi up facebook nè =))))) @Nguyễn Đình Dương | msgId: 8025393681905, cliMsgId: 1783602693291",
+    "type": "text",
+    "ts": 1783602711575
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602711575
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] th uống uống nước đái chó =))) @Nguyễn Đình Dương | msgId: 8025394125129, cliMsgId: 1783602700615",
+    "type": "text",
+    "ts": 1783602724228
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602724228
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] Con chó ăn tạp =))) @Nguyễn Đình Dương | msgId: 8025394506523, cliMsgId: 1783602706655\n- [2] hết hạn rồi à ku :))) @Nguyễn Đình Dương | msgId: 8025394922067, cliMsgId: 1783602713894",
+    "type": "text",
+    "ts": 1783602743229
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602743229
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] trong đầu thằng nqu bị t chửi kiểu : quân tử trả thù 10 năm chưa muốn =))=))=)) @Nguyễn Đình Dương | msgId: 8025395404135, cliMsgId: 1783602721539\n- [2] cầm đao xẻ mu chim mẹ mày giờ =))) @Nguyễn Đình Dương | msgId: 8025395808446, cliMsgId: 1783602728704\n- [3] bị anh chửi là cáu à =))) @Nguyễn Đình Dương | msgId: 8025396236477, cliMsgId: 1783602736213",
+    "type": "text",
+    "ts": 1783602756027
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602756027
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] cái thứ lưu manh =))) @Nguyễn Đình Dương | msgId: 8025396585937, cliMsgId: 1783602742223\n- [2] coi con chó ngu xuẩn bị bố nam tẩn mặt lồn nó kìa =))))) @Nguyễn Đình Dương | msgId: 8025397063676, cliMsgId: 1783602749460",
+    "type": "text",
+    "ts": 1783602769041
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602769041
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] lồn mẹ m chó khơ me đỏ :))) @Nguyễn Đình Dương | msgId: 8025397424819, cliMsgId: 1783602756011\n- [2] cn đĩ mẹ m sủa cái =)) @Nguyễn Đình Dương | msgId: 8025397864628, cliMsgId: 1783602762798",
+    "type": "text",
+    "ts": 1783602782948
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602782948
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] úi quê r =))) @Nguyễn Đình Dương | msgId: 8025398254824, cliMsgId: 1783602769778\n- [2] câm ch e =))) @Nguyễn Đình Dương | msgId: 8025398701502, cliMsgId: 1783602776855",
+    "type": "text",
+    "ts": 1783602796408
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602796408
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] căng não lên đê con ngu =))) @Nguyễn Đình Dương | msgId: 8025399101144, cliMsgId: 1783602783290\n- [2] ba nó nhìn còn ao ước dùm kkk =))))) @Nguyễn Đình Dương | msgId: 8025399560004, cliMsgId: 1783602790983",
+    "type": "text",
+    "ts": 1783602811936
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602811936
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] lgbt bê đê chuyển giới để bày trò kiếm tiền nuôi ông bà già hấp hối ở nhà của m à =))=))=)) @Nguyễn Đình Dương | msgId: 8025399911252, cliMsgId: 1783602797064\n- [2] cái lồn mẹ nó chứ =))) @Nguyễn Đình Dương | msgId: 8025400377322, cliMsgId: 1783602805034",
+    "type": "text",
+    "ts": 1783602824629
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602824629
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] sao cơ =))) @Nguyễn Đình Dương | msgId: 8025400769637, cliMsgId: 1783602811262\n- [2] địt mẹ m con gà =))) @Nguyễn Đình Dương | msgId: 8025401169334, cliMsgId: 1783602818609",
+    "type": "text",
+    "ts": 1783602837348
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602837348
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] nói mau =))) @Nguyễn Đình Dương | msgId: 8025401614701, cliMsgId: 1783602825496",
+    "type": "text",
+    "ts": 1783602850041
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602850041
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] mơ đi em =))) @Nguyễn Đình Dương | msgId: 8025402046054, cliMsgId: 1783602832444\n- [2] cái th đĩ đầu hói ơi :))) @Nguyễn Đình Dương | msgId: 8025402393913, cliMsgId: 1783602838455\n- [3] ớt mẹ rồi =))) @Nguyễn Đình Dương | msgId: 8025402808835, cliMsgId: 1783602846177",
+    "type": "text",
+    "ts": 1783602862778
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783602862778
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] ? | msgId: 8025933615058, cliMsgId: 1783612771113",
+    "type": "text",
+    "ts": 1783612801993
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783612801993
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] Trả lời \"src\" nhắn bởi Minh Hoang\n            với \"@Minh Hoang ??\" | msgId: 8025977384119, cliMsgId: 1783614146237, replyCliMsgId: 1783614116097",
+    "type": "text",
+    "ts": 1783614214283
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783614214283
+  },
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Pé trong nhóm (mới nhất):\n- [1] th trọng bị gì v | msgId: 8025977722154, cliMsgId: 1783614159355",
+    "type": "text",
+    "ts": 1783614228349
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "type": "text",
+    "ts": 1783614228349
+  }
+]

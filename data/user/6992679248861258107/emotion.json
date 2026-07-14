@@ -1,0 +1,20 @@
+{
+  "state": "cocky",
+  "intensity": 2,
+  "reason": "Đối thủ cũ quay lại thách đấu, cần cocky lên tí",
+  "lastTriggerAt": 1783603966234,
+  "lastInteraction": 0,
+  "consecutiveShortReplies": 0,
+  "consecutiveIgnored": 0,
+  "history": [
+    {
+      "state": "cocky",
+      "intensity": 2,
+      "reason": "Đối thủ cũ quay lại thách đấu, cần cocky lên tí",
+      "triggeredBy": "6992679248861258107",
+      "triggeredAt": 1783603966234
+    }
+  ],
+  "affinity": 20,
+  "warStreak": 0
+}

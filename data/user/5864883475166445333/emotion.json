@@ -1,0 +1,48 @@
+{
+  "state": "savage",
+  "intensity": 5,
+  "reason": "User nổ: có những người bước vào cuộc đời nhau như một cơn mưa mùa hạ",
+  "lastTriggerAt": 1783511236206,
+  "lastInteraction": 0,
+  "consecutiveShortReplies": 0,
+  "consecutiveIgnored": 0,
+  "history": [
+    {
+      "state": "savage",
+      "intensity": 2,
+      "reason": "nó vẫn cố gáy chửi tiếp",
+      "triggeredBy": "7753788871393606635",
+      "triggeredAt": 1783495159537
+    },
+    {
+      "state": "savage",
+      "intensity": 2,
+      "reason": "User is being annoying and acting dumb",
+      "triggeredBy": "3475140968375353419",
+      "triggeredAt": 1783496214273
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: t off war nha anh em không nhận sàn nào nữa nhé,chết mẹ đi l",
+      "triggeredBy": "2492528370672123878",
+      "triggeredAt": 1783498340345
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: trả lời \"khóa tìm kiếm bằng sđt làm con cặc gì sợ người ta t",
+      "triggeredBy": "961681042945072937",
+      "triggeredAt": 1783498659611
+    },
+    {
+      "state": "savage",
+      "intensity": 5,
+      "reason": "User nổ: có những người bước vào cuộc đời nhau như một cơn mưa mùa hạ",
+      "triggeredBy": "5864883475166445333",
+      "triggeredAt": 1783511236206
+    }
+  ],
+  "affinity": 30,
+  "warStreak": 0
+}

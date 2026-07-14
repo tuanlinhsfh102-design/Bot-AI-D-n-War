@@ -1,0 +1,154 @@
+{
+  "version": 1,
+  "savedAt": 1784016266484,
+  "services": {
+    "gemini": [
+      {
+        "fingerprint": "AIzaSyCQ...jR3Y",
+        "label": "# Gemini API Keys - Multiple keys for redundancy and rotation",
+        "totalCalls": 53,
+        "successCalls": 0,
+        "failureCalls": 53,
+        "consecutiveFailures": 53,
+        "cooldownUntil": 1783625379375,
+        "dead": false,
+        "lastUsedAt": 1783624779375,
+        "lastError": "Failed after 3 attempts. Last error: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rat",
+        "addedAt": 1783621656653
+      },
+      {
+        "fingerprint": "AIzaSyAx...8oQk",
+        "label": "new1",
+        "totalCalls": 65,
+        "successCalls": 5,
+        "failureCalls": 60,
+        "consecutiveFailures": 41,
+        "cooldownUntil": 1783625392723,
+        "dead": false,
+        "lastUsedAt": 1783624792723,
+        "lastError": "Failed after 3 attempts. Last error: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rat",
+        "addedAt": 1783621656653
+      },
+      {
+        "fingerprint": "AQ.Ab8RN...CgAA",
+        "label": "# Gemini API Keys - Multiple keys for redundancy and rotation",
+        "totalCalls": 73,
+        "successCalls": 0,
+        "failureCalls": 73,
+        "consecutiveFailures": 73,
+        "cooldownUntil": 1783624973138,
+        "dead": false,
+        "lastUsedAt": 1783624793138,
+        "lastError": "Your project has been denied access. Please contact support.",
+        "addedAt": 1783621656653
+      },
+      {
+        "fingerprint": "AIzaSyDI...j_Yc",
+        "label": "new4",
+        "totalCalls": 70,
+        "successCalls": 5,
+        "failureCalls": 65,
+        "consecutiveFailures": 59,
+        "cooldownUntil": 1783625386045,
+        "dead": false,
+        "lastUsedAt": 1783624786045,
+        "lastError": "Failed after 3 attempts. Last error: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rat",
+        "addedAt": 1783621656653
+      },
+      {
+        "fingerprint": "AIzaSyD6...drlk",
+        "label": "# Gemini API Keys - Multiple keys for redundancy and rotation",
+        "totalCalls": 92,
+        "successCalls": 0,
+        "failureCalls": 92,
+        "consecutiveFailures": 92,
+        "cooldownUntil": 1783624966722,
+        "dead": false,
+        "lastUsedAt": 1783624786722,
+        "lastError": "Your project has been denied access. Please contact support.",
+        "addedAt": 1783621656653
+      }
+    ],
+    "brave": [],
+    "zen": [
+      {
+        "fingerprint": "sk-ecROO...4rsq",
+        "label": "2",
+        "totalCalls": 870,
+        "successCalls": 72,
+        "failureCalls": 798,
+        "consecutiveFailures": 23,
+        "cooldownUntil": 1784016408165,
+        "dead": false,
+        "lastUsedAt": 1784016228165,
+        "lastError": "Error from provider (Console): Upstream request failed",
+        "addedAt": 1783621656654
+      },
+      {
+        "fingerprint": "sk-4kiNg...DjVL",
+        "label": "3",
+        "totalCalls": 838,
+        "successCalls": 69,
+        "failureCalls": 769,
+        "consecutiveFailures": 1,
+        "cooldownUntil": 1784016444480,
+        "dead": false,
+        "lastUsedAt": 1784016264480,
+        "lastError": "Error from provider (Console): Upstream request failed",
+        "addedAt": 1783621656654
+      },
+      {
+        "fingerprint": "sk-ThpIt...ensY",
+        "label": "4",
+        "totalCalls": 821,
+        "successCalls": 58,
+        "failureCalls": 763,
+        "consecutiveFailures": 28,
+        "cooldownUntil": 1784016446477,
+        "dead": false,
+        "lastUsedAt": 1784016266477,
+        "lastError": "Error from provider (Console): Upstream request failed",
+        "addedAt": 1783621656654
+      },
+      {
+        "fingerprint": "sk-JS6UX...s1GW",
+        "label": "5",
+        "totalCalls": 824,
+        "successCalls": 53,
+        "failureCalls": 771,
+        "consecutiveFailures": 1,
+        "cooldownUntil": 1784016434370,
+        "dead": false,
+        "lastUsedAt": 1784016254370,
+        "lastError": "Error from provider (Console): Upstream request failed",
+        "addedAt": 1783621656654
+      },
+      {
+        "fingerprint": "sk-GvJgo...BdBi",
+        "label": "6",
+        "totalCalls": 814,
+        "successCalls": 53,
+        "failureCalls": 761,
+        "consecutiveFailures": 59,
+        "cooldownUntil": 1784016441834,
+        "dead": false,
+        "lastUsedAt": 1784016261834,
+        "lastError": "Error from provider (Console): Upstream request failed",
+        "addedAt": 1783621656654
+      },
+      {
+        "fingerprint": "sk-X87fq...l5qK",
+        "label": "1",
+        "totalCalls": 801,
+        "successCalls": 49,
+        "failureCalls": 752,
+        "consecutiveFailures": 7,
+        "cooldownUntil": 1784016432681,
+        "dead": false,
+        "lastUsedAt": 1784016252681,
+        "lastError": "Error from provider (Console): Upstream request failed",
+        "addedAt": 1783621656654
+      }
+    ]
+  }
+}

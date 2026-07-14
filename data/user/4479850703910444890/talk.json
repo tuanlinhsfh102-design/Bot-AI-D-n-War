@@ -1,0 +1,14 @@
+[
+  {
+    "role": "user",
+    "content": "\nCác tin nhắn từ Phương Thảo trong nhóm (mới nhất):\n- [1] Nữa tôi tìm cách 44 mà bà tag nhiều thế | msgId: 8021614266580, cliMsgId: 1783513316554\n- [2] Bà linh | msgId: 8021614475007, cliMsgId: 1783513320407",
+    "type": "text",
+    "ts": 1783513333443
+  },
+  {
+    "role": "assistant",
+    "content": "[{\"type\":\"addReaction\",\"msgId\":\"8021614475007\",\"cliMsgId\":\"1783513320407\",\"reaction\":\"WOW\"},{\"type\":\"startTyping\"},{\"type\":\"delay\",\"time\":800},{\"type\":\"sendMessage\",\"content\":\"tag nhiều mới vui chứ :)))\"},{\"type\":\"delay\",\"time\":600},{\"type\":\"sendMessage\",\"content\":\"không thích thì tắt thông báo đi bà nội, kêu ca gì ở đây :>\"}]",
+    "type": "text",
+    "ts": 1783513333443
+  }
+]

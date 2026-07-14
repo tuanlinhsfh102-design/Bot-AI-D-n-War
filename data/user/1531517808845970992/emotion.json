@@ -1,0 +1,20 @@
+{
+  "state": "aggressive",
+  "intensity": 3,
+  "reason": "chửi bot mù chữ, thái độ láo xược, công kích cá nhân",
+  "lastTriggerAt": 1783506488161,
+  "lastInteraction": 0,
+  "consecutiveShortReplies": 0,
+  "consecutiveIgnored": 0,
+  "history": [
+    {
+      "state": "aggressive",
+      "intensity": 3,
+      "reason": "chửi bot mù chữ, thái độ láo xược, công kích cá nhân",
+      "triggeredBy": "1531517808845970992",
+      "triggeredAt": 1783506488161
+    }
+  ],
+  "affinity": 20,
+  "warStreak": 0
+}

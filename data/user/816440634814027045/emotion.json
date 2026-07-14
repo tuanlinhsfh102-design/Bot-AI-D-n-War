@@ -1,0 +1,153 @@
+{
+  "state": "cocky",
+  "intensity": 3,
+  "reason": "Nó reply war challenge chỉ bằng tag, dame yếu xìu, đang cocky hơn",
+  "lastTriggerAt": 1783651885553,
+  "lastInteraction": 0,
+  "consecutiveShortReplies": 0,
+  "consecutiveIgnored": 0,
+  "history": [
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: trả lời \"địt mẹ mày vẫn sủa à con óc lồn @vu yen chi cút mẹ ",
+      "triggeredBy": "6925972618340267884",
+      "triggeredAt": 1783507860741
+    },
+    {
+      "state": "savage",
+      "intensity": 5,
+      "reason": "User nổ: [người dùng gửi video] video tổng hợp các hoạt động sôi nổi ",
+      "triggeredBy": "4017391852481215921",
+      "triggeredAt": 1783512280138
+    },
+    {
+      "state": "aggressive",
+      "intensity": 4,
+      "reason": "User spam chửi thề, toxic trong nhóm",
+      "triggeredBy": "5747398406537250739",
+      "triggeredAt": 1783512844337
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: trả lời \"@nguyễn phúc m ngu lắm\" nhắn bởi nguyễn đình dương\n",
+      "triggeredBy": "1818476074086739789",
+      "triggeredAt": 1783512893157
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: thằng ngu lồn | msgid: 8021613339919, climsgid: 178351329955",
+      "triggeredBy": "5305195727948864750",
+      "triggeredAt": 1783513310853
+    },
+    {
+      "state": "aggressive",
+      "intensity": 3,
+      "reason": "Đối phương chửi đổng vô cớ",
+      "triggeredBy": "233375111314060364",
+      "triggeredAt": 1783513419150
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: cn lồn ngu cặc | msgid: 8021626862941, climsgid: 17835135468",
+      "triggeredBy": "786745935540841370",
+      "triggeredAt": 1783513553936
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: trả lời \"sry cái lồn gì con đĩ @trang :)))\" nhắn bởi nguyễn ",
+      "triggeredBy": "3401397756971618629",
+      "triggeredAt": 1783513803624
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: dương chó đẻ ơi s m ngu v @nguyễn đình dương | msgid: 802164",
+      "triggeredBy": "2406539788124999188",
+      "triggeredAt": 1783513912130
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: [người dùng gửi video] video ghi lại các đoạn tin nhắn trao ",
+      "triggeredBy": "7616703314149298370",
+      "triggeredAt": 1783514768204
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: @nguyễn đình dương địt mẹ mày tk ngu | msgid: 8021725191954,",
+      "triggeredBy": "539050021153863178",
+      "triggeredAt": 1783515316305
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: mic k thg cặc súc vật bại não | msgid: 8021792413569, climsg",
+      "triggeredBy": "4185995300196558694",
+      "triggeredAt": 1783516460998
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: thằng chó ngu | msgid: 8021804846318, climsgid: 178351666742",
+      "triggeredBy": "6523122362732304119",
+      "triggeredAt": 1783516677804
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: bố cho mày xạo lồn chưa em =))) trời mưa @nguyễn đình dương ",
+      "triggeredBy": "6559856194777569400",
+      "triggeredAt": 1783517024824
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: tk lờ ngu óc cứt rain =)) =)) =)) =)) @nguyễn đình dương | m",
+      "triggeredBy": "9125524563644043477",
+      "triggeredAt": 1783518355904
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: trả lời \"địt mẹ m spam cl gì đấy @kiều khánh linh :)))\" nhắn",
+      "triggeredBy": "816440634814027045",
+      "triggeredAt": 1783518743494
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: câm | msgid: 8022433577122, climsgid: 1783534187994",
+      "triggeredBy": "816440634814027045",
+      "triggeredAt": 1783534195069
+    },
+    {
+      "state": "aggressive",
+      "intensity": 7,
+      "reason": "User chửi: trả lời \"suốt ngày gửi sticker làm trò lồn mẹ m câm cái mồm ",
+      "triggeredBy": "816440634814027045",
+      "triggeredAt": 1783590782047
+    },
+    {
+      "state": "savage",
+      "intensity": 1,
+      "reason": "Linh thách thức bảo gõ chửi đi + spam sticker liên tục",
+      "triggeredBy": "816440634814027045",
+      "triggeredAt": 1783604600227
+    },
+    {
+      "state": "cocky",
+      "intensity": 3,
+      "reason": "Nó reply war challenge chỉ bằng tag, dame yếu xìu, đang cocky hơn",
+      "triggeredBy": "816440634814027045",
+      "triggeredAt": 1783651885553
+    }
+  ],
+  "affinity": 20,
+  "warStreak": 0
+}

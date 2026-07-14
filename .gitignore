@@ -1,0 +1,71 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+
+# Google / API credentials
+credentials.json
+credentials.json.bak
+credentials_current.json
+*.bak
+service-account*.json
+gcp-key*.json
+
+# Tokens & keys
+token.txt
+*.pem
+*.key
+secrets/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+pino.log
+
+# Runtime
+.pid
+.pidfile
+*.pid
+.session
+
+# QR / temp files
+qr.png
+qr-*.png
+/tmp/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.iml
+
+# Bun
+.bun/
+
+# Coverage
+coverage/
+.nyc_output/
